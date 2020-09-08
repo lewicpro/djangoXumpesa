@@ -1,0 +1,76 @@
+{% extends "jobs.html" %}
+{% load staticfiles %}
+
+
+{% block jobapply %}
+{% if applied.count > 0 %}
+<div class="container-fluid" style="overflow-x: scroll">
+<table class="table table-striped">
+    <tbody>
+        <tr>
+            <th style="padding-right: 3px;"><small>Job</small></th>
+            <th><small>Organization</small></th>
+            <th><small>City</small></th>
+            <th><small>Country</small></th>
+            <th><small>Your Email</small></th>
+            <th><small>Address</small></th>
+            <th><small>status</small></th>
+            <th><small>Action</small></th>
+        </tr>
+          <center>
+
+        <h5 style="color: red; padding: 3px;">
+        {% if messages %}
+        {% for message in messages %}
+        <p class="alert alert-danger alert-dismissable" role="alert">{{ message }} <button type="button" class="close" data-dismiss="alert" aria-label="Close" style="" ><span aria-hidden="true">&times;</span></button></p>
+        {% endfor %}
+        {% endif %}</h5>
+    </center>
+            {% for m in applied %}
+        <tr>
+            <td style="font-size: 12px;"><a href="#">{{ m.job_title }}</a></td>
+            <td style="font-size: 12px;">{{ m.organization }}</td>
+            <td style="font-size: 12px;">{{ m.city_name }}</td>
+            <td style="font-size: 12px;">{{ m.Country_of_work }}</td>
+            <td style="font-size: 12px;">{{ m.altenative_email_con }}</td>
+            <td style="font-size: 12px;">{{ m.location_address }}</td>
+            <td style="font-size: 12px;">{% if m.status == "Accepted" %} <a href="{% url 'jobs:Acceptdetauils'%}">{{ m.status }}</a>{% else %}{{ m.status }}{% endif %}</td>
+            <td style="font-size: 12px;">
+                <form method="post" action="{% url 'jobs:deleteapp' m.id %}" >{% csrf_token %}
+                    <input type="hidden" name="Purchase_id" value="{{ m.id }}">
+                    <input  type="submit" style="font-size: 9px" class="btn btn-danger" value="&#x2717; Remove">
+                </form>
+            </td>
+        </tr>
+            {% endfor %}
+<tr></tr>
+<tr></tr>
+    </tbody>
+</table>
+    </div>
+    <div class="text-center">
+            <div class="pagination" >
+                <span class="step-links text-center">
+                    {% if page_obj.has_previous %}
+                        <a href="?page={{ page_obj.previous_page_number }}">previous</a>
+                    {% endif %}
+
+                    <span class="current">
+                        Page {{ page_obj.number }} of {{ page_obj.paginator.num_pages }}.
+                    </span>
+
+                    {% if page_obj.has_next %}
+                        <a href="?page={{ page_obj.next_page_number }}">next</a>
+                    {% endif %}
+                </span>
+            </div>
+        </div>
+
+{% else %}
+
+<div style="padding-top: 8%"></div>
+
+    <div class="wat" style="padding-bottom: 10%;">  <img  class="center-block" src="{% static "image/empty.png" %}" width="120" height="120">     <h3 class="text-center">You have not applied any job </h3></div>
+
+{% endif %}
+{% endblock %}

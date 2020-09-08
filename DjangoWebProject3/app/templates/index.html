@@ -1,0 +1,227 @@
+﻿{% extends "layout2.html" %}
+
+{% block head %}
+
+<div class="container-fluid" style="padding-left:30px; padding-top: 1%; padding-right:30px; background-image:url(../static/image/footer_lodyas.png);">
+<div class="text-center" style="background-image:url(../static/image/background.jpg); background:rgba(255,255,255,0.5); border-top-right-radius: 5px; border-top-left-radius: 5px; ">
+        <p>
+            Accordingly we have arranged the folowing stages
+
+        </p>
+    </div>
+    </div>
+
+    <div class="container-fluid" style="padding-top:10px; background:rgba(255,255,255,0); background-image:url(../static/image/footer_lodyas.png); overflow-x: scroll;">
+    <div class="col-sm-4" style="border-bottom-right-radius: 5px; border-bottom-left-radius: 5px; " >
+
+            <div class="panel panel-default text-center text-center" style="background:rgba(255,255,255,0.7); ">
+                <p>last invested:{% for some_item in some_list %} {{ some_item }}  {% endfor %}</p>
+            {% for go in online %} {{ go }} {% endfor %}
+                <div class="panel-heading">
+                    <h3 class="panel-title"><strong>SILVER</strong></h3>
+                    </div>
+                <table class="table table-bordered table-striped">
+                   
+                    <tbody>
+                        <tr>
+                            <td>Amount to be deposited</td>
+                            <td><small>10<small>$</small> - 300<small>$</small></small></td>
+                        </tr>
+                        <tr>
+                            <td>Percentage gained</td>
+                            <td>1.0% Daily</td>
+                        </tr>
+                        <tr>
+                            <td>Principle back after</td>
+                            <td>30 days</td>
+                        </tr>
+                        <tr>
+                            <td>Total income</td>
+                            <td>Principal + 1.0%</td>
+                        </tr>
+                        <tr>
+                            <td class="success">stage bonus</td>
+                            <td class="success">5% Referral comm</td>
+                        </tr>
+                    </tbody>            
+               </table>
+
+            </div>
+
+  </div>
+    <div class="col-sm-4" >
+            <div class="panel panel-default text-center text-center" style="background:rgba(255,255,255,0.7);">
+                <p>last invested:{% for go in gold %} {{ go }} {% endfor %}</p>
+                <div class="panel-heading">
+                    <h3 class="panel-title"><strong>GOLD</strong></h3>
+                    </div>
+                <table class="table table-bordered table-striped">
+                   
+                    <tbody>
+                        <tr>
+                            <td>Amount to be deposited</td>
+                            <td><small>350<small>$</small> - 900<small>$</small></small></td>
+                        </tr>
+                        <tr>
+                            <td>Percentage gained</td>
+                            <td>1.4% Daily</td>
+                        </tr>
+                        <tr>
+                            <td>Principle back after</td>
+                            <td>125 days</td>
+                        </tr>
+                        <tr>
+                            <td>Total income</td>
+                            <td>Principal + 175%</td>
+                        </tr>
+                        <tr>
+                            <td class="success">stage bonus</td>
+                            <td class="success">1% Referral comm</td>
+                        </tr>
+                    </tbody>            
+               </table>
+
+            </div>
+
+  </div>
+    <div class="col-sm-4">
+                <div class="panel panel-default text-center text-center" style="background:rgba(255,255,255,0.7);">
+                    <p>last invested:{% for plat in platnum %} {{ plat }} {% endfor %}</p>
+                    <div class="panel-heading">
+                        <h3 class="panel-title"><strong>TITANIUM</strong></h3>
+                    </div>
+                        <table class="table table-bordered table-striped">
+
+                            <tbody>
+                                <tr>
+                                    <td>mount to be deposited</td>
+                                    <td><small>2000<small>$</small> - 30000<small>$</small></small></td>
+                                </tr>
+                                <tr>
+                                    <td>Percentage gained</td>
+                                    <td>1.1% Daily</td>
+                                </tr>
+                                <tr>
+                                    <td>Principle back after</td>
+                                    <td>3 months</td>
+                                </tr>
+                                <tr>
+                                    <td>Total income</td>
+                                    <td>Principal + 1.1%</td>
+                                </tr>
+                                <tr>
+                                    <td class="success">BONUS</td>
+                                    <td class="success">4% Referral comm </td>
+                                </tr>
+                            </tbody>
+                       </table>
+
+                    </div>
+
+    </div>
+
+        <div class="col-sm-4">
+                <div class="panel panel-default text-center text-center" style="background:rgba(255,255,255,0.7);">
+                    <p>last invested:{% for plat in platnum %} {{ plat }} {% endfor %}</p>
+                        <div class="panel-heading">
+                            <h3 class="panel-title"><strong>DIAMOND</strong></h3>
+                        </div>
+                        <table class="table table-bordered table-striped">
+
+                            <tbody>
+                                <tr>
+                                    <td>mount to be deposited</td>
+                                    <td><small>70<small>$</small> - 1000<small>$</small></small></td>
+                                </tr>
+                                <tr>
+                                    <td>Percentage gained</td>
+                                    <td>1.1% Daily</td>
+                                </tr>
+                                <tr>
+                                    <td>No Principle back after</td>
+                                    <td>100 days</td>
+                                </tr>
+                                <tr>
+                                    <td>Total income</td>
+                                    <td>110%</td>
+                                </tr>
+                                <tr>
+                                    <td class="warning">BONUS</td>
+                                    <td class="warning">4% Referral comm </td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                </div>
+        </div>
+        <div class="col-sm-4">
+                <div class="panel panel-default text-center text-center" style="background:rgba(255,255,255,0.7);">
+                    <p>last invested:{% for plat in platnum %} {{ plat }} {% endfor %}</p>
+                        <div class="panel-heading">
+                            <h3 class="panel-title"><strong>PLATINUM</strong></h3>
+                        </div>
+                        <table class="table table-bordered table-striped">
+
+                            <tbody>
+                                <tr>
+                                    <td>mount to be deposited</td>
+                                    <td><small>200<small>$</small> - 1000000<small>$</small></small></td>
+                                </tr>
+                                <tr>
+                                    <td>Percentage gained</td>
+                                    <td>3.5% Daily</td>
+                                </tr>
+                                <tr>
+                                    <td>Principle back after</td>
+                                    <td>8 days</td>
+                                </tr>
+                                <tr>
+                                    <td>Total income</td>
+                                    <td>Principal + 1.1%</td>
+                                </tr>
+                                <tr>
+                                    <td class="warning">BONUS</td>
+                                    <td class="warning">4% Referral comm </td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                </div>
+        </div>
+        <div class="col-sm-4">
+                <div class="panel panel-default text-center text-center" style="background:rgba(255,255,255,0.7);">
+                    <p>last invested:{% for plat in platnum %} {{ plat }} {% endfor %}</p>
+                        <div class="panel-heading">
+                            <h3 class="panel-title"><strong>TANZANITE</strong></h3>
+                        </div>
+                        <table class="table table-bordered table-striped">
+
+                            <tbody>
+                                <tr>
+                                    <td>mount to be deposited</td>
+                                    <td><small>575000<small>$</small> - > More<small> $</small></small></td>
+                                </tr>
+                                <tr>
+                                    <td>Percentage gained</td>
+                                    <td>11% Daily</td>
+                                </tr>
+                                <tr>
+                                    <td>Principle back after</td>
+                                    <td>2 months</td>
+                                </tr>
+                                <tr>
+                                    <td>Total income</td>
+                                    <td>Principal + 1.1%</td>
+                                </tr>
+                                <tr>
+                                    <td class="warning">BONUS</td>
+                                    <td class="warning">4% Referral comm </td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                </div>
+        </div>
+
+</div>
+{% endblock %}

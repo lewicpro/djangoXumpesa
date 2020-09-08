@@ -1,0 +1,18 @@
+<div class="fieldWrapper" style="padding-bottom: 3%">
+    {{ form.user.errors }}
+    <center><input type="hidden" name="user" maxlength="120" class="textinput textInput form-control form-control-danger" required="" id="id_user" value= "{{ user }}"></center>
+</div>
+
+
+
+<div class="fieldWrapper" style="padding-bottom: 3%">
+    {{ form.subject.errors }}
+    <label for="{{ form.subject.id_for_label }}">Subject:</label>
+    {{ form.subject }}
+</div>
+
+<div class="fieldWrapper" style="padding-bottom: 3%">
+    {{ form.suggestion.errors }}
+    <label for="{{ form.suggestion.id_for_label }}">suggestion:</label>
+    {{ form.suggestion }}
+</div>

@@ -1,0 +1,25 @@
+{% extends 'layout.html' %}
+
+
+{% block intermediate %}
+<div>
+    <div class="jumbotron" style="background-image:url(../static/image/migiuu.png); padding-bottom:150px;">
+
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+
+                <ol class="breadcrumb">
+                    <li><a href="index.html">Home</a>
+                    </li>
+                    <li class="active">Sidebar Page</li>
+                </ol>
+            </div>
+        </div>
+            {% block purchase %}
+            {% endblock %}
+
+    </div>
+</div>
+{% endblock %}

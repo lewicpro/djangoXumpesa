@@ -1,0 +1,28 @@
+﻿{% extends 'layout2.html' %}
+{% load crispy_forms_tags %}
+
+{% block test %}
+    <style>
+    li{
+        text-align: center;
+    }
+
+    </style>
+<div class="container" style= "background-image:url(../static/image/footer_lodyas.png); padding-top:20px; padding-bottom:20px; border-radius:5px;">
+<div class="col-sm-5 col-sm-offset-3" style="background-image:url(../static/image/background.jpg); border-radius:5px; background:rgba(255,255,255,0.2); ">
+    <div class="panel-heading text-center">
+    <h1 class="text-center" style="color:white">{{ title }}</h1>
+    </div>
+    <hr/>
+
+
+    <form class="form" method="POST" action='' enctype="multipart/form-data">{% csrf_token %}
+  {{ form|crispy }}
+    <input  type="submit"  class="btn btn-default " style="width:100%;" value="{{ title }}" />
+    <a href="/password-reset/">Forgot password</a>
+    
+    </form>
+</div>
+    </div>
+
+{% endblock %}

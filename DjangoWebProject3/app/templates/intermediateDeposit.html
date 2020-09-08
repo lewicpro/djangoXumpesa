@@ -1,0 +1,42 @@
+{% extends "authorisedcarier.html" %}
+{% load crispy_forms_tags %}
+{% block intermediatedeposit%}
+
+
+<div class=" " style="background-image:url(../static/image/city.jpg)">
+    <div class="text-center" style="background-color:#777; font-weight: 300; border-top-left-radius:5px; border-top-right-radius:5px;  color: white;; padding: 0.5%; font-size: 19px; font-family: 'Open Sans', sans-serif;">
+
+           CHOOSE DEPOSIT
+
+    </div>
+    <div class="text-center">
+{#    <h5 style="font-weight: 300; width:100%; font-size: 15px; color:darksalmon">{{ title }}</h5>#}
+    </div>
+</div>
+
+    <div style="content: 'center';"  >
+
+
+
+
+                    <a href="{% url 'app:verified' %}" class="pull-left" style="padding-right: 10%" > Verified Deposits</a>
+
+
+
+
+                        <a href="{% url 'app:unverified' %}" class="pull-right"> Unverified Deposits</a>
+
+            </div>
+<div class="col-sm-5 col-sm-offset-3" style="padding-top: 30px; padding-bottom: 40px;" >
+
+
+{#    <a class="btn btn-default" style="font-weight: 300; width:100%; font-size: 15px;  color: #666;"  href="{% url 'app:Redeposit' %}">Account Balance</a>#}
+{#    <a class="btn btn-default" style="width:100%"  href="/tigopesa">tIgo Pesa</a>#}
+{#    <a class="btn btn-default" style="width:100%"  href="/mpesa">MPESA</a>#}
+{#    <a class="btn btn-default" style="width:100%"  href="/airtelmoney">Airtel Money</a>#}
+    <a class="btn btn-default" style="font-weight: 300; width:100%; font-size: 15px; color: #666; padding-bottom: 5px;"  href="/account_type">Invest in different Plans</a>
+    <a class="btn btn-default" style="font-weight: 300; width:100%; font-size: 15px; color: #666;"  href="{% url 'app:accountbalance' %}">Deposit to the account balance</a>
+{#    <a class="btn btn-default" style="font-weight: 300; width:100%; font-size: 15px; color: #666;"  href="{% url "app:bitco" %}">Bitcoin</a>#}
+    </div>
+
+{% endblock %}

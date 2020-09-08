@@ -1,0 +1,28 @@
+{% extends 'authorisedcarier.html' %}
+{% block history-to %}
+    <center>Number of transactions: {{ send.count }}</center>
+     <div class="row" style="overflow-y: scroll; height: 400px;">
+    <table class="table">
+<tr style="background-color: silver;" class="nowrap">
+
+    <th  style="font-size: 12px;">name of the source acc</th>
+    <th style="font-size: 14px;">from account number</th>
+    <th style="font-size: 14px;">receiver account</th>
+    <th style="font-size: 14px;">Amount transfered</th>
+    <th style="font-size: 14px;">Date of transaction</th>
+</tr>
+    {% for m in send %}
+<tr>
+    <td style="font-size: 13px;"><small>{{ m.user | capfirst }}</small></td>
+    <td style="font-size: 13px;"><small>{{ m.from_account_no }}</small></td>
+    <td style="font-size: 13px;"><small>{{ m.username_receiver }}</small></td>
+    <td style="font-size: 13px;"><small>{{ m.amount_transfered }}{{ m.currency_transfered }}</small></td>
+    <td style="font-size: 13px;"><small><small>{{ m.date_stamp  }}</small></small></td>
+
+</tr>
+    {% endfor %}
+<tr></tr>
+<tr></tr>
+</table>
+     </div>
+{% endblock %}

@@ -1,0 +1,71 @@
+{% extends "jobs.html" %}
+{% load crispy_forms_tags %}
+
+
+{% block jobsdetails %}
+   <div class="container-fluid">
+   <div class="panel panel-default">
+       <div class="panel-heading">
+           <h3 class="panel-title text-center">{{ jobs.job_title | upper }}</h3>
+       </div>
+       <div class="panel-body" style="font-family: 'Open Sans', sans-serif">
+           <div class="table-responsive col-sm-6 col-sm-offset-1.5"  >
+                    <div class="container-fluid" >
+                       {% if jobs.specifications%}
+                           <h4 class="well well-sm text-center" style="width: 100%;"><b>Specifications</b>:</h4>
+                        {% for job in jobs.get_job_specifications %}
+                            <li style="list-style-type: lower-roman;">{{ job }}</li>
+                       {% endfor %}
+                       {% endif %}
+                    </div>
+
+                    <div class="container-fluid">
+                       <h4 class="well well-sm text-center" style="font-family: 'Open Sans', sans-serif"><b>Ogarnization ofering job:</b></h4>
+                       <b>Name</b> :{{ jobs.organization | capfirst }} <br/>
+                       <b>Position</b> :{{ jobs.position_type |capfirst }}<br/>
+                       <b>Address</b> :{{ jobs.location_address | capfirst}}<br/>
+                       <b>Telephone</b> :{{ jobs.phone_number | capfirst}}<br/>
+                    </div>
+           </div>
+
+
+           <div class="table-responsive col-sm-6 col-sm-offset-1.5" >
+                   <div class="container-fluid">
+                       <h4 class="well well-sm text-center"  style="font-family: 'Open Sans', sans-serif"><b>Location:</b></h4>
+                       <b>Name</b> :{{ jobs.organization | capfirst }} <br/>
+                       <b>City</b> :{{ jobs.city_name |capfirst }}<br/>
+                       <b>Country</b> :{{ jobs.Country_of_work | capfirst}}<br/>
+                       <b>Posted</b> :{{ jobs.posted_date | date}}<br/>
+                       <h4 class="well well-sm text-center"  style="font-family: 'Open Sans', sans-serif"><b>Employer:</b></h4>
+                       <b>Email</b> :<a href="mailto:{{ jobs.email }}">{{ jobs.email }}</a> <br/>
+                       <b>Deadline</b> :{{ jobs.application_deadline | capfirst }} <br/>
+
+                   </div>
+           </div>
+</div>
+
+
+
+
+
+           <h3 class="well well-sm text-center">Descriptions</h3>
+<p class="text-center">{{ jobs.job_descriptions }}</p>
+       <hr width="100%" size="8" align="center">
+           <div class="center-block">
+                <form class="form-horizontal" action="{% url 'jobs:Applye' jobs.id %}" method="post">{% csrf_token %}
+                    {% include 'applyjob.html' %}
+                    {% if user.cvcontact.present_address %}
+                <input type="submit" style="width: 40%" class="center-block btn btn-primary" value="Apply">
+                    {% else %}
+                        <div class="text-center" ><b class="glyphicon glyphicon-info-sign"></b><a style="font-size: 12px; font-weight: 300;"  href="{% url 'jobs:Upload' %}">Upload your CV to apply for a job directly</a></div>
+                <input type="submit" style="width: 40%" class="center-block btn btn-primary" value="Apply" disabled>
+                    {% endif %}
+                </form>
+           </div>
+
+        </div>
+       </div>
+
+
+
+{% endblock %}

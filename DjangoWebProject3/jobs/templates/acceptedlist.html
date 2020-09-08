@@ -1,0 +1,87 @@
+{% extends "jobs.html" %}
+{% load crispy_forms_tags %}
+
+
+{% block accep %}
+{% for n in Accep %}
+   <div class="container-fluid" style="padding-left: 1px; padding-right: 1px;">
+
+   <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+
+  <div class="panel panel-default">
+
+    <div class="panel-heading" role="tab" id="heading{{ n.id }}">
+      <h4 class="panel-title" style="font-size: 12px;">
+        <a style="font-weight: 300;" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse{{ n.id }}" aria-expanded="true" aria-controls="collapse{{ n.id }}" data-toggle="tooltip" data-placement="top" title="Job accepted by the recruiter">
+          {{ n.job_title }} <div class="pull-right" style="font-weight: 100; font-size: 12px;">**** message hidden **** {% if n.reade == 'Unread' %}<form class="pull-right" style="color: red; font-weight: 500;" data-toggle="tooltip" data-placement="top" title="read" method="post" action="{% url 'jobs:Acceptedreads' n.id %}">{% csrf_token %}
+            <input type="hidden" name="Acceptedapp_id" value="{{ n.id }}">
+            <input type="hidden" name="reade" value="read">
+            <input  type="submit" style="font-size: 9px" class="" value="New ">
+        </form>{% else %}{% endif %} </div>
+        </a>
+      </h4>
+    </div>
+    <div id="collapse{{ n.id }}" class="panel-default collapse " role="tabpanel" aria-labelledby="heading{{ n.id }}">
+      <div class="panel-body"><form class="pull-right" style="color: red; font-weight: 500;" data-toggle="tooltip" data-placement="top" title="Make it already read" method="post" action="{% url 'jobs:Acceptedreads' n.id %}">{% csrf_token %}
+            <input type="hidden" name="Acceptedapp_id" value="{{ n.id }}">
+            <input type="hidden" name="reade" value="read">
+            <input  type="submit" style="font-size: 9px" class="" value="read ">
+        </form>
+          <form class="pull-right" style="color: red; font-weight: 500;" data-toggle="tooltip" data-placement="top" title="Delete message" method="post" action="{% url 'jobs:Acceptedreads' n.id %}">{% csrf_token %}
+            <input type="hidden" name="Acceptedapp_id" value="{{ n.id }}">
+            <input type="hidden" name="reade" value="read">
+            <input  type="submit" style="font-size: 9px" class="" value="Delete">
+        </form>
+          <div class="container-fluid" style="padding-top: 30px;"  >
+          <div class="table-responsive col-sm-6 col-sm-offset-1.5"   >
+        <table class="table ">
+
+                    <tbody>
+                <tr style="font-size: 12px;"><td><b>Job</b> :</td><td>{{ n.job_title |capfirst }}</td></tr>
+                <tr style="font-size: 12px;"><td><b>Country</b> :</td><td>{{ n.Country_of_work |capfirst }}</td></tr>
+                <tr style="font-size: 12px;"><td><b>City</b> :</td><td>{{ n.city_name |capfirst }}</td></tr>
+
+
+
+
+                    </tbody>
+                </table>
+            </div>
+          <div class="table-responsive col-sm-6 col-sm-offset-1.5"  >
+              <table class="table ">
+
+                    <tbody>
+                <tr style="font-size: 12px;"><td><b>Job</b> :</td><td>{{ n.job_title |capfirst }}</td></tr>
+                <tr style="font-size: 12px;"><td><b>Country</b> :</td><td>{{ n.Country_of_work |capfirst }}</td></tr>
+                <tr style="font-size: 12px;"><td><b>City</b> :</td><td>{{ n.city_name |capfirst }}</td></tr>
+                    </tbody>
+                </table>
+          </div>
+
+
+          </div>
+          {% if n.Descrip %}
+                    <hr style="padding-bottom: 1px;" width="100%" size="19" align="center">
+              <h3 class="text-center" style="letter-spacing: 4px; font-size: 18px; ">MESSAGE FROM <b>{{ n.user | upper}}</b>(RECRUITER)</h3>
+
+              <p class="text-center">{{ n.Descrip }}</p>
+
+
+          {% else %}
+          {% endif %}
+      <hr style="padding-bottom: 1px;" width="100%" size="19" align="center">
+          <h3 class="text-center" style="letter-spacing: 4px;background-color: #777; padding: 5px; border-radius: 5px; color: white">DISCLAIMER</h3>
+          <p class="text-center">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</p>
+      <hr width="100%" size="8" align="center">
+      </div>
+    </div>
+
+  </div>
+
+
+   </div>
+
+
+</div>
+{% endfor %}
+{% endblock %}

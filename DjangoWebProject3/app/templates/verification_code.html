@@ -1,0 +1,35 @@
+{% extends "authorisedcarier.html" %}
+{% load crispy_forms_filters %}
+
+
+{% block authorizeddeposit%}
+<div style="background-image: image(/static/image/city.jpg)">
+
+<div class="text-center" style="background-color:silver; padding: 0.5%; font-size: 19px; font-family: 'Open Sans', sans-serif;" >
+
+            MAKE DEPOSIT
+
+
+    </div>
+    <div class="text-center ">
+    <h5 style="color:darksalmon; padding-right:5%">{{ title }}
+</h5>
+    </div>
+<div class="table-responsive col-sm-5 col-sm-offset-3">
+
+        {{ cout.count }}
+
+<form class="form-horizontal" method="post" action="">{% csrf_token %}
+{#    {{ form|crispy}}#}
+    {% include 'verificationTemplate.html' %}
+    <div class="wrapper" style="padding-top: 7px;">
+
+    <input style="width:50%; margin-left:25%" type="submit" value="Verify" />
+
+    </div>
+</form>
+    </div>
+    </div>
+</div>
+
+{% endblock %}

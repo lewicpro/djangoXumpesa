@@ -1,0 +1,67 @@
+{{ form.non_field_errors }}
+<div class="fieldWrapper" >
+    {{ form.full_name.errors }}
+    <center><input type="hidden" name="full_name" maxlength="120" class="textinput textInput form-control form-control-danger" required="" id="id_full_name" value="{{ user.userinfo.full_name }} "></center>
+</div>
+
+<div class="fieldWrapper" >
+    {{ form.job_id.errors }}
+    <center><input type="hidden" name="job_id" maxlength="120" class="textinput textInput form-control form-control-danger" required="" id="id_job_id" value="{{ application.id }} "></center>
+</div>
+
+<div class="fieldWrapper" >
+    {{ form.user.errors }}
+    <center><input type="hidden" name="user" maxlength="120" class="textinput textInput form-control form-control-danger" required="" id="id_user" value= "{{ user }}"></center>
+</div>
+
+
+
+
+<div class="fieldWrapper" >
+    {{ form.city_name.errors }}
+    <center><input type="hidden" name="city_name" maxlength="120" class="textinput textInput form-control form-control-danger" required="" id="id_city_name" value="{{ application.city_name }} "></center>
+</div>
+
+
+<div class="fieldWrapper" >
+    {{ form.city_name.errors }}
+    <center><input type="hidden" name="applier" maxlength="120" class="textinput textInput form-control form-control-danger" required="" id="id_applier" value="{{ application.user }} "></center>
+</div>
+
+
+<div class="fieldWrapper" >
+    {{ form.country.errors }}
+    <center><input type="hidden" name="country" maxlength="120" class="textinput textInput form-control form-control-danger" required="" id="id_country" value="{{ application.country }} "></center>
+</div>
+
+<div class="fieldWrapper" >
+    {{ form.specifications.errors }}
+    <center><input type="hidden" name="specifications" maxlength="120" class="textinput textInput form-control form-control-danger" required="" id="id_specifications" value="{{ application.specifications }} "></center>
+</div>
+
+
+
+
+
+
+<div class="fieldWrapper" >
+    {{ form.Country_of_work.errors }}
+    <center><input type="hidden" name="Country_of_work" maxlength="120" class="textinput textInput form-control form-control-danger" required="" id="id_Country_of_work" value= "{{ application.Country_of_work }}"></center>
+</div>
+
+<div class="fieldWrapper" >
+    {{ form.job_title.errors }}
+    <center><input type="hidden" name="job_title" maxlength="120" class="textinput textInput form-control form-control-danger" required="" id="id_job_title" value= "{{ application.job_title }}"></center>
+</div>
+
+<div class="fieldWrapper" style="padding-bottom: 10px;">
+    {{ form.job_title.errors }}
+    *<i style="font-family: 'Arial'">You may write anything for the <strong>Accepted</strong> user. ***** optional ******</i>
+    <center><textarea cols="40" rows="10" name="Descrip" maxlength="120" class="textinput textInput form-control form-control-danger" id="id_Descrip">{{ form.Descrip }}</textarea></center>
+</div>
+
+
+{#<div class="fieldWrapper" style="padding-bottom: 1%">#}
+{#    {{ form.Descrip.errors }}#}
+{#    {{ form.Descrip }}#}
+{#</div>#}

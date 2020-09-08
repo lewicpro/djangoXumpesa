@@ -1,0 +1,35 @@
+﻿{% extends 'layout.html' %}   
+{% load staticfiles %}
+
+ 
+{% block authorized %}
+    <div style="background-color: #222; "><div class="container-fluid" style="background-image: url( {% static 'image/migiuu.png' %}); padding-top:100px;"><div class="container" style="text-align: right; border-radius: 4px; padding: 10px; background:rgba(255,255,255,0.4);" ><div class="container">{% if user.is_authenticated %}<small><img src="{% static 'image/green_bl.gif' %}" width="5"> <i>{% for go in online %} {{ go }} {% endfor %} Online</i></small>{% else %}<p style="padding-top: 3px;"></p>{% endif %}</div></div></div>
+<div class="container-fluid" style="background-image: url( {% static 'image/migiuu.png' %}); box-shadow: 0px 10px 20px;"><div class="container" style="background-color: white; padding: 5px;">&#160; <p>{% for wo in online %} {{ wo }} {% endfor %}{{ online }}</p></div></div>
+    </div>
+
+    <div class="container-fluid" style="background-color: darkgray" >
+    <div class="container" style="background-color: white">
+    <div class="row" style="background-image: url({% static 'image/boombox.gif' %}); box-shadow: 0px 15px 15px; overflow: hidden" >
+        {% block auth %}
+        {% endblock %}
+        {% block faqbody %}
+        {% endblock %}
+        {% block password %}
+        {% endblock %}
+        {% block resetdone%}
+        {% endblock %}
+        {% block conten %}
+        {% endblock %}
+        {% block acceptd %}
+        {% endblock %}
+        {% block conent %}
+        {% endblock %}
+        {% block plans %}
+        {% endblock %}
+        {% block marketing %}
+        {% endblock %}
+
+    </div>
+    </div>
+</div>
+      {% endblock %}

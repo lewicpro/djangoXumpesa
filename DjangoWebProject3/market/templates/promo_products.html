@@ -1,0 +1,48 @@
+{% extends "home.html" %}
+{% load crispy_forms_tags %}
+
+{% block Promotion %}
+{#    <div>#}
+{##}
+{#<h3 style="background-color: #dddddd; padding-bottom: 1%; padding-top: 1%">Promotion</h3>#}
+{##}
+{##}
+{##}
+{#    {% for obj in queryset %}#}
+{#        <div class=" col-xs-6 col-sm-2 cora">#}
+{#        {% if obj.image %}#}
+{#    <a href="purchase"><img src="{{ obj.image.url }}" alt="" class="img-thumbnail " style="width:120px; height: 60px;"></a>#}
+{##}
+{#        <p style="padding-top: 1%"><small>{{ obj.title }} <strong>{{ obj.Price }} {{ obj.currency }}</strong></small></p>#}
+{#        {% endif %}#}
+{#       </div>#}
+{##}
+{#    {% endfor %}#}
+{#    <div class="pagination "  >#}
+{#                <span class="step-links ">#}
+{#                    {% if queryset.has_previous %}#}
+{#                        <a href="?page={{ queryset.previous_page_number }}" type="button" class="btn btn-primary ">back</a>#}
+{#                    {% endif %}#}
+{##}
+{#                    <span class="current">#}
+{#                        Page {{ queryset.number }} of {{ query.paginator.num_pages }}.#}
+{##}
+{#                    </span>#}
+{##}
+{#                    {% if queryset.has_next %}#}
+{#                        <a href="?page={{ queryset.next_page_number }}" type="button" class="btn btn-primary" >next</a>#}
+{#                    {% endif %}#}
+{#                </span>#}
+{#            </div>#}
+{#    </div>#}
+
+
+    {% for obj in object_list %}
+        <div class=" col-xs-6 col-sm-2 cora">
+        {% if obj.image %}
+        <a href="purchase"><img src="{{ obj.image.url }}" alt="" class="img-thumbnail " style="width:120px; height: 60px;"></a>
+        <p style="padding-top: 1%"><small>{{ obj.title }} <strong>{{ obj.Price }} {{ obj.currency }}</strong></small></p>
+        {% endif %}
+        </div>
+    {% endfor %}
+{% endblock %}

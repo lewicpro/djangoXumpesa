@@ -1,0 +1,78 @@
+{% extends 'home.html' %}
+{% load crispy_forms_filters %}
+{% load staticfiles %}
+
+{% block customerOrders %}
+
+<div class="container-fluid" style="overflow-x: scroll">
+{% if queryset.count > 0 %}
+
+<table class="table table-striped" >
+
+<tr>
+    <th><small>product</small></th>
+    <th><small>Quantity</small></th>
+    <th><small>seller</small></th>
+
+    <th><small>Delivery/before</small></th>
+    <th><small>Price</small></th>
+    <th><small>Country</small></th>
+    <th><small>Status</small></th>
+    <th><small>product(s) progress</small></th>
+    <th><small>Region</small></th>
+    <th><small>Street</small></th>
+    <th><small>Actions</small></th>
+
+    <th><small></small></th>
+</tr>
+
+    {% for m in queryset %}
+<tr>
+    <td style="font-size: 12px;"><a href=""> {{ m.product_title }}</a></td>
+    <td style="font-size: 12px;">{{ m.quantity }}</td>
+    <td style="font-size: 12px;">{{ m.product_owner }}</td>
+
+    <td style="font-size: 12px;">{{ m.lastdate | date }}</td>
+    <td style="font-size: 12px;">{{ m.Price_sold }}{{ m.currency }}</td>
+    <td style="font-size: 12px;">{{ m.country }}</td>
+    <td style="font-size: 12px;">{{ m.customers_status }}</td>
+    <td style="font-size: 12px;">{{ m.sellers_status }}</td>
+    <td style="font-size: 12px;">{{ m.Region }}</td>
+    <td style="font-size: 12px;">{{ m.Street }}</td>
+
+
+    <td>
+
+
+            <a href="{% url 'market:receiveconfirm' m.id %}"   class="btn btn-success" style="font-size: 9px" >✓ I got it</a>
+
+
+{#            <a type="submit" class="glyphicon glyphicon-ok"></a>#}
+
+    </td>
+ {% if m.lastdate < time %}
+    <td>
+
+<form method="post" action="{% url 'market:Change' m.id %}" >{% csrf_token %}
+            <input type="hidden" name="Purchase_id" value="{{ m.id }}">
+            <input type="hidden" name="customers_status" id="id_customers_status" value="Delayed (Canceled)">
+            <input  type="submit" style="font-size: 9px" class="btn btn-danger" value="&#x2717; Report">
+        </form>
+
+    </td>
+    {% else %}
+    {% endif %}
+</tr>
+    {% endfor %}
+<tr></tr>
+<tr></tr>
+
+
+</table>
+
+{% else %}
+    <div style="padding-top: 8%"></div>
+    <div class="wat" style="padding-bottom: 10%;">  <img  class="center-block" src="{% static "image/empty.png" %}" width="120" height="120">     <h3 class="text-center">You have no any orders</h3></div>
+{% endif %}
+</div>
+{% endblock %}

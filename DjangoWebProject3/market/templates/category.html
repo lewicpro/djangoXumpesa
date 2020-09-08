@@ -1,0 +1,32 @@
+{% extends "home.html" %}
+{% load crispy_forms_filters %}
+{% load staticfiles %}
+
+{% block category %}
+{#<link href="{% static 'css/hover.css' %}" rel="stylesheet">#}
+    <div class="container-fluid table-bordered">
+        <div style="padding-bottom: 100px;">
+
+
+        </div>
+            <div class=" col-sm-6 col-sm-offset-1.5" >
+                <div class="panel panel-default" style="max-width: 100%; min-width: 100%; max-height: 30%;">
+                <div class="panel-heading text-center">Free Products advertising</div>
+                <div class="panel-body">
+                    <a style="width: 50%; background-color: #777; color: white;"  class="center-block btn" href="{% url 'market:upload-add' %}">Publish</a>
+                    </div>
+                </div>
+            </div>
+            <div class=" col-sm-6 col-sm-offset-1.5">
+                <div class="panel panel-default" style="max-width: 100%; min-width: 100%; max-height: 30%;">
+                <div  class="panel-heading text-center">Premium Products advertising</div>
+                <div class="panel-body" style="background-image: url("{% static "image/16.jpg" %}")">
+                <a style="width: 50%; background-color: #777; color: white;"  class="center-block btn" href="{% url 'market:PaidProducts' %}">Publish</a>
+                </div>
+                </div>
+    <div style="padding-top: 100px;"></div>
+            </div>
+
+    </div>
+
+{% endblock %}

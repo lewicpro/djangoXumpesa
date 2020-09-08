@@ -1,0 +1,119 @@
+
+
+<div class="fieldWrapper" >
+    {{ form.product_owner.errors }}
+{#<small><label for="your_name">Username: </label></small><br/>#}
+{#<center><input id="id_username"  type="text" style="background-color: silver" class="text-center" name="" value= "User: {{ user.userinfo }}" disabled></center>#}
+
+    <center><input type="hidden" name="product_owner" maxlength="120"  class="textinput textInput form-control " required="" id="id_product_owner" value= "{{ products.username }}"></center>
+</div>
+
+<div class="fieldWrapper" >
+    {{ form.userid.errors }}
+{#<small><label for="your_name">Username: </label></small><br/>#}
+{#<center><input id="id_username"  type="text" style="background-color: silver" class="text-center" name="" value= "User: {{ user.userinfo }}" disabled></center>#}
+    <center><input type="hidden" name="userid" maxlength="13"  class="textinput textInput form-control " required="" id="id_userid" value= "{{ user.id }}"></center>
+</div>
+<div class="fieldWrapper" >
+    {{ form.currency.errors }}
+{#<small><label for="your_name">Username: </label></small><br/>#}
+{#<center><input id="id_username"  type="text" style="background-color: silver" class="text-center" name="" value= "User: {{ user.userinfo }}" disabled></center>#}
+    <center><input type="hidden" name="currency" maxlength="13"  class="textinput textInput form-control " required="" id="id_currency" value= "{{ products.currency }}"></center>
+</div>
+
+<div class="fieldWrapper" >
+    {{ form.user.errors }}
+{#<small><label for="your_name">Username: </label></small><br/>#}
+{#<center><input id="id_username"  type="text" style="background-color: silver" class="text-center" name="" value= "User: {{ user.userinfo }}" disabled></center>#}
+    <center><input type="hidden" name="user" maxlength="120" class="textinput textInput form-control " required="" id="id_user" value= "{{ user }}"></center>
+</div>
+<div class="fieldWrapper" >
+    {{ form.Price_sold.errors }}
+{#<small><label for="your_name">Username: </label></small><br/>#}
+{#<center><input id="id_username"  type="text" style="background-color: silver" class="text-center" name="" value= "User: {{ user.userinfo }}" disabled></center>#}
+{#    <input type="text" name="Price_sold" maxlength="120" class="textinput textInput form-control" required="" id="id_Price_sold">#}
+    <center><input type="hidden" name="Price_sold" maxlength="120" class="textinput textInput form-control " required="" id="id_Price_sold" value= "{{ products.Price_sold }}"></center>
+</div>
+
+<div class="fieldWrapper" >
+    {{ form.Price.errors }}
+
+    <center><input type="hidden" name="Price" min="0"  class="numberinput  form-control " required="" id="id_Price" value= "{{ products.Price }}"></center>
+</div>
+
+<div class="fieldWrapper" >
+    {{ form.product_id.errors }}
+{#<small><label for="your_name">Username: </label></small><br/>#}
+{#<center><input id="id_username"  type="text" style="background-color: silver" class="text-center" name="" value= "User: {{ user.userinfo }}" disabled></center>#}
+    <center><input type="hidden" name="product_id" maxlength="120" class="textinput textInput form-control " required="" id="id_product_id" value= "{{ products.id }}"></center>
+</div>
+
+<div class="fieldWrapper" >
+    {{ form.product_title.errors }}
+{#<small><label for="your_name">Username: </label></small><br/>#}
+{#<center><input id="id_username"  type="text" style="background-color: silver" class="text-center" name="" value= "User: {{ user.userinfo }}" disabled></center>#}
+    <center><input type="hidden" name="product_title" maxlength="120" class="textinput textInput form-control " required="" id="id_product_title" value= "{{ products.title }}"></center>
+</div>
+
+<div class="fieldWrapper" >
+    {{ form.Receive_acc.errors }}
+
+    <center><input type="hidden" name="Receive_acc" maxlength="120" class="textinput textInput form-control " required="" id="id_Receive_acc" value= "{{ products.Receive_acc }}"></center>
+</div>
+
+<div class="fieldWrapper" >
+    {{ form.buyers_acc.errors }}
+
+    <center><input type="hidden" name="buyers_acc" maxlength="120" class="textinput textInput form-control " required="" id="id_buyers_acc" value= "{{ user.investment.account_no }}"></center>
+</div>
+
+
+<div class="fieldWrapper" style="padding-bottom: 3%">
+    {{ form.quantity.errors }}
+{#    <label for="{{ form.Card_number.id_for_label }}">Acc no:</label>#}
+    {{ form.quantity }}
+</div>
+
+
+<div class="fieldWrapper" style="padding-bottom: 3%">
+    {{ form.quantity.errors }}
+    <input type="text" name="name_of_receiver" placeholder="name of receiver" style="width: 100%" class="textinput textInput form-control " required="" id="id_name_of_receiver" value="{{ user.userinfo.full_name }}">
+</div>
+
+
+<div class="fieldWrapper" style="padding-bottom: 3%">
+    {{ form.country.errors }}
+    <label style="color: #777; font-weight: 300" for="{{ form.country.id_for_label }}">Country:</label>
+{#    <label for="{{ form.Expirity_year.id_for_label }}">exp-Year</label>#}
+    {{ form.country }}
+</div>
+
+<div class="fieldWrapper" style="padding-bottom: 3%">
+    {{ form.Region.errors }}
+{#    <label for="{{ form.Expirity_year.id_for_label }}">exp-Year</label>#}
+    {{ form.Region }}
+</div>
+
+
+<div class="fieldWrapper"style="padding-bottom: 3%">
+    {{ form.Street.errors }}
+{#    <label for="{{ form.Expirity_year.id_for_label }}">exp-Year</label>#}
+    {{ form.Street }}
+</div>
+
+
+<div class="fieldWrapper" style="padding-bottom: 3%">
+    {{ form.processor.errors }}
+    <label style="color: #777; font-weight: 300" for="{{ form.country.id_for_label }}">Paying by:</label>
+{#    <label for="{{ form.Expirity_year.id_for_label }}">exp-Year</label>#}
+    {{ form.processor }}
+</div>
+
+
+<div class="fieldWrapper">
+    {{ form.phone_no.errors }}
+{#    <label for="{{ form.Expirity_year.id_for_label }}">exp-Year</label>#}
+    {{ form.phone_no }}
+</div>
+
+

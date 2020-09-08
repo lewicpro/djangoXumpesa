@@ -1,0 +1,91 @@
+{% extends "home.html" %}
+{% load crispy_forms_tags %}
+{% load staticfiles %}
+
+{% block recent %}
+
+    <div class="container-fluid table-bordered" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html" style="overflow-y: scroll; max-height: 400px;">
+    <div style="background-image: url({% static "image/migiuu.png" %}); border-radius: 6px; ">
+<form method="GET" action="">
+    <input  class="text-center" type="text" name="q" placeholder="Search product" value="{{ request.GET.q }}" style="width: 100%; background-color: rgba(255,255,255,0.2); color: #F0F0F0; border-radius: 6px; font-family: 'Open Sans', sans-serif"/>
+
+</form>
+    </div>
+    <center>
+        <h5 style="color: red">
+        {% if success %}
+        {% for message in messages %}
+        <p class="alert alert-danger alert-dismissable" role="alert">{{ message }} <button type="button" class="close" data-dismiss="alert" aria-label="Close"  ><span aria-hidden="true">&times;</span></button></p>
+        {% endfor %}
+        {% endif %}</h5>
+    </h5>
+    </center>
+{#<center><div style="background-color: #dddddd; padding-bottom: 1%; padding-top: 1%; font-size: 15px; border-radius: 3px;">New Deals</div></center>#}
+
+
+
+{#    {% for obj in query %}#}
+{#        <div class=" col-xs-6 col-sm-2 cora">#}
+{#        {% if obj.image %}#}
+{#    <a href="purchase"><img src="{{ obj.image.url }}" alt="" class="img-thumbnail " style="width:120px; height: 60px;"></a>#}
+{##}
+{#        <p style="padding-top: 1%"><small>{{ obj.title }} <strong>{{ obj.Price }} {{ obj.currency }}</strong></small></p>#}
+{#        {% endif %}#}
+{#       </div>#}
+{##}
+{#    {% endfor %}#}
+{#    <div class="pagination "  >#}
+{#                <span class="step-links ">#}
+{#                    {% if query.has_previous %}#}
+{#                        <a href="?page={{ query.previous_page_number }}" type="button" class="btn btn-primary ">back</a>#}
+{#                    {% endif %}#}
+{##}
+{#                    <span class="current">#}
+{#                        Page {{ query.number }} of {{ query.paginator.num_pages }}.#}
+{##}
+{#                    </span>#}
+{##}
+{#                    {% if query.has_next %}#}
+{#                        <a href="?page={{ query.next_page_number }}" type="button" class="btn btn-primary" >next</a>#}
+{#                    {% endif %}#}
+{#                </span>#}
+{#            </div>#}
+{#    </div>#}
+
+{% if Priced.count > 0 %}
+<hr style="" width="100%" size="19" align="center">
+    <div class="text-center" style="letter-spacing: 6px; font-weight: 300;">Premium</div>
+
+   <center><div class="container-fluid" style="overflow: hidden; padding-left: 6px; padding-top: 2%">
+     {% for ob in Priced %}
+        <div class="col-xs-6 col-sm-2 cora">
+        {% if ob.image %}
+            <div class=" container-fluid" style="width: 120px;  height: 110px; overflow: hidden">
+        <a href="{% url 'market:pricedetails' ob.id %}"><div style="width: 100px; overflow: hidden; height: 65px;" ><img class="img-thumbnail " src="{{ ob.image.url }}" alt="" style="width:105px;"></div></a>
+        <p style="padding-top: 1%"><small>{{ ob.title }} <strong>{{ ob.Price }} {{ ob.currency }}</strong></small></p>
+            </div>
+        {% endif %}
+        </div>
+    {% endfor %}
+</div></center>
+    {% else %}
+    {% endif %}
+
+<hr style="" width="100%" size="19" align="center">
+   <center><div class="container-fluid" style="overflow: hidden; padding-left: 6px; padding-top: 2%">
+     {% for obj in object_list %}
+        <div class="col-xs-6 col-sm-2 cora">
+        {% if obj.image %}
+            <div class=" container-fluid" style="width: 120px;  height: 110px; overflow: hidden">
+        <a href="{% url 'market:Prods' obj.id %}"><div style="width: 100px; overflow: hidden; height: 65px;" ><img class="img-thumbnail " src="{{ obj.image.url }}" alt="" style="width:105px;"></div></a>
+        <p style="padding-top: 1%"><small>{{ obj.title }} <strong>{% if obj.currency == 'BTC' %}{{ obj.Price_sold | floatformat:4 }} {{ obj.currency }}{% else %}{{ obj.Price_sold}} {{ obj.currency }}{% endif %}</strong></small></p>
+            </div>
+        {% endif %}
+        </div>
+    {% endfor %}
+</div></center>
+
+
+     </div>
+
+{% endblock %}

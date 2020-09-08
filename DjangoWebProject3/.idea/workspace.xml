@@ -1,0 +1,1781 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ae4a9a35-2fbe-4b26-8d97-cbea5f6d4b16" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/fonts/FontAwesome.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/fonts/FontAwesome_1.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/fonts/fontawesome-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/fonts/fontawesome-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/fonts/fontawesome-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/fonts/fontawesome-webfont.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/fonts/fontawesome-webfont_1.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/fonts/fontawesome-webfont_1.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/fonts/fontawesome-webfont_1.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/fonts/fontello/fontello.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/fonts/fontello/fontello.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/fonts/fontello/fontello.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/fonts/icon-7-stroke/fonts/Pe-icon-7-stroke.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/fonts/icon-7-stroke/fonts/Pe-icon-7-stroke.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/fonts/icon-7-stroke/fonts/Pe-icon-7-stroke.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/img/ads.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/img/arrows-small.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/img/arrows.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/img/bg-footer.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/img/blog1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/img/blog2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/img/chevron-down.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/img/client-face1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/img/client-face2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/img/controls.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/img/default-property.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/img/demo/property-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/img/demo/property-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/img/demo/property-3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/img/demo/property-4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/img/demo/property-5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/img/demo/property-6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/img/demo/small-proerty-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/img/demo/small-property-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/img/demo/small-property-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/img/demo/small-property-3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/img/dsdsds33 - Copy.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/img/footer-logo-2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/img/footer-logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/img/icon-shearch.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/img/icon/bed-orange.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/img/icon/bed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/img/icon/cars-orange.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/img/icon/cars.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/img/icon/os-orange.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/img/icon/os.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/img/icon/picine-orange.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/img/icon/picine.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/img/icon/rent-orange.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/img/icon/room-orange.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/img/icon/room.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/img/icon/sale-orange.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/img/icon/shawer-orange.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/img/icon/shawer.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/img/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/img/page-header.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/img/preloader.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/img/pro-ads.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/img/property-1/property1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/img/property-1/property2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/img/property-1/property3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/img/property-1/property4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/img/property-video.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/img/similar/property-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/img/similar/property-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/img/similar/property-3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/img/skin/aero.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/img/skin/aero@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/img/skin/blue.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/img/skin/blue@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/img/skin/green.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/img/skin/green@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/img/skin/grey.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/img/skin/grey@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/img/skin/orange.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/img/skin/orange@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/img/skin/pink.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/img/skin/pink@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/img/skin/purple.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/img/skin/purple@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/img/skin/red.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/img/skin/red@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/img/skin/square.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/img/skin/square@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/img/skin/yellow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/img/skin/yellow@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/img/skin/yellow_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/img/slide-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/img/slide1/slider-image-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/img/slide1/slider-image-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/img/slide1/slider-image-4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/img/slide2/1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/img/social_big/delicious_grey.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/img/social_big/delicious_white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/img/social_big/digg_grey.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/img/social_big/digg_white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/img/social_big/dribbble_grey.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/img/social_big/dribbble_white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/img/social_big/facebook_grey.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/img/social_big/facebook_white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/img/social_big/linkedin_grey.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/img/social_big/linkedin_white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/img/social_big/rss_grey.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/img/social_big/rss_white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/img/social_big/tumblr_grey.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/img/social_big/tumblr_white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/img/social_big/twitter_grey.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/img/social_big/twitter_white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/img/social_big/vimeo_grey.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/img/social_big/vimeo_white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/img/social_big/youtube_grey.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/img/social_big/youtube_white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/img/welcome-bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/bootstrap/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/bootstrap/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/bootstrap/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/bootstrap/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/image/background.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/image/bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/image/busnes veri.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/image/city.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/image/comodo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/image/footer.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/image/footer_bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/image/footer_lodyas.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/image/header_bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/image/migiuu.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/image/modified.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/image/next.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/image/norton.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/image/preview.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/image/security6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/image/spring_rose.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/image/spring_t2 flower.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/image/spring_t3 fly.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/image/trustwave.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/Microsoft.PythonTools.AzureSetup.exe" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/Microsoft.PythonTools.WebRole.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/DjangoWebProject3.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/mac.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DjangoWebProject3/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DjangoWebProject3/celery.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DjangoWebProject3/middleware.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DjangoWebProject3/proj/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DjangoWebProject3/proj/celery.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DjangoWebProject3/settings.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DjangoWebProject3/urls.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DjangoWebProject3/wsgi.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Jobs/forms.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Jobs/templates/jobs.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Jobs/templates/jobsAll.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Jobs/urls.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Backend.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/admin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/apps.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/beat.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/celery.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/conversion.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/forms.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/management/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/management/commands/__int__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/migrations/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/serializers.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/css/animate.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/css/bootstrap-select.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/css/bootstrap-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/css/font-awesome.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/css/fontello.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/css/icheck.min_all.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/css/ion.rangeSlider.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/css/ion.rangeSlider.skinFlat.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/css/ion.rangeSlider.skinNice.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/css/jquery.slitslider.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/css/lightslider.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/css/normalize.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/css/owl.carousel.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/css/owl.theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/css/owl.transitions.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/css/price-range.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/css/responsive.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/css/slider.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/css/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/css/styleNoJS.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/css/wizard.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/fonts/fontawesome-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/fonts/fontawesome-webfont_1.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/fonts/fontello/fontello.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/fonts/icon-7-stroke/css/helper.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/fonts/icon-7-stroke/css/pe-icon-7-stroke.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/fonts/icon-7-stroke/fonts/Pe-icon-7-stroke.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/img/arrow-left.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/img/arrow-right.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/js/bootstrap-hover-dropdown.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/js/bootstrap-select.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/js/bootstrap-slider.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/js/bootstrap-wizard.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/js/easypiechart.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/js/gmaps.init.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/js/gmaps.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/js/icheck.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/js/jquery-1.10.2.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/js/jquery.ba-cond.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/js/jquery.bootstrap.wizard.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/js/jquery.easypiechart.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/js/jquery.slitslider.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/js/jquery.validate.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/js/lightslider.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/js/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/js/modernizr-2.6.2.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/js/modernizr.custom.79639.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/js/owl.carousel.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/js/plugins.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/js/price-range.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/js/wizard.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/js/wow.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/assets/js/wow.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/bootstrap/css/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/bootstrap/css/bootstrap.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/bootstrap/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/bootstrap/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/bootstrap/js/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/bootstrap/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/bootstrap/js/npm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/css/bootstrap-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/css/bootstrap-theme.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/css/bootstrap-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/css/bootstrap-theme.min.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/css/bootstrap-toggle.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/css/bootstrap-toggle.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/css/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/css/bootstrap.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/css/bootstrap.min.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/css/bootstrap.min2.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/css/hover.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/css/xum.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/css/xumpesa.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/fonts/HELP-US-OUT.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/fonts/css/font-awesome.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/fonts/css/font-awesome.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/fonts/font-awesome.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/fonts/less/animated.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/fonts/less/bordered-pulled.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/fonts/less/core.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/fonts/less/fixed-width.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/fonts/less/font-awesome.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/fonts/less/icons.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/fonts/less/larger.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/fonts/less/list.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/fonts/less/mixins.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/fonts/less/path.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/fonts/less/rotated-flipped.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/fonts/less/screen-reader.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/fonts/less/stacked.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/fonts/less/variables.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/fonts/scss/_animated.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/fonts/scss/_bordered-pulled.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/fonts/scss/_core.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/fonts/scss/_fixed-width.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/fonts/scss/_icons.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/fonts/scss/_larger.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/fonts/scss/_list.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/fonts/scss/_mixins.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/fonts/scss/_path.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/fonts/scss/_rotated-flipped.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/fonts/scss/_screen-reader.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/fonts/scss/_stacked.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/fonts/scss/_variables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/fonts/scss/font-awesome.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/js/bootstrap-toggle.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/js/bootstrap-toggle.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/js/bootstrap-toggle.min.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/js/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/js/jquery-1.8.3.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/js/jquery-2.1.3.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/js/jquery.cycle2.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/js/jquery.elevatezoom.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/js/npm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/tasks.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/About.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/Changepassword.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/Contact Us.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/Faq.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/Receivinghistory.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/VerifiedDetais.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/account.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/account_type.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/authorized.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/balanceredeposit.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/balanceredeposittemplate.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/balancetransaction.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/balancetransactiontemplate.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/balancewithdrawal.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/deposit.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/depositingTemplate.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/editaccount.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/history_to.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/intermediate.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/layout.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/layout2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/layout3.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/login.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/password_reset.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/password_reset_confirm.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/payeer-deposit.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/payeerdepositingTemplate.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/regform2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/register.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/selecttype.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/templatedeposit.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/terms.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/tigowithdrawtemplate.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/unverified.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/verificationTemplate.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/verification_code.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/verified.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/wallet-depositing.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/withdraw.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/tests.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/urls.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/utils.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/validators.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/AzureSetup.cfg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/Microsoft.PythonTools.AzureSetup.exe.config" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/wfastcgi.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/django_pesapal/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/django_pesapal/conf.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/django_pesapal/migrations/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/django_pesapal/models.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/django_pesapal/templates/django_pesapal/base.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/django_pesapal/templates/django_pesapal/post_payment.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/django_pesapal/tests.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/django_pesapal/urls.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/django_pesapal/views.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jobs/mixins.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jobs/templates/AcceptedApplications.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jobs/templates/Applicationdetail.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jobs/templates/Appliedlist.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jobs/templates/Details.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jobs/templates/accademicqualifications.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jobs/templates/acceptedlist.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jobs/templates/applyjob.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jobs/templates/computer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jobs/templates/computertemplate.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jobs/templates/contact.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jobs/templates/contacttemplate.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jobs/templates/jobsAlldetailview.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jobs/templates/jobsapplied.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jobs/templates/jobuploadtemplate.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jobs/templates/language.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jobs/templates/languageproficiencytemplate.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jobs/templates/marked.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jobs/templates/markedtemplate.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jobs/templates/myposts.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jobs/templates/personalinfotemplate.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jobs/templates/profession.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jobs/templates/professionqualificationstemplate.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jobs/templates/qualifications.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jobs/templates/refree.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jobs/templates/refreetemplate.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jobs/templates/taining.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jobs/templates/trainingtemplate.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jobs/templates/uploadcv.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jobs/templates/uploadjobs.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jobs/templates/work.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jobs/templates/workexperience.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/market/celery.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/market/forms.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/market/mixins.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/market/serializers.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/market/tasks.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/market/templates/Carttemplate.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/market/templates/CreditCard.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/market/templates/Finishedpurchase.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/market/templates/Mpesa.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/market/templates/Mpesatemplate.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/market/templates/My_products.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/market/templates/Myproductedit.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/market/templates/Newdeals.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/market/templates/Paidtemplate.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/market/templates/ProductsDetails.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/market/templates/Productstemplate.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/market/templates/PromoDetails.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/market/templates/Promodetails_layout.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/market/templates/PurchaseTemplate.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/market/templates/Receiveupdate.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/market/templates/Searchlist.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/market/templates/buy.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/market/templates/cartlist.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/market/templates/category.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/market/templates/confirmation.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/market/templates/credittemplate.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/market/templates/customerorder.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/market/templates/customerorderDetails.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/market/templates/form-template.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/market/templates/home.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/market/templates/home_layout.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/market/templates/home_main.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/market/templates/market-conditions.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/market/templates/orderdetails.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/market/templates/orderlist.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/market/templates/paidlayout.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/market/templates/paidproducts.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/market/templates/paidproductsdetails.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/market/templates/paymentmethod.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/market/templates/processors.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/market/templates/processors_list.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/market/templates/promo_products.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/market/templates/purchase.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/market/templates/receivetemplate.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/market/templates/register_products.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/market/templates/returnpurchasetemplate.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/market/templates/test.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/market/templates/upload_products.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/market/urls.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/obj/Debug/DjangoWebProject3.pyproj.FileListAbsolute.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/obj/Debug/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/obj/Debug/__main__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/obj/Debug/attach_server.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/obj/Debug/visualstudio_py_debugger.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/obj/Debug/visualstudio_py_repl.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/obj/Debug/visualstudio_py_util.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/obj/Debug/web.config" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/obj/Debug/web.debug.config" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/representatives/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/representatives/admin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/representatives/apps.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/representatives/forms.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/representatives/migrations/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/representatives/models.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/representatives/tasks.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/representatives/templates/Already.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/representatives/templates/accepted.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/representatives/templates/representatives.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/representatives/tests.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/representatives/urls.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/representatives/views.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/requirements.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/timedcontent/forms.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/timedcontent/tasks.py" />
+    </list>
+    <ignored path="DjangoWebProject3.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/DjangoWebProject3$Test__jobs_templates_applyjob_html.coverage" NAME="Test: jobs.templates.applyjob.html Coverage Results" MODIFIED="1510582113286" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/DjangoWebProject3$Test__timedcontent.coverage" NAME="Test: timedcontent Coverage Results" MODIFIED="1504436045170" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/DjangoWebProject3$views.coverage" NAME="views Coverage Results" MODIFIED="1507700143657" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/market" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DatabaseView">
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="DjangoWebProject3" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cryptoreseller/api/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cryptohome.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cryptoreseller/templates/cryptohome.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="31" column="40" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cryptoreseller/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="layout.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/templates/layout.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="660">
+              <caret line="44" column="90" selection-start-line="44" selection-start-column="90" selection-end-line="44" selection-end-column="90" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="serializers.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cryptoreseller/api/serializers.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+              <folding>
+                <marker date="1523698354000" expanded="false" signature="0:72" placeholder="import ..." />
+                <marker date="1523698354000" expanded="true" signature="190:462" placeholder="..." />
+                <marker date="1523698354000" expanded="true" signature="472:633" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cryptoreseller/api/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+              <folding>
+                <element signature="e#0#43#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DjangoWebProject3/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="advencedDeposit.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/templates/advencedDeposit.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1095">
+              <caret line="76" column="57" selection-start-line="76" selection-start-column="43" selection-end-line="76" selection-end-column="57" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DjangoWebProject3/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3855">
+              <caret line="260" column="1" selection-start-line="260" selection-start-column="1" selection-end-line="260" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="WARN_ABOUT_CRLF" value="false" />
+    <option name="WARN_ABOUT_DETACHED_HEAD" value="false" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/management/commands/OKpay.py" />
+        <option value="$PROJECT_DIR$/app/management/commands/AdvCash.py" />
+        <option value="$PROJECT_DIR$/app/management/commands/payeescheduler.py" />
+        <option value="$PROJECT_DIR$/app/management/commands/OKpayscheduler.py" />
+        <option value="$PROJECT_DIR$/app/management/commands/perfectscheduler.py" />
+        <option value="$PROJECT_DIR$/app/management/commands/AdvCashscheduler.py" />
+        <option value="$PROJECT_DIR$/app/management/commands/Bitcoin.py" />
+        <option value="$PROJECT_DIR$/app/management/commands/Bitcoinscheduler.py" />
+        <option value="$PROJECT_DIR$/app/templates/perfectmoneywithdraw.html" />
+        <option value="$PROJECT_DIR$/app/templates/perfectmoneywithdrawtemplate.html" />
+        <option value="$PROJECT_DIR$/app/templates/bitcoinwithdrawprotemplate.html" />
+        <option value="$PROJECT_DIR$/app/templates/adcashtemplatewithdraw.html" />
+        <option value="$PROJECT_DIR$/app/templates/okpaytemplatewithdraw.html" />
+        <option value="$PROJECT_DIR$/jobs/views.py" />
+        <option value="$PROJECT_DIR$/jobs/models.py" />
+        <option value="$PROJECT_DIR$/jobs/templates/personalinfotemplate.html" />
+        <option value="$PROJECT_DIR$/jobs/forms.py" />
+        <option value="$PROJECT_DIR$/jobs/templates/contacttemplate.html" />
+        <option value="$PROJECT_DIR$/jobs/templates/languageproficiencytemplate.html" />
+        <option value="$PROJECT_DIR$/jobs/templates/accademicqualifications.html" />
+        <option value="$PROJECT_DIR$/jobs/templates/professionqualificationstemplate.html" />
+        <option value="$PROJECT_DIR$/jobs/templates/workexperience.html" />
+        <option value="$PROJECT_DIR$/jobs/templates/trainingtemplate.html" />
+        <option value="$PROJECT_DIR$/jobs/templates/computertemplate.html" />
+        <option value="$PROJECT_DIR$/jobs/templates/refreetemplate.html" />
+        <option value="$PROJECT_DIR$/representatives/templates/representatives.html" />
+        <option value="$PROJECT_DIR$/app/templates/history_to.html" />
+        <option value="$PROJECT_DIR$/app/models.py" />
+        <option value="$PROJECT_DIR$/app/forms.py" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/market/templates/home_list.html" />
+        <option value="$PROJECT_DIR$/app/templates/wallet-depositing.html" />
+        <option value="$PROJECT_DIR$/app/templates/payeerdepositingTemplate.html" />
+        <option value="$PROJECT_DIR$/app/templates/payeer-deposit.html" />
+        <option value="$PROJECT_DIR$/app/views.py" />
+        <option value="$PROJECT_DIR$/app/templates/authorisedcarier.html" />
+        <option value="$PROJECT_DIR$/cryptoreseller/models.py" />
+        <option value="$PROJECT_DIR$/cryptoreseller/admin.py" />
+        <option value="$PROJECT_DIR$/cryptoreseller/templates/cyptoreseller.html" />
+        <option value="$PROJECT_DIR$/cryptoreseller/urls.py" />
+        <option value="$PROJECT_DIR$/cryptoreseller/forms.py" />
+        <option value="$PROJECT_DIR$/cryptoreseller/views.py" />
+        <option value="$PROJECT_DIR$/cryptoreseller/api/serializer.py" />
+        <option value="$PROJECT_DIR$/cryptoreseller/api/serializers.py" />
+        <option value="$PROJECT_DIR$/cryptoreseller/api/permissions.py" />
+        <option value="$PROJECT_DIR$/cryptoreseller/api/views.py" />
+        <option value="$PROJECT_DIR$/cryptoreseller/api/urls.py" />
+        <option value="$PROJECT_DIR$/DjangoWebProject3/settings.py" />
+        <option value="$PROJECT_DIR$/app/templates/layout.html" />
+        <option value="$PROJECT_DIR$/DjangoWebProject3/urls.py" />
+        <option value="$PROJECT_DIR$/cryptoreseller/templates/cryptohome.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsBuildToolPackageJson" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Python</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>PyChainedComparisonsInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope">
+        <subPane subId="Changed Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+        <subPane subId="Default">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DjangoWebProject3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DjangoWebProject3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DjangoWebProject3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DjangoWebProject3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DjangoWebProject3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="market" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DjangoWebProject3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DjangoWebProject3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cryptoreseller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DjangoWebProject3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DjangoWebProject3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cryptoreseller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DjangoWebProject3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DjangoWebProject3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cryptoreseller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DjangoWebProject3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DjangoWebProject3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DjangoWebProject3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DjangoWebProject3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DjangoWebProject3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DjangoWebProject3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DjangoWebProject3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$USER_HOME$/Documents/BIOMETRIC" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="SearchEverywhereHistoryKey" value="sorl&#9;null&#9;null&#10;proj&#9;null&#9;null&#10;names&#9;null&#9;null&#10;LINE NU&#9;ACTION&#9;EditorToggleShowLineNumbers" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/app/management/commands/OKpayscheduler.py" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/templates" />
+      <recent name="$PROJECT_DIR$/Jobs/templates" />
+      <recent name="$PROJECT_DIR$/app/static/load" />
+      <recent name="$PROJECT_DIR$/app" />
+      <recent name="$PROJECT_DIR$/market/templates" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/static/fonts" />
+      <recent name="$PROJECT_DIR$/app/static/css" />
+      <recent name="$PROJECT_DIR$/app/static/js" />
+      <recent name="$PROJECT_DIR$/app/management/commands" />
+      <recent name="$PROJECT_DIR$/app/templates" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.models">
+    <configuration default="false" name="Test: timedcontent" type="DjangoTestsConfigurationType" factoryName="Django tests" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="DjangoWebProject3" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="timedcontent" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method />
+    </configuration>
+    <configuration default="false" name="forms" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/market" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="DjangoWebProject3" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/market/forms.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="views" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/market" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="DjangoWebProject3" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/market/views.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Test: jobs.templates.applyjob.html" type="DjangoTestsConfigurationType" factoryName="Django tests" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="DjangoWebProject3" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="jobs.templates.applyjob.html" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method />
+    </configuration>
+    <configuration default="false" name="models" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="DjangoWebProject3" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/models.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="DjangoWebProject3" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="DjangoWebProject3" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="DjangoWebProject3" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="DjangoWebProject3" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="DjangoWebProject3" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <module name="DjangoWebProject3" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="DjangoWebProject3" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="DjangoWebProject3" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="DjangoWebProject3" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="DjangoWebProject3" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="DjangoWebProject3" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="DjangoWebProject3" type="Python.DjangoServer" factoryName="Django server">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="DjangoWebProject3.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="DjangoWebProject3" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method />
+    </configuration>
+    <list size="6">
+      <item index="0" class="java.lang.String" itemvalue="Django server.DjangoWebProject3" />
+      <item index="1" class="java.lang.String" itemvalue="Django tests.Test: timedcontent" />
+      <item index="2" class="java.lang.String" itemvalue="Python.forms" />
+      <item index="3" class="java.lang.String" itemvalue="Python.views" />
+      <item index="4" class="java.lang.String" itemvalue="Django tests.Test: jobs.templates.applyjob.html" />
+      <item index="5" class="java.lang.String" itemvalue="Python.models" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.models" />
+        <item index="1" class="java.lang.String" itemvalue="Django tests.Test: jobs.templates.applyjob.html" />
+        <item index="2" class="java.lang.String" itemvalue="Python.views" />
+        <item index="3" class="java.lang.String" itemvalue="Python.forms" />
+        <item index="4" class="java.lang.String" itemvalue="Django tests.Test: timedcontent" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ae4a9a35-2fbe-4b26-8d97-cbea5f6d4b16" name="Default" comment="" />
+      <created>1499125570887</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1499125570887</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Test__jobs_templates_applyjob_html - 2017.11.02 at 00h 50m 19s.xml">
+      <configuration name="Test: jobs.templates.applyjob.html" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__timedcontent - 2017.07.31 at 23h 34m 13s.xml">
+      <configuration name="Test: timedcontent" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__timedcontent - 2017.08.29 at 19h 52m 23s.xml">
+      <configuration name="Test: timedcontent" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__timedcontent - 2017.09.03 at 13h 54m 07s.xml">
+      <configuration name="Test: timedcontent" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+  </component>
+  <component name="TodoView" selected-index="3">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20600858" sideWeight="0.67870724" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2359694" sideWeight="0.42632332" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46938777" sideWeight="0.5937053" order="7" side_tool="true" content_ui="tabs" x="380" y="352" width="680" height="158" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32904148" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20918368" sideWeight="0.39127326" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32780612" sideWeight="0.48855507" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19620775" sideWeight="0.45990565" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2359694" sideWeight="0.5736767" order="10" side_tool="true" content_ui="tabs" x="41" y="352" width="1358" height="158" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1595136" sideWeight="0.3212928" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="100" y="122" width="1240" height="674" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32820514" sideWeight="0.48855507" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32820514" sideWeight="0.48783976" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Concurrent Activities Diagram" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32909605" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41153845" sideWeight="0.4914163" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="django-line">
+          <url>file://$PROJECT_DIR$/market/templates/home_main.html</url>
+          <line>1</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="django-line">
+          <url>file://$PROJECT_DIR$/app/templates/withdraw.html</url>
+          <line>44</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+      <option name="time" value="29" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/DjangoWebProject3/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DjangoWebProject3/middleware.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/js/js/custom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/css/css/icons.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Backend.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/management/commands/AdvCashscheduler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-263">
+          <caret line="25" column="83" selection-start-line="25" selection-start-column="83" selection-end-line="25" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/management/commands/Bitcoinscheduler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="521">
+          <caret line="85" column="38" selection-start-line="85" selection-start-column="38" selection-end-line="85" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/management/commands/OKpayscheduler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="61" column="77" selection-start-line="61" selection-start-column="77" selection-end-line="61" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/management/commands/OKpay.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/representatives/templates/accepted.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/market/templates/Promodetails_layout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="46" column="4" selection-start-line="46" selection-start-column="4" selection-end-line="46" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="1018" column="69" selection-start-line="1018" selection-start-column="69" selection-end-line="1018" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="457">
+          <caret line="74" column="12" selection-start-line="74" selection-start-column="12" selection-end-line="74" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/market/templates/home_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/depositingTemplate.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8282">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/wallet-depositing.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="112" selection-start-line="8" selection-start-column="112" selection-end-line="8" selection-end-column="112" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/payeerdepositingTemplate.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="561" column="49" selection-start-line="561" selection-start-column="49" selection-end-line="561" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/payeer-deposit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="55" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="398" column="24" selection-start-line="398" selection-start-column="24" selection-end-line="398" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="76" selection-start-line="16" selection-start-column="76" selection-end-line="16" selection-end-column="109" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/market/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="100" column="31" selection-start-line="100" selection-start-column="31" selection-end-line="100" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jobs/templates/jobs.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="175" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/authorized.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/market/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jobs/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/payeerbalancedeposittemplate.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/okpaytemplatewithdraw.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/okpaydepositinvesttemplate.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/authorisedcarier.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/inverstment-plans.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/history_to.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="208" column="0" selection-start-line="208" selection-start-column="0" selection-end-line="208" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cryptoreseller/templates/cyptoreseller.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/market/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/market/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cryptoreseller/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cryptoreseller/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cryptoreseller/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cryptoreseller/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="502">
+          <caret line="39" column="40" selection-start-line="39" selection-start-column="40" selection-end-line="39" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cryptoreseller/api/permissions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33975">
+          <caret line="2283" column="18" selection-start-line="2283" selection-start-column="4" selection-end-line="2283" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cryptoreseller/api/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cryptoreseller/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/layout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="44" column="90" selection-start-line="44" selection-start-column="90" selection-end-line="44" selection-end-column="90" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cryptoreseller/api/serializers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+          <folding>
+            <marker date="1523698354000" expanded="false" signature="0:72" placeholder="import ..." />
+            <marker date="1523698354000" expanded="true" signature="190:462" placeholder="..." />
+            <marker date="1523698354000" expanded="true" signature="472:633" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cryptoreseller/api/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1095">
+          <caret line="76" column="57" selection-start-line="76" selection-start-column="43" selection-end-line="76" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DjangoWebProject3/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3855">
+          <caret line="260" column="1" selection-start-line="260" selection-start-column="1" selection-end-line="260" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/advencedDeposit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DjangoWebProject3/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cryptoreseller/templates/cryptohome.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="31" column="40" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

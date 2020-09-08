@@ -1,0 +1,14 @@
+{% extends "authorisedcarier.html" %}
+{% load crispy_forms_filters %}
+{% block perfectwithdraw %}
+    <div class="text-center" style="background-color:silver; padding: 0.5%; font-size: 19px; font-family: 'Open Sans', sans-serif;">
+
+                WITHDRAW BY PERFECTMONEY
+
+    </div>
+    <form class="form-horizontal" action="" target="_top" method="post" >{% csrf_token %}
+{#        {{ form|crispy }}#}
+    {% include "perfectmoneywithdrawtemplate.html" %}
+
+    </form>
+{% endblock %}

@@ -1,0 +1,66 @@
+{% extends "authorisedcarier.html" %}
+
+
+{% block cryptoreseller %}
+<div xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+{#    {% for a in Mavuno %}{{ a }} {% endfor %}#}
+
+<div class="text-center" style="background-color:#777; font-weight: 300; border-top-left-radius:5px; border-top-right-radius:5px;  color: white;; padding: 1%; font-size: 19px; font-family: 'Open Sans', sans-serif;">
+            XVACANCY
+
+    </div>
+    <div class="text-center ">
+
+    </div>
+<div class=""  style="background-color: #F0F0F0; box-shadow: 0px 3px 3px; position: relative;">
+
+            <div class="container-fluid " style="background-color: #dddddd;">
+                      <ul class="nav nav-pills navbar-left" style="font-size: 12px;">
+                          <li class=""><a href="/cryptoreseller">Sells</a></li>
+                          <li class=""><a href="{% url 'crypto:sell'%}">Resell</a></li>
+{#                          <li class=""><a href="">Employ</a></li>#}
+
+
+                          <li class="dropdown">
+                              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Filter <b class="caret">
+                                  </b>
+                              </a>
+                              <ul class="dropdown-menu" style="overflow-y: scroll; height: 200px;" >
+                                  <li><a href="">Most current</a></li>
+
+                              </ul>
+                          </li>
+{#                          <li><a href="" data-toggle="modal">Marked</a></li>#}
+{#                          <li><a href="" data-toggle="modal">Upload CV</a></li>#}
+{#                          <li><a href="">Jobs applied</a></li>#}
+                      </ul>
+            </div>
+</div>
+
+
+{% block Cyptohome %}
+{% endblock %}
+
+{% block Cyptoresell %}
+{% endblock %}
+
+        
+
+
+
+
+
+</div>
+    <div class="navbar" style="background-color: #dddddd ; padding-right: 50%; align-content: center">
+                      <ul class="nav nav-tabs navbar-left" style="font-size: 12px;">
+
+
+                          <li><a href="#contact" >Help</a></li>
+
+                          <li><a href="#contact" >News</a></li>
+
+                       </ul>
+
+</div>
+    <center><div>{{ time  }}</div></center>
+{% endblock %}

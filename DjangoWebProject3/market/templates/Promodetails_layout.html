@@ -1,0 +1,116 @@
+{% extends "home.html" %}
+{% load crispy_forms_tags %}
+{% load staticfiles %}
+
+{% block details_layout %}
+
+<div class="container-fluid table-bordered" style="padding-bottom: 3%" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+
+    <div  style="padding-bottom: 2%">
+        <div class="col-sm-6 col-sm-offset-1.5">
+
+            <div id="container" style="width: 100%; padding-bottom: 10%;height: 225px; overflow: hidden;">
+                <div id="slideshow" class="cycle-slideshow" data-cycle-fx ="fade" data-cycle-speed="600" data-cycle-pager="#pager" style=" height:100%;
+                 width: 100%; ">
+                    <img  src="{{ products.image.url }}" style="width: 100%;">
+                    <img  src="{{ products.image1.url }}" style="width: 100%; ">
+                    <img  src="{{ products.image2.url }}" style="width: 100%; ">
+                    <img  src="{{ products.image3.url }}" style="width: 100%; ">
+                </div>
+            </div>
+
+            <div class="container-fluid" style="padding-top: 5%;" >
+                <center>
+                    <a href="#details"  data-toggle="collapse" data-parent="#accordion" style="width: 40%; " class="dropdown-toggle" >more Details<b class="caret"></b></a>
+                </center>
+            </div>
+
+        </div>
+
+        <div class="col-sm-6 col-sm-offset-1.5" style="padding-bottom: 4%">
+            {% block details %}
+            {% endblock %}
+            {% block delete %}
+            {% endblock %}
+            {% block Prods %}
+            {% endblock %}
+        </div>
+    </div>
+
+
+        <div id="details" class="collapse">
+            <div class="container-fluid">
+            </div>
+
+            <center><h4><strong>Discription</strong></h4></center>
+            <div style="overflow-x: scroll">
+    <hr width="100%" size="8" align="center">
+            {% if products.description%}
+                {% for item in products.get_description %}
+                    <div class="col-sm-3 " style="padding-bottom: 5px;"><span  class="" style="font-family: 'Open Sans', sans-serif; font-size:13px; background-color: #777; border-radius: 10px; color: white; padding-left: 10px; padding-right: 10px;">{{ item | title | safe  }}</span></div>
+                {% endfor %}
+            {% endif %}
+            </div>
+        {% include 'productsvisual.html' %}
+        </div>
+
+
+</div>
+{% endblock %}
+
+
+
+
+
+
+
+
+
+
+
+
+
+{##}
+{#    <div id="pager " style="height: 120px;#}
+{#     width:100%;#}
+{#     position: absolute;#}
+{#     bottom : 5%;#}
+{#     background:rgba(0,0,0,.5);#}
+{#     z-index: 1000;#}
+{#     opacity: 0;#}
+{#     transition: all 0.3s ease-in-out 0s;"></div>#}
+{#    <img  style="height :20px;#}
+{#     width: 20%;#}
+{#     position: absolute;#}
+{#     top: 0;#}
+{#     bottom:0;#}
+{#     left: 0;#}
+{#     margin: auto 10px;" src="{% static "image/preview.png" %}"/>#}
+{#    <img  style="height: 20px;#}
+{#     width:20px;#}
+{#     position: absolute;#}
+{#     top:0;#}
+{#     bottom:0;#}
+{#     right:0;#}
+{#     margin:auto 10px;" src="{% static "image/next.png" %}"/>#}
+{##}
+{#        <div class="container-fluid" style="background-color: black">#}
+{#                <div id="gal1" class="container-fluid col-xs-3 col-sm-3 cora" >#}
+{##}
+{#                    <a href="#" data-image="{{ products.image.url }}" data-zoom-image="{{ products.image.url }}"> <img style="width: 70px; padding-top: 2%" class="img-rounded" id="img_01" src="{{ products.image.url }}" /></a>#}
+{#                </div>#}
+{#                <div id="gal1" class="container-fluid  col-xs-3 col-sm-3 cora">#}
+{##}
+{#                    <a href="#" data-image="{{ products.image.url }}" data-zoom-image="{{ products.image.url }}"> <img style="width: 70px; padding-top: 2%" class="img-rounded" id="img_01" src="{{ products.image.url }}" /></a>#}
+{#                </div>#}
+{#                <div id="gal1" class="container-fluid col-xs-3 col-sm-3 cora">#}
+{#                    <a href="#" data-image="{{ products.image.url }}" data-zoom-image="{{ products.image.url }}"> <img style="width: 70px; padding-top: 2%;" class="img-rounded" id="img_01" src="{{ products.image.url }}" /></a>#}
+{#                </div>#}
+{##}
+{#                <div id="gal1" class="container-fluid col-xs-3 col-sm-3 cora">#}
+{#                    <a href="#" data-image="{{ products.image.url }}" data-zoom-image="{{ products.image.url }}"> <img style="width:  70px; padding-top: 2%;" class="img-rounded" id="img_01" src="{{ products.image.url }}" /></a>#}
+{#                </div>#}
+{#                    <a href="#" data-image="small/image3.jpg" data-zoom-image="large/image3.jpg"> <img style="width: 10%;" id="img_01" src="thumb/image3.jpg" /></a>#}
+{##}
+{#                    <a href="#" data-image="{{ products.image.url }}" data-zoom-image="{{ products.image.url }}"> <img style="width: 25%;" id="img_01" src="{{ products.image.url }}" /></a>#}
+{#        </div>#}

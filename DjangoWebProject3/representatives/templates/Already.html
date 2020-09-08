@@ -1,0 +1,33 @@
+{% extends "authorisedcarier.html" %}
+{% load crispy_forms_tags %}
+
+
+{% block already%}
+<div>
+
+<div class="text-center" style="background-color:silver; padding: 1%;">
+
+            REPRESENTATIVE SECTION
+
+
+    </div>
+    <div class="text-center">
+    <h5 style="color:darksalmon; padding-right:5%">{{ title }}</h5>
+        {% if messages %}
+<ul class="messages">
+    {% for message in messages %}
+    <li{% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li>
+    {% endfor %}
+</ul>
+{% endif %}
+    </div>
+<div class="table-responsive col-sm-5 col-sm-offset-3">
+    ddd
+<form method="post" action="">{% csrf_token %}
+    {{ form|crispy}}
+
+    <input style="width:50%; margin-left:25%" type="submit" value="{{ button }}" />
+</form>
+    </div>
+</div>
+{% endblock %}

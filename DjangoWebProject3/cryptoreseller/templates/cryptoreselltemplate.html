@@ -1,0 +1,66 @@
+{#<small><label for="your_name">UserID: </label></small><br/>#}
+{{ form.non_field_errors }}
+<div class="table-responsive col-sm-6 col-sm-offset-1.5">
+
+
+<div class="fieldWrapper" style="">
+    {{ form.username.errors }}
+ <center><input type="hidden" name="username" maxlength="120" class="textinput textInput form-control form-control-danger" required="" id="id_username" value= "{{ user }}"></center>
+</div>
+
+
+<div class="fieldWrapper" style="">
+    {{ form.balance_amount.errors }}
+{#<small><label for="your_name">Username: </label></small><br/>#}
+{#<center><input id="id_username"  type="text" style="background-color: silver" class="text-center" name="" value= "User: {{ user.userinfo }}" disabled></center>#}
+    <center><input type="hidden" name="balance_amount" maxlength="120" class="textinput textInput form-control form-control-danger" required="" id="id_balance_amount" value= "{{ user.investment.balance }}"></center>
+</div>
+
+
+<div class="fieldWrapper" style="padding-bottom:10px;">
+    {{ form.exchanger.errors }}
+{#<small><label for="your_name">Username: </label></small><br/>#}
+{#<center><input id="id_username"  type="text" style="background-color: silver" class="text-center" name="" value= "User: {{ user.userinfo }}" disabled></center>#}
+    <center><input type="hidden" name="exchanger" maxlength="120" class="textinput textInput form-control " required="" id="id_exchanger" value= "{{ user.investment.account_no }}"></center>
+</div>
+
+{{ form.non_field_errors }}
+<div class="fieldWrapper" style="padding-bottom: 3%">
+    {{ form.currency.errors }}
+    <label  style=" color: #777; font-weight: 300" for="{{ form.currency.id_for_label }}">Wallet:</label>
+    {{ form.currency }}
+</div>
+
+{{ form.non_field_errors }}
+<div class="fieldWrapper" style="padding-bottom: 3%">
+    {{ form.Give.errors }}
+    <label  style=" padding-right:15px; color: #777; font-weight: 300" for="{{ form.Give.id_for_label }}">Sell:</label>
+    {{ form.Give }}
+</div>
+
+
+<div class="fieldWrapper" style="padding-bottom: 3%">
+    {{ form.Reserve.errors }}
+ <label style="color: #777; font-weight: 300"  for="{{ form.products.id_for_label }}">Reserve:</label>
+    {{ user.investment.balance }}
+</div>
+
+</div>
+
+<div class="table-responsive col-sm-6 col-sm-offset-1.5">
+
+<div class="fieldWrapper" style="padding-bottom: 3%">
+    {{ form.Reserve.errors }}
+ <label title="here mention the way you want to receive your money" style="color: #777; font-weight: 300"  for="{{ form.products.id_for_label }}">Get paid by:</label>
+    {{ form.Reserve }}
+</div>
+
+<div class="fieldWrapper" style="padding-bottom: 3%">
+    {{ form.Reserve.errors }}
+ <label style="padding-right:20px; color: #777; font-weight: 300"  for="{{ form.products.id_for_label }}">Account:</label>
+    {{ form.Reserve }}
+</div>
+</div>
+
+
+

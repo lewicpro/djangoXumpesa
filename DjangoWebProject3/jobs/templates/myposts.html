@@ -1,0 +1,59 @@
+{% extends "jobs.html" %}
+{% load crispy_forms_tags %}
+{% load staticfiles %}
+
+
+{% block myposts %}
+    {% if proma.count > 0 %}
+        <div class="text-center alert-success" style="padding: 5px;"> <a href="{% url 'jobs:Applist' %}">{{ proma.count }} applied for the job(s) you posted</a></div>
+        {% else %}
+    {% endif %}
+{% if pro.count > 0 %}
+<div style="background-color: #eee; padding-bottom: 10%; max-height: 350px; overflow-y: scroll;">
+
+
+    <div class="container-fluid" >
+    <center>
+
+        <h5 style="color: red; padding: 3px;">
+        {% if messages %}
+        {% for message in messages %}
+        <p class="alert alert-danger alert-dismissable" role="alert">{{ message }} <button type="button" class="close" data-dismiss="alert" aria-label="Close" style="" ><span aria-hidden="true">&times;</span></button></p>
+        {% endfor %}
+        {% endif %}</h5>
+    </center>
+        {% for m in pro  %}
+            <div class="table-responsive col-sm-6 col-sm-offset-1.5" style="   background: rgba(255,255,255,8); border-radius: 10px;  border-style: solid; border-width: thin; border-color: lightgray; box-shadow: #878b8a 2px 2px 5px;" >
+
+                        <h4 class="text-center" style="padding: 1px; list-style-type: none;"><b>Job</b>:<a href="{% url 'jobs:alldetails' m.id %}"> {{ m.job_title }}</a></h4>
+                        <table class="table table-striped">
+
+
+                            <tr><li style="padding: 1px; list-style-type: none;"><b>Location</b>: {{ m.city_name }},{{ m.Country_of_work }}</li></tr>
+{#                            <hr width="100%" size="8" align="center">#}
+                            <tr><li style="padding: 1px; list-style-type: none;"><b>Application deadline</b>: {{ m.application_deadline }}</li></tr>
+                            <tr><li style="padding: 1px; list-style-type: none;"><b>Organization</b>: {{ m.organization }}</li></tr>
+                            <form method="post"  action="{% url 'jobs:postdelete' m.id %}" >{% csrf_token %}
+                                <div class=" container-fluid" style="margin-left: 25%">
+                                <input type="hidden" name="Jobs_id" value="{{ m.id }}">
+                                <input  type="submit" style="font-size: 9px; width: 30%;" class=" btn btn-danger" value="&#x2717; Dismiss">
+                                <a  href="{% url 'jobs:update' m.id %}" style="font-size: 9px; width: 30%;" class="  btn btn-default">Edit</a>
+                                </div>
+                            </form>
+
+                        </table>
+
+
+
+            </div>
+
+        {% endfor %}
+    </div>
+</div>
+{% else %}
+
+<div style="padding-top: 8%"></div>
+    <div class="wat" style="padding-bottom: 10%;">  <img  class="center-block" src="{% static "image/empty.png" %}" width="120" height="120">     <h3 class="text-center">You have not Marked any item </h3></div>
+
+{% endif %}
+{% endblock %}

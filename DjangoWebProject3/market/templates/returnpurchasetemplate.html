@@ -1,0 +1,98 @@
+
+{##}
+{#<div class="fieldWrapper" >#}
+{#    {{ form.product_owner.errors }}#}
+{#    <center><input type="hidden" name="product_owner" maxlength="120"  class="textinput textInput form-control " required="" id="id_product_owner" value= "{{ m.username }}"></center>#}
+{#</div>#}
+
+<div class="fieldWrapper" >
+    {{ form.userid.errors }}
+    <center><input type="hidden" name="userid" maxlength="13"  class="textinput textInput form-control " required="" id="id_userid" value= "{{ m.id }}"></center>
+</div>
+<div class="fieldWrapper" >
+    {{ form.currency.errors }}
+    <center><input type="hidden" name="currency" maxlength="13"  class="textinput textInput form-control " required="" id="id_currency" value= "{{ m.currency }}"></center>
+</div>
+
+<div class="fieldWrapper" >
+    {{ form.Price_sold.errors }}
+    <center><input type="hidden" name="Price_sold" maxlength="120" class="textinput textInput form-control " required="" id="id_Price_sold" value= "{{ m.Price_sold }}"></center>
+</div>
+
+<div class="fieldWrapper" >
+    {{ form.Price.errors }}
+
+    <center><input type="hidden" name="Price" min="0"  class="numberinput  form-control " required="" id="id_Price" value= "{{ m.Price }}"></center>
+</div>
+
+<div class="fieldWrapper" >
+    {{ form.product_id.errors }}
+    <center><input type="hidden" name="product_id" maxlength="120" class="textinput textInput form-control " required="" id="id_product_id" value= "{{ m.product_id }}"></center>
+</div>
+
+<div class="fieldWrapper" >
+    {{ form.product_title.errors }}
+    <center><input type="hidden" name="product_title" maxlength="120" class="textinput textInput form-control " required="" id="id_product_title" value= "{{ m.product_title }}"></center>
+</div>
+
+<div class="fieldWrapper" >
+    {{ form.product_owner.errors }}
+    <center><input type="hidden" name="product_owner" maxlength="120" class="textinput textInput form-control " required="" id="id_product_owner" value= "{{ user.userinfo }}"></center>
+</div>
+
+<div class="fieldWrapper" >
+    {{ form.Receive_acc.errors }}
+
+    <center><input type="hidden" name="Receive_acc" maxlength="120" class="textinput textInput form-control " required="" id="id_Receive_acc" value= "{{ m.Receive_acc }}"></center>
+</div>
+<div class="fieldWrapper" >
+    {{ form.sellers_name.errors }}
+
+    <center><input type="hidden" name="sellers_name" maxlength="120" class="textinput textInput form-control " required="" id="id_sellers_name" value= "{{ user }}"></center>
+</div>
+
+
+<div class="fieldWrapper" >
+    {{ form.quantity.errors }}
+
+    <center><input type="hidden" name="quantity" maxlength="120" class="textinput textInput form-control " required="" id="id_quantity" value= "{{ m.quantity}}"></center>
+</div>
+
+<div class="fieldWrapper" >
+    {{ form.buyers_name.errors }}
+
+    <center><input type="hidden" name="buyers_name" maxlength="120" class="textinput textInput form-control " required="" id="id_buyers_name" value= "{{ m.user}}"></center>
+</div>
+<div class="fieldWrapper" >
+    {{ form.country.errors }}
+
+    <center><input type="hidden" name="country" maxlength="120" class="textinput textInput form-control " required="" id="id_country" value= "{{ m.country}}"></center>
+</div>
+
+<div class="fieldWrapper" >
+    {{ form.currency.errors }}
+
+    <center><input type="hidden" name="currency" maxlength="120" class="textinput textInput form-control " required="" id="id_currency" value= "{{ m.currency}}"></center>
+</div>
+<div class="fieldWrapper" >
+    {{ form.Region.errors }}
+
+    <center><input type="hidden" name="Region" maxlength="120" class="textinput textInput form-control " required="" id="id_Region" value= "{{ m.currency}}"></center>
+</div>
+
+<div class="fieldWrapper" >
+    {{ form.Street.errors }}
+
+    <center><input type="hidden" name="Street" maxlength="120" class="textinput textInput form-control " required="" id="id_Street" value= "{{ m.Street}}"></center>
+</div>
+<div class="fieldWrapper" >
+    {{ form.processor.errors }}
+
+    <center><input type="hidden" name="processor" maxlength="120" class="textinput textInput form-control " required="" id="id_processor" value= "{{ m.processor}}"></center>
+</div>
+
+<div class="fieldWrapper" >
+    {{ form.phone_no.errors }}
+
+    <center><input type="hidden" name="phone_no" maxlength="120" class="textinput textInput form-control " required="" id="id_phone_no" value= "{{ m.phone_no}}"></center>
+</div>

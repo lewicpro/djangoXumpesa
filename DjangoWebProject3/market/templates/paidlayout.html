@@ -1,0 +1,58 @@
+{% extends "home.html" %}
+{% load crispy_forms_tags %}
+{% load staticfiles %}
+
+{% block paidlayout %}
+
+<div class="container-fluid table-bordered" style="padding-bottom: 3%" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+
+    <div  style="padding-bottom: 2%">
+        <div class="col-sm-6 col-sm-offset-1.5">
+
+            <div id="container" style="width: 100%; padding-bottom: 10%;height: 225px; overflow: hidden;">
+                <div id="slideshow" class="cycle-slideshow" data-cycle-fx ="fade" data-cycle-speed="600" data-cycle-pager="#pager" style=" height:100%;
+                 width: 100%; ">
+                    <img  src="{{ paidproducts.image.url }}" style="width: 100%;">
+                    <img  src="{{ paidproducts.image1.url }}" style="width: 100%; ">
+                    <img  src="{{ paidproducts.image2.url }}" style="width: 100%; ">
+                    <img  src="{{ paidproducts.image3.url }}" style="width: 100%; ">
+                </div>
+            </div>
+
+            <div class="container-fluid" style="padding-top: 5%;" >
+                <center>
+                    <a href="#details"  data-toggle="collapse" data-parent="#accordion" style="width: 40%; " class="dropdown-toggle" >more Details<b class="caret"></b></a>
+                </center>
+            </div>
+
+        </div>
+
+        <div class="col-sm-6 col-sm-offset-1.5" style="padding-bottom: 4%">
+            {% block paiddetails %}
+            {% endblock %}
+            {% block paideditdetails %}
+            {% endblock %}
+
+        </div>
+    </div>
+
+
+        <div id="details" class="collapse">
+            <div class="container-fluid">
+            </div>
+
+            <center><h4><strong>Discription</strong></h4></center>
+            <div style="overflow-x: scroll">
+    <hr width="100%" size="8" align="center">
+            {% if paidproducts.description%}
+                {% for item in paidproducts.get_description %}
+                    <div class="col-sm-3 " style="padding-bottom: 5px;"><span  class="" style="font-family: 'Open Sans', sans-serif; font-size:13px; background-color: #777; border-radius: 10px; color: white; padding-left: 10px; padding-right: 10px;">{{ item | title | safe  }}</span></div>
+                {% endfor %}
+            {% endif %}
+            </div>
+        {% include 'imagevisual.html' %}
+        </div>
+
+
+</div>
+{% endblock %}

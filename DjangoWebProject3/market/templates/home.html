@@ -1,0 +1,253 @@
+{% extends "authorisedcarier.html" %}
+{% load crispy_forms_tags %}
+{% load staticfiles %}
+
+
+{% block market %}
+<div xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html" >
+{#    {% for a in Mavuno %}{{ a }} {% endfor %}#}
+<div class="text-center" style="background-color:#777; font-weight: 300; border-top-left-radius:5px; border-top-right-radius:5px;  color: white;; padding: 1%; font-size: 19px; font-family: 'Open Sans', sans-serif;">
+
+            XAMARKET
+
+
+    </div>
+    <div class="text-center " >
+
+    </div>
+         <div class=""  style="background-color: #F0F0F0; box-shadow: 0px 3px 3px; position: relative;">
+            <div class="container-fluid " style="background-color: #dddddd;" >
+                      <ul class="nav nav-tabs navbar-left" style="font-size: 12px;">
+                          <li class="actions"><a href="/market">Home</a></li>
+                          <li class=""><a href="{% url 'market:myproducts' %}">My products{% if Mavuno.count > 0 %}{% if Mavuno.count < 10 %} <b class="numberCircle"> 0{{ Mavuno.count }}</b> {% else %}<b class="numberCircle"> {{ Mavuno.count }}</b> {% endif %}{% else %}{% endif %}</a></li>
+                          <li class=" "><a href="{% url 'market:customers' %}">My orders {% if queryset.count > 0 %}{% if queryset.count < 10 %}<b class="numberCircle">0{{ queryset.count }} {% else %}<b class="numberCircle">{{ queryset.count }} {% endif %} {% else %}{% endif %}</b></a></li>
+                          <li class=""><a href="{% url 'market:category' %}">Upload products</a></li>
+
+
+                          <li class="dropdown">
+                              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Categories <b class="caret">
+                                  </b>
+                              </a>
+                              <ul class="dropdown-menu">
+
+                                  {% for co in computers %}
+                                  {% if co.category %}
+                                  <li><a href="#">Computers & office</a></li>
+                                  {% else %}
+                                  {% endif %}
+                                  {% endfor %}
+
+                                  {% for ha in hair %}
+                                  {% if ha.category %}
+                                  <li><a href="#">Hair extension's & wigs</a></li>
+                                  {% else %}
+                                  {% endif %}
+                                  {% endfor %}
+
+                                  {% for of in office %}
+                                  {% if of.category %}
+                                  <li><a href="#">Office & school supply's</a></li>
+                                  {% else %}
+                                  {% endif %}
+                                  {% endfor %}
+
+                                  {% for se in security %}
+                                  {% if se.category %}
+                                  <li><a href="#">Security & protection</a></li>
+                                  {% else %}
+                                  {% endif %}
+                                  {% endfor %}
+
+                                  {% for ele in electronics %}
+                                  {% if ele.category %}
+                                  <li><a href="#">Electronics & supplies</a></li>
+                                  {% else %}
+                                  {% endif %}
+                                  {% endfor %}
+
+                                  {% for li in lights %}
+                                  {% if li.category %}
+                                  <li><a href="#">Lights & Lighting</a></li>
+                                  {% else %}
+                                  {% endif %}
+                                  {% endfor %}
+
+                                  {% for aut in automobiles %}
+                                  {% if aut.category %}
+                                  <li><a href="#">Automobiles & motorcycles</a></li>
+                                  {% else %}
+                                  {% endif %}
+                                  {% endfor %}
+
+                                  {% for wed in wedding %}
+                                  {% if wed.category %}
+                                  <li><a href="#">Wedding & events</a></li>
+                                  {% else %}
+                                  {% endif %}
+                                  {% endfor %}
+
+                                  {% for toy in toys %}
+                                  {% if toy.category %}
+                                  <li><a href="#">Toys and Hobbies</a></li>
+                                  {% else %}
+                                  {% endif %}
+                                  {% endfor %}
+
+
+                                  {% for Fu in Furnitures %}
+                                  {% if Fu.category %}
+                                  <li><a href="#">Furniture's</a></li>
+                                  {% else %}
+                                  {% endif %}
+                                  {% endfor %}
+
+                                  {% for ga in homegarden %}
+                                  {% if ga.category %}
+                                  <li><a href="#">Home & garden</a></li>
+                                  {% else %}
+                                  {% endif %}
+                                  {% endfor %}
+
+                                  {% for bag in bags %}
+                                  {% if bag.category %}
+                                  <li><a href="#">Bags & Luggage</a></li>
+                                  {% else %}
+                                  {% endif %}
+                                  {% endfor %}
+
+                                  {% for clo in clothesmen %}
+                                  {% if clo.category %}
+                                  <li><a href="#">Men clothes & accessories</a></li>
+                                  {% else %}
+                                  {% endif %}
+                                  {% endfor %}
+
+                                  {% for wo in clotheswomen %}
+                                  {% if wo.category %}
+                                  <li><a href="#">Women clothes & accessories</a></li>
+                                  {% else %}
+                                  {% endif %}
+                                  {% endfor %}
+
+                                  {% for ph in phones %}
+                                  {% if ph.category %}
+                                  <li><a href="#">Phones & accessories</a></li>
+                                  {% else %}
+                                  {% endif %}
+                                  {% endfor %}
+
+                                  {% for he in health %}
+                                  {% if he.category %}
+                                  <li><a href="#">Health & Beauty</a></li>
+                                  {% else %}
+                                  {% endif %}
+                                  {% endfor %}
+
+                                  {% for jew in jewelry %}
+                                  {% if jew.category %}
+                                  <li><a href="#">Jewelry & watches</a></li>
+                                  {% else %}
+                                  {% endif %}
+                                  {% endfor %}
+
+                                  {% for imp in improvements %}
+                                  {% if imp.category %}
+                                  <li><a href="#">Home improvement</a></li>
+                                  {% else %}
+                                  {% endif %}
+                                  {% endfor %}
+
+                                  {% for sp in sports %}
+                                  {% if sp.category %}
+                                  <li><a href="#">Sports & Outdoors</a></li>
+                                  {% else %}
+                                  {% endif %}
+                                  {% endfor %}
+
+                                  {% for oth in others %}
+                                  {% if oth.category %}
+                                  <li><a href="#">Others</a></li>
+                                  {% else %}
+                                  {% endif %}
+                                  {% endfor %}
+                              </ul>
+                          </li>
+                          <li><a href="{% url 'market:cartlist' %}" >Cart</a></li>
+{#                          <li><a href="#">Featured</a></li>#}
+                      </ul>
+                  </div>
+
+
+
+
+
+
+</div>
+        {% block category %}
+        {% endblock %}
+        {% block upload %}
+        {% endblock %}
+        {% block recent %}
+        {% endblock %}
+        {% block Promotion %}
+        {% endblock %}
+{#        {% block details %}#}
+{#        {% endblock %}#}
+        {% block confirmation %}
+        {% endblock %}
+        {% block conditions %}
+        {% endblock %}
+        {% block processors %}
+        {% endblock %}
+        {% block buy %}
+        {% endblock %}
+        {% block details_layout %}
+        {% endblock %}
+        {% block Newdeals %}
+        {% endblock %}
+        {% block Paymethod %}
+        {% endblock %}
+        {% block myproducts %}
+        {% endblock %}
+        {% block Creditdetails %}
+        {% endblock %}
+        {% block Mpesa %}
+        {% endblock %}
+        {% block search %}
+        {% endblock %}
+        {% block Orders %}
+        {% endblock %}
+        {% block orderdetails %}
+        {% endblock %}
+        {% block customerOrders %}
+        {% endblock %}
+        {% block customerOrdersDetails %}
+        {% endblock %}
+
+        {% block receiveUpdate %}
+        {% endblock %}
+
+        {% block cartlist %}
+        {% endblock %}
+        {% block paidupload %}
+        {% endblock %}
+
+        {% block paidlayout %}
+        {% endblock %}
+        {% block morem %}
+        {% endblock %}
+
+
+</div>
+    <div class="navbar"  style="box-shadow: 0 3px 6px #999; background-color: #dddddd ; padding-right: 70%; align-content: center">
+                      <ul class="nav nav-pills navbar-left" style="font-size: 12px;">
+
+                          <li><a href="#contact" >Help</a></li>
+
+                          <li><a href="#contact" >News</a></li>
+
+                       </ul>
+
+</div>
+    <center><div>{{ time  }}</div></center>
+{% endblock %}

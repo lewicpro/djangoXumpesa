@@ -1,0 +1,79 @@
+{{ form.non_field_errors }}
+<div class="fieldWrapper" >
+    {{ form.full_name.errors }}
+    <center><input type="hidden" name="full_name" maxlength="120" class="textinput textInput form-control form-control-danger" required="" id="id_full_name" value="{{ user }} "></center>
+</div>
+
+<div class="fieldWrapper" >
+    {{ form.job_id.errors }}
+    <center><input type="hidden" name="job_id" maxlength="120" class="textinput textInput form-control form-control-danger" required="" id="id_job_id" value="{{ m.id }} "></center>
+</div>
+
+<div class="fieldWrapper" >
+    {{ form.user.errors }}
+    <center><input type="hidden" name="user" maxlength="120" class="textinput textInput form-control form-control-danger" required="" id="id_user" value= "{{ user.userinfo.full_name }}"></center>
+</div>
+
+
+<div class="fieldWrapper">
+    {{ form.phone_number.errors }}
+    <center><input type="hidden" name="phonez_number" maxlength="120" class="textinput textInput form-control form-control-danger" required="" id="id_phone_number" value= "{{ user.userinfo.Phone_no }}"></center>
+</div>
+
+<div class="fieldWrapper">
+    {{ form.application_deadline.errors }}
+    <center><input type="hidden" name="application_deadline" class="textinput textInput form-control form-control-danger" required="" id="id_application_deadline" value= "{{ m.application_deadline }}"></center>
+</div>
+
+<div class="fieldWrapper" >
+    {{ form.city_name.errors }}
+    <center><input type="hidden" name="city_name" maxlength="120" class="textinput textInput form-control form-control-danger" required="" id="id_city_name" value="{{ m.city_name }} "></center>
+</div>
+<div class="fieldWrapper" >
+    {{ form.employer_title.errors }}
+    <center><input type="hidden" name="employer_title" maxlength="120" class="textinput textInput form-control form-control-danger" required="" id="id_employer_title" value= "{{ m.employer_title }}"></center>
+</div>
+
+<div class="fieldWrapper" >
+    {{ form.job_descriptions.errors }}
+    <center><input type="hidden" name="job_descriptions" maxlength="120" class="textinput textInput form-control form-control-danger" required="" id="id_job_descriptions" value="{{ m.job_descriptions }} "></center>
+</div>
+<div class="fieldWrapper" >
+    {{ form.specifications.errors }}
+    <center><input type="hidden" name="specifications" maxlength="120" class="textinput textInput form-control form-control-danger" required="" id="id_specifications" value= "{{ m.specifications }}"></center>
+</div>
+
+
+<div class="fieldWrapper">
+    {{ form.email.errors }}
+    <center><input type="hidden" name="email" maxlength="120" class="textinput textInput form-control form-control-danger" required="" id="id_email" value= "{{ m.email}}"></center>
+</div>
+
+
+<div class="fieldWrapper" >
+    {{ form.organization.errors }}
+    <center><input type="hidden" name="organization" maxlength="120" class="textinput textInput form-control form-control-danger" required="" id="id_organization" value="{{ m.organization}} "></center>
+</div>
+<div class="fieldWrapper" >
+    {{ form.position_type.errors }}
+    <center><input type="hidden" name="position_type" maxlength="120" class="textinput textInput form-control form-control-danger" required="" id="id_position_type" value= "{{ m.position_type }}"></center>
+</div>
+
+
+<div class="fieldWrapper" >
+    {{ form.Country_of_work.errors }}
+    <center><input type="hidden" name="Country_of_work" maxlength="120" class="textinput textInput form-control form-control-danger" required="" id="id_Country_of_work" value= "{{ m.Country_of_work }}"></center>
+</div>
+
+<div class="fieldWrapper" >
+    {{ form.location_address.errors }}
+    <center><input type="hidden" name="location_address" maxlength="120" class="textinput textInput form-control form-control-danger" required="" id="id_location_address" value="{{ m.location_address }} "></center>
+</div>
+<div class="fieldWrapper" >
+    {{ form.job_title.errors }}
+    <center><input type="hidden" name="job_title" maxlength="120" class="textinput textInput form-control form-control-danger" required="" id="id_job_title" value= "{{ m.job_title }}"></center>
+</div>
+
+
+
+

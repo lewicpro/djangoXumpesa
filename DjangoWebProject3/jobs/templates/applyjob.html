@@ -1,0 +1,488 @@
+{{ form.non_field_errors }}
+<div class="fieldWrapper" >
+    {{ form.full_name.errors }}
+    <center><input type="hidden" name="full_name" maxlength="120" class="textinput textInput form-control form-control-danger" required="" id="id_full_name" value="{{ user.userinfo.full_name }} "></center>
+</div>
+
+<div class="fieldWrapper" >
+    {{ form.acc_owner.errors }}
+    <center><input type="hidden" name="acc_owner" maxlength="120" class="textinput textInput form-control form-control-danger" required="" id="id_acc_owner" value="{{ jobs.user}} "></center>
+</div>
+<div class="fieldWrapper" >
+    {{ form.job_id.errors }}
+    <center><input type="hidden" name="job_id" maxlength="120" class="textinput textInput form-control form-control-danger" required="" id="id_job_id" value="{{ jobs.id}} "></center>
+</div>
+
+<div class="fieldWrapper" >
+    {{ form.user.errors }}
+    <center><input type="hidden" name="user" maxlength="120" class="textinput textInput form-control form-control-danger" required="" id="id_user" value= "{{ user }}"></center>
+</div>
+
+
+<div class="fieldWrapper">
+    {{ form.country.errors }}
+    <center><input type="hidden" name="country" maxlength="120" class="textinput textInput form-control form-control-danger" required="" id="id_country" value= "{{ user.userinfo.country}}"></center>
+</div>
+
+
+<div class="fieldWrapper">
+    {{ form.application_deadline.errors }}
+    <center><input type="hidden" name="application_deadline" class="textinput textInput form-control form-control-danger" required="" id="id_application_deadline" value= "{{ jobs.application_deadline}}"></center>
+</div>
+
+<div class="fieldWrapper" >
+    {{ form.city_name.errors }}
+    <center><input type="hidden" name="city_name" maxlength="120" class="textinput textInput form-control form-control-danger" required="" id="id_city_name" value="{{ jobs.city_name}} "></center>
+</div>
+
+<div class="fieldWrapper" >
+    {{ form.employer_title.errors }}
+    <center><input type="hidden" name="employer_title" maxlength="120" class="textinput textInput form-control form-control-danger" required="" id="id_employer_title" value= "{{ jobs.employer_title }}"></center>
+</div>
+
+{##}
+{##}
+{#<div class="fieldWrapper" >#}
+{#    {{ form.job_descriptions.errors }}#}
+{#    <center><input type="hidden" name="job_descriptions" maxlength="120" class="textinput textInput form-control form-control-danger" required="" id="id_job_descriptions" value="{{ m.job_descriptions}} "></center>#}
+{#</div>#}
+
+<div class="fieldWrapper" >
+    {{ form.specifications.errors }}
+    <center><input type="hidden" name="specifications" maxlength="120" class="textinput textInput form-control form-control-danger" required="" id="id_specifications" value= "{{ jobs.specifications }}"></center>
+</div>
+
+
+<div class="fieldWrapper">
+    {{ form.email.errors }}
+    <center><input type="hidden" name="email" maxlength="120" class="textinput textInput form-control form-control-danger" required="" id="id_email" value= "{{ jobs.email}}"></center>
+</div>
+
+
+<div class="fieldWrapper" >
+    {{ form.organization.errors }}
+    <center><input type="hidden" name="organization" maxlength="120" class="textinput textInput form-control form-control-danger" required="" id="id_organization" value="{{ jobs.organization}} "></center>
+</div>
+
+<div class="fieldWrapper" >
+    {{ form.position_type.errors }}
+    <center><input type="hidden" name="position_type" maxlength="120" class="textinput textInput form-control form-control-danger" required="" id="id_position_type" value= "{{ jobs.position_type }}"></center>
+</div>
+
+<div class="fieldWrapper" >
+    {{ form.Country_of_work.errors }}
+    <center><input type="hidden" name="Country_of_work" maxlength="120" class="textinput textInput form-control form-control-danger" required="" id="id_Country_of_work" value= "{{ jobs.Country_of_work}}"></center>
+</div>
+
+
+
+<div class="fieldWrapper" >
+    {{ form.location_address.errors }}
+    <center><input type="hidden" name="location_address" maxlength="120" class="textinput textInput form-control form-control-danger" required="" id="id_location_address" value="{{ jobs.location_address }} "></center>
+</div>
+
+<div class="fieldWrapper" >
+    {{ form.job_title.errors }}
+    <center><input type="hidden" name="job_title" maxlength="120" class="textinput textInput form-control form-control-danger" required="" id="id_job_title" value= "{{ jobs.job_title }}"></center>
+</div>
+
+<div class="fieldWrapper" >
+    {{ form.posted.errors }}
+    <center><input type="hidden" name="posted" maxlength="120" class="textinput textInput form-control form-control-danger" required="" id="id_posted" value= "{{ jobs.posted_date }}"></center>
+</div>
+
+
+
+<div class="fieldWrapper" >
+    {{ form.user_id.errors }}
+    <center><input type="hidden" name="user_id" maxlength="120" class="textinput textInput form-control form-control-danger" required="" id="id_user_id" value= "{{ user.userinfo.id }}"></center>
+</div>
+
+
+<div class="fieldWrapper" >
+    {{ form.full_name_xampesa.errors }}
+    <center><input type="hidden" name="full_name_xampesa" maxlength="120" class="textinput textInput form-control form-control-danger" required="" id="id_full_name_xampesa" value= "{{ user.userinfo.full_name }}"></center>
+</div>
+
+<div class="fieldWrapper" >
+    {{ form.first_name_per.errors }}
+    <center><input type="hidden" name="first_name_per" maxlength="120" class="textinput textInput form-control form-control-danger" required="" id="id_first_name_per" value= "{{ user.cvpersonal.first_name}}"></center>
+</div>
+
+
+<div class="fieldWrapper" >
+    {{ form.middle_name_per.errors }}
+    <center><input type="hidden" name="middle_name_per" maxlength="120" class="textinput textInput form-control form-control-danger" required="" id="id_middle_name_per" value= "{{ user.cvpersonal.middle_name }}"></center>
+</div>
+
+
+<div class="fieldWrapper" >
+    {{ form.last_name_per.errors }}
+    <center><input type="hidden" name="last_name_per" maxlength="120" class="textinput textInput form-control form-control-danger" required="" id="id_last_name_per" value= "{{ user.cvpersonal.last_name }}"></center>
+</div>
+
+<div class="fieldWrapper" >
+    {{ form.Gender_per.errors }}
+    <center><input type="hidden" name="Gender_per" maxlength="120" class="textinput textInput form-control form-control-danger" required="" id="id_Gender_per" value= "{{ user.cvpersonal.Gender }}"></center>
+</div>
+
+<div class="fieldWrapper" >
+    {{ form.place_of_birth_per.errors }}
+    <center><input type="hidden" name="place_of_birth_per" maxlength="120" class="textinput textInput form-control form-control-danger" required="" id="id_place_of_birth_per" value= "{{ user.cvpersonal.place_of_birth }}"></center>
+</div>
+
+
+<div class="fieldWrapper" >
+    {{ form.date_of_birth_per.errors }}
+    <center><input type="hidden" name="date_of_birth_per" maxlength="120" class="textinput textInput form-control form-control-danger" required="" id="id_date_of_birth_per" value= "{{ user.cvpersonal.date_of_birth }}"></center>
+</div>
+
+<div class="fieldWrapper" >
+    {{ form.Marital_status_per.errors }}
+    <center><input type="hidden" name="Marital_status_per" maxlength="120" class="textinput textInput form-control form-control-danger" required="" id="id_Marital_status_per" value= "{{ user.cvpersonal.Marital_status }}"></center>
+</div>
+
+<div class="fieldWrapper" >
+    {{ form.criminal_record_per.errors }}
+    <center><input type="hidden" name="criminal_record_per" maxlength="120" class="textinput textInput form-control form-control-danger" required="" id="id_criminal_record_per" value= "{{ user.cvpersonal.criminal_record }}"></center>
+</div>
+
+
+<div class="fieldWrapper" >
+    {{ form.years_of_work_experience_per.errors }}
+    <center><input type="hidden" name="years_of_work_experience_per" maxlength="120" class="textinput textInput form-control form-control-danger" required="" id="id_years_of_work_experience_per" value= "{{ user.cvpersonal.years_of_work_experience }}"></center>
+</div>
+
+
+<div class="fieldWrapper" >
+    {{ form.nationality_per.errors }}
+    <center><input type="hidden" name="nationality_per" maxlength="120" class="textinput textInput form-control form-control-danger" required="" id="id_nationality_per" value= "{{ user.cvpersonal.nationality }}"></center>
+</div>
+
+<div class="fieldWrapper" >
+    {{ form.disability_per.errors }}
+    <center><input type="hidden" name="disability_per" maxlength="120" class="textinput textInput form-control form-control-danger" required="" id="id_disability_per" value= "{{ user.cvpersonal.disability }}"></center>
+</div>
+
+<div class="fieldWrapper" >
+    {{ form.present_address_con.errors }}
+    <center><input type="hidden" name="present_address_con" maxlength="120" class="textinput textInput form-control form-control-danger" required="" id="id_present_address_con" value= "{{ user.cvcontact.present_address }}"></center>
+</div>
+
+<div class="fieldWrapper" >
+    {{ form.permanent_address_con.errors }}
+    <center><input type="hidden" name="permanent_address_con" maxlength="120" class="textinput textInput form-control form-control-danger" required="" id="id_permanent_address_con" value= "{{ user.cvcontact.permanent_address }}"></center>
+</div>
+
+<div class="fieldWrapper" >
+    {{ form.Telephone_con.errors }}
+    <center><input type="hidden" name="Telephone_con" maxlength="120" class="textinput textInput form-control form-control-danger" required="" id="id_Telephone_con" value= "{{ user.cvcontact.Telephone }}"></center>
+</div>
+
+<div class="fieldWrapper" >
+    {{ form.work_telephone_con.errors }}
+    <center><input type="hidden" name="work_telephone_con" maxlength="120" class="textinput textInput form-control form-control-danger" required="" id="id_work_telephone_con" value= "{{ user.cvcontact.work_telephone }}"></center>
+</div>
+
+
+<div class="fieldWrapper" >
+    {{ form.country_of_residence_con.errors }}
+    <center><input type="hidden" name="country_of_residence_con" maxlength="120" class="textinput textInput form-control form-control-danger" required="" id="id_country_of_residence_con" value= "{{ user.cvcontact.country_of_residence }}"></center>
+</div>
+
+<div class="fieldWrapper" >
+    {{ form.country_code_con.errors }}
+    <center><input type="hidden" name="country_code_con" maxlength="120" class="textinput textInput form-control form-control-danger" required="" id="id_country_code_con" value= "{{ user.cvcontact.country_code }}"></center>
+</div>
+
+
+<div class="fieldWrapper" >
+    {{ form.mobile_no_con.errors }}
+    <center><input type="hidden" name="mobile_no_con" maxlength="120" class="textinput textInput form-control form-control-danger" required="" id="id_mobile_no_con" value= "{{ user.cvcontact.mobile_no }}"></center>
+</div>
+
+<div class="fieldWrapper" >
+    {{ form.altenative_email_con.errors }}
+    <center><input type="hidden" name="altenative_email_con" maxlength="120" class="textinput textInput form-control form-control-danger" required="" id="id_altenative_email_con" value= "{{ user.cvcontact.altenative_email }}"></center>
+</div>
+
+<div class="fieldWrapper" >
+    {{ form.educational_level_aca.errors }}
+    <center><input type="hidden" name="educational_level_aca" maxlength="120" class="textinput textInput form-control form-control-danger" required="" id="id_educational_level_aca" value= "{{ user.cvaccademic.educational_level }}"></center>
+</div>
+
+<div class="fieldWrapper" >
+    {{ form.country_aca.errors }}
+    <center><input type="hidden" name="country_aca" maxlength="120" class="textinput textInput form-control form-control-danger" required="" id="id_country_aca" value= "{{ user.cvaccademic.country }}"></center>
+</div>
+
+<div class="fieldWrapper" >
+    {{ form.institution_name_aca.errors }}
+    <center><input type="hidden" name="institution_name_aca" maxlength="120" class="textinput textInput form-control form-control-danger" required="" id="id_institution_name_aca" value= "{{ user.cvaccademic.institution_name }}"></center>
+</div>
+
+<div class="fieldWrapper" >
+    {{ form.attach_certificate_aca.errors }}
+    <center><input type="hidden" name="attach_certificate_aca" maxlength="120" class="textinput textInput form-control form-control-danger" required="" id="id_attach_certificate_aca" value= "{{ user.cvaccademic.attach_certificate }}"></center>
+</div>
+
+<div class="fieldWrapper" >
+    {{ form.program_name_aca.errors }}
+    <center><input type="hidden" name="program_name_aca" maxlength="120" class="textinput textInput form-control form-control-danger" required="" id="id_program_name_aca" value= "{{ user.cvaccademic.program_name }}"></center>
+</div>
+
+
+<div class="fieldWrapper" >
+    {{ form.start_time_aca.errors }}
+    <center><input type="hidden" name="start_time_aca" maxlength="120" class="textinput textInput form-control form-control-danger" required="" id="id_start_time_aca" value= "{{ user.cvaccademic.start_time }}"></center>
+</div>
+
+<div class="fieldWrapper" >
+    {{ form.end_time_aca.errors }}
+    <center><input type="hidden" name="end_time_aca" maxlength="120" class="textinput textInput form-control form-control-danger" required="" id="id_end_time_aca" value= "{{ user.cvaccademic.end_time }}"></center>
+</div>
+
+<div class="fieldWrapper" >
+    {{ form.country_prof.errors }}
+    <center><input type="hidden" name="country_prof" maxlength="120" class="textinput textInput form-control form-control-danger" required="" id="id_country_prof" value= "{{ user.cvprofession.country_prof }}"></center>
+</div>
+
+<div class="fieldWrapper" >
+    {{ form.institution_name_prof.errors }}
+    <center><input type="hidden" name="institution_name_prof" maxlength="120" class="textinput textInput form-control form-control-danger" required="" id="id_institution_name_prof" value= "{{ user.cvprofession.institution_name_prof }}"></center>
+</div>
+
+<div class="fieldWrapper" >
+    {{ form.course_name_prof.errors }}
+    <center><input type="hidden" name="course_name_prof" maxlength="120" class="textinput textInput form-control form-control-danger" required="" id="id_course_name_prof" value= "{{ user.cvprofession.course_name }}"></center>
+</div>
+
+<div class="fieldWrapper" >
+    {{ form.start_time_prof.errors }}
+    <center><input type="hidden" name="start_time_prof" maxlength="120" class="textinput textInput form-control form-control-danger" required="" id="id_start_time_prof" value= "{{ user.cvprofession.start_time_prof }}"></center>
+</div>
+
+<div class="fieldWrapper" >
+    {{ form.end_time_prof.errors }}
+    <center><input type="hidden" name="end_time_prof" maxlength="120" class="textinput textInput form-control form-control-danger" required="" id="id_end_time_prof" value= "{{ user.cvprofession.end_time_prof }}"></center>
+</div>
+
+
+
+<div class="fieldWrapper" >
+    {{ form.attach_certificate_prof.errors }}
+    <center><input type="hidden" name="attach_certificate_prof" maxlength="120" class="textinput textInput form-control form-control-danger" required="" id="id_attach_certificate_prof" value= "{{ user.cvprofession.attach_certificate_prof }}"></center>
+</div>
+
+
+<div class="fieldWrapper" >
+    {{ form.language1.errors }}
+    <center><input type="hidden" name="language1" maxlength="120" class="textinput textInput form-control form-control-danger" required="" id="id_language1" value= "{{ user.cvlanguage.language1 }}"></center>
+</div>
+
+
+<div class="fieldWrapper" >
+    {{ form.quality1.errors }}
+    <center><input type="hidden" name="quality1" maxlength="120" class="textinput textInput form-control form-control-danger" required="" id="id_quality1" value= "{{ user.cvlanguage.quality1 }}"></center>
+</div>
+
+<div class="fieldWrapper" >
+    {{ form.language2.errors }}
+    <center><input type="hidden" name="language2" maxlength="120" class="textinput textInput form-control form-control-danger" required="" id="id_language2f" value= "{{ user.cvlanguage.language2 }}"></center>
+</div>
+
+<div class="fieldWrapper" >
+    {{ form.quality2.errors }}
+    <center><input type="hidden" name="quality2" maxlength="120" class="textinput textInput form-control form-control-danger" required="" id="id_quality2" value= "{{ user.cvlanguage.quality2 }}"></center>
+</div>
+
+<div class="fieldWrapper" >
+    {{ form.language3.errors }}
+    <center><input type="hidden" name="language3" maxlength="120" class="textinput textInput form-control form-control-danger" required="" id="id_language3" value= "{{ user.cvlanguage.language3 }}"></center>
+</div>
+
+<div class="fieldWrapper" >
+    {{ form.quality3.errors }}
+    <center><input type="hidden" name="quality3" maxlength="120" class="textinput textInput form-control form-control-danger" required="" id="id_quality3" value= "{{ user.cvlanguage.quality3 }}"></center>
+</div>
+
+<div class="fieldWrapper" >
+    {{ form.organization_wor.errors }}
+    <center><input type="hidden" name="organization_wor" maxlength="120" class="textinput textInput form-control form-control-danger" required="" id="id_organization_wor" value= "{{ user.cvwork.organization }}"></center>
+</div>
+
+<div class="fieldWrapper" >
+    {{ form.job_title_wor.errors }}
+    <center><input type="hidden" name="job_title_wor" maxlength="120" class="textinput textInput form-control form-control-danger" required="" id="id_job_title_wor" value= "{{ user.cvwork.job_title }}"></center>
+</div>
+
+<div class="fieldWrapper" >
+    {{ form.supervisor_name_wor.errors }}
+    <center><input type="hidden" name="supervisor_name_wor" maxlength="120" class="textinput textInput form-control form-control-danger" required="" id="id_supervisor_name_wor" value= "{{ user.cvwork.supervisor_name }}"></center>
+</div>
+
+<div class="fieldWrapper" >
+    {{ form.supervisor_telephone_number_wor.errors }}
+    <center><input type="hidden" name="supervisor_telephone_number_wor" maxlength="120" class="textinput textInput form-control form-control-danger" required="" id="id_supervisor_telephone_number_wor" value= "{{ user.cvwork.supervisor_telephone_number }}"></center>
+</div>
+
+<div class="fieldWrapper" >
+    {{ form.supervisor_address_wor.errors }}
+    <center><input type="hidden" name="supervisor_address_wor" maxlength="120" class="textinput textInput form-control form-control-danger" required="" id="id_supervisor_address_wor" value= "{{ user.cvwork.supervisor_address }}"></center>
+</div>
+
+<div class="fieldWrapper" >
+    {{ form.Duties_and_responsibilities_wor.errors }}
+    <center><input type="hidden" name="Duties_and_responsibilities_wor" maxlength="120" class="textinput textInput form-control form-control-danger" required="" id="id_Duties_and_responsibilities_wor" value= "{{ user.cvwork.Duties_and_responsibilities }}"></center>
+</div>
+
+<div class="fieldWrapper" >
+    {{ form.current_job_wor.errors }}
+    <center><input type="hidden" name="current_job_wor" maxlength="120" class="textinput textInput form-control form-control-danger" required="" id="id_current_job_wor" value= "{{ user.cvwork.current_job }}"></center>
+</div>
+
+<div class="fieldWrapper" >
+    {{ form.start_date_wor.errors }}
+    <center><input type="hidden" name="start_date_wor" maxlength="120" class="textinput textInput form-control form-control-danger" required="" id="id_start_date_wor" value= "{{ user.cvwork.start_date }}"></center>
+</div>
+
+<div class="fieldWrapper" >
+    {{ form.end_date_wor.errors }}
+    <center><input type="hidden" name="end_date_wor" maxlength="120" class="textinput textInput form-control form-control-danger" required="" id="id_end_date_wor" value= "{{ user.cvwork.end_date }}"></center>
+</div>
+
+<div class="fieldWrapper" >
+    {{ form.training_name.errors }}
+    <center><input type="hidden" name="training_name" maxlength="120" class="textinput textInput form-control form-control-danger" required="" id="id_training_name" value= "{{ user.cvtraining.training_name }}"></center>
+</div>
+
+
+<div class="fieldWrapper" >
+    {{ form.Institution.errors }}
+    <center><input type="hidden" name="Institution" maxlength="120" class="textinput textInput form-control form-control-danger" required="" id="id_Institution" value= "{{ user.cvtraining.Institution }}"></center>
+</div>
+
+<div class="fieldWrapper" >
+    {{ form.Attact_your_certificate.errors }}
+    <center><input type="hidden" name="Attact_your_certificate" maxlength="120" class="textinput textInput form-control form-control-danger" required="" id="id_iAttact_your_certificate" value= "{{ user.cvtraining.Attact_your_certificate }}"></center>
+</div>
+
+<div class="fieldWrapper" >
+    {{ form.description_training.errors }}
+    <center><input type="hidden" name="description_training" maxlength="120" class="textinput textInput form-control form-control-danger" required="" id="id_description_training" value= "{{ user.cvtraining.description_training }}"></center>
+</div>
+
+
+<div class="fieldWrapper" >
+    {{ form.starting_date_teraining.errors }}
+    <center><input type="hidden" name="starting_date_teraining" maxlength="120" class="textinput textInput form-control form-control-danger" required="" id="id_starting_date_teraining" value= "{{ user.cvtraining.starting_date_teraining }}"></center>
+</div>
+
+
+<div class="fieldWrapper" >
+    {{ form.end_date_teraining.errors }}
+    <center><input type="hidden" name="end_date_teraining" maxlength="120" class="textinput textInput form-control form-control-danger" required="" id="id_end_date_teraining" value= "{{ user.cvtraining.end_date_teraining }}"></center>
+</div>
+
+
+<div class="fieldWrapper" >
+    {{ form.computer_skills.errors }}
+    <center><input type="hidden" name="computer_skills" maxlength="120" class="textinput textInput form-control form-control-danger" required="" id="id_computer_skills" value= "{{ user.cvcomputer.computer_skills }}"></center>
+</div>
+
+
+<div class="fieldWrapper" >
+    {{ form.quality_computer.errors }}
+    <center><input type="hidden" name="quality_computer" maxlength="120" class="textinput textInput form-control form-control-danger" required="" id="id_quality_computer" value= "{{ user.cvcomputer.quality_computer }}"></center>
+</div>
+
+<div class="fieldWrapper" >
+    {{ form.attach_certificate_train.errors }}
+    <center><input type="hidden" name="attach_certificate_train" maxlength="120" class="textinput textInput form-control form-control-danger" required="" id="id_attach_certificate_train" value= "{{ user.cvcomputer.attach_certificate_train }}"></center>
+</div>
+
+<div class="fieldWrapper" >
+    {{ form.status.errors }}
+    <center><input type="hidden" name="status" maxlength="120" class="textinput textInput form-control form-control-danger" required="" id="id_status" value= "{{ application.status }}"></center>
+</div>
+
+<div class="fieldWrapper" >
+    {{ form.referee_name.errors }}
+    <center><input type="hidden" name="referee_name" maxlength="120" class="textinput textInput form-control form-control-danger" required="" id="id_referee_name" value= "{{ user.cvrefree.referee_name }}"></center>
+</div>
+
+<div class="fieldWrapper" >
+    {{ form.organisation_of_a_referee.errors }}
+    <center><input type="hidden" name="organisation_of_a_referee" maxlength="120" class="textinput textInput form-control form-control-danger" required="" id="id_organisation_of_a_referee" value= "{{ user.cvrefree.organisation_of_a_referee }}"></center>
+</div>
+
+<div class="fieldWrapper" >
+    {{ form.title.errors }}
+    <center><input type="hidden" name="title" maxlength="120" class="textinput textInput form-control form-control-danger" required="" id="id_title" value= "{{ user.cvrefree.title }}"></center>
+</div>
+
+<div class="fieldWrapper" >
+    {{ form.referee_email.errors }}
+    <center><input type="hidden" name="referee_email" maxlength="120" class="textinput textInput form-control form-control-danger" required="" id="id_referee_email" value= "{{ user.cvrefree.referee_email }}"></center>
+</div>
+
+<div class="fieldWrapper" >
+    {{ form.referee_address.errors }}
+    <center><input type="hidden" name="referee_address" maxlength="120" class="textinput textInput form-control form-control-danger" required="" id="id_referee_address" value= "{{ user.cvrefree.referee_address }}"></center>
+</div>
+
+<div class="fieldWrapper" >
+    {{ form.other_attachment1.errors }}
+    <center><input type="hidden" name="other_attachment1" maxlength="120" class="textinput textInput form-control form-control-danger" required="" id="id_other_attachment1" value= "{{ user.cvrefree.other_attachment1 }}"></center>
+</div>
+
+<div class="fieldWrapper" >
+    {{ form.birth_certificate.errors }}
+    <center><input type="hidden" name="birth_certificate" maxlength="120" class="textinput textInput form-control form-control-danger" required="" id="id_birth_certificate" value= "{{ user.cvrefree.birth_certificate }}"></center>
+</div>
+
+<div class="fieldWrapper" >
+    {{ form.recomendation_letter.errors }}
+    <center><input type="hidden" name="recomendation_letter" maxlength="120" class="textinput textInput form-control form-control-danger" required="" id="id_recomendation_letter" value= "{{ user.cvrefree.recomendation_letter }}"></center>
+</div>
+
+<div class="fieldWrapper" >
+    {{ form.other_certificates1.errors }}
+    <center><input type="hidden" name="other_certificates1" maxlength="120" class="textinput textInput form-control form-control-danger" required="" id="id_other_certificates1" value= "{{ user.cvrefree.other_certificates1 }}"></center>
+</div>
+
+<div class="fieldWrapper" >
+    {{ form.other_certificates2.errors }}
+    <center><input type="hidden" name="other_certificates2" maxlength="120" class="textinput textInput form-control form-control-danger" required="" id="id_other_certificates2" value= "{{ user.cvrefree.other_certificates2 }}"></center>
+</div>
+
+<div class="fieldWrapper" >
+    {{ form.other_certificates3.errors }}
+    <center><input type="hidden" name="other_certificates3" maxlength="120" class="textinput textInput form-control form-control-danger" required="" id="id_other_certificates3" value= "{{ user.cvrefree.other_certificates3 }}"></center>
+</div>
+
+<div class="fieldWrapper" >
+    {{ form.other_certificates4.errors }}
+    <center><input type="hidden" name="other_certificates4" maxlength="120" class="textinput textInput form-control form-control-danger" required="" id="id_other_certificates4" value= "{{ user.cvrefree.other_certificates4 }}"></center>
+</div>
+
+<div class="fieldWrapper" >
+    {{ form.CV.errors }}
+    <center><input type="hidden" name="CV" maxlength="120" class="textinput textInput form-control form-control-danger" required="" id="id_CV" value= "{{ user.cvrefree.CV }}"></center>
+</div>
+
+
+<div class="fieldWrapper" >
+    {{ form.TCU_certificate.errors }}
+    <center><input type="hidden" name="TCU_certificate" maxlength="120" class="textinput textInput form-control form-control-danger" required="" id="id_iTCU_certificate" value= "{{ user.cvrefree.TCU_certificate }}"></center>
+</div>
+
+
+
+
+
+
+
+
+
+

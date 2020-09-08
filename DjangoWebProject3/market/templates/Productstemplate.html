@@ -1,0 +1,149 @@
+{#<small><label for="your_name">UserID: </label></small><br/>#}
+{{ form.non_field_errors }}
+{#<div class="fieldWrapper" style="padding-bottom: 3%">#}
+{#    {{ form.user_id.errors }}#}
+{#<center><input id="yoa" style="background-color: silver" class="text-center" type="text" name="" value="User ID : {{ user.userinfo.id }} " ></center>#}
+{#    <center><input type="hidden" name="user_id" maxlength="4" class="textinput textInput form-control form-control-danger" required="" id="id_user_id" value="{{ user.userinfo.id }} "></center>#}
+{#</div>#}
+<div class="table-responsive col-sm-6 col-sm-offset-1.5">
+
+
+<div class="fieldWrapper" style="padding-bottom: 3%">
+    {{ form.username.errors }}
+{#<small><label for="your_name">Username: </label></small><br/>#}
+{#<center><input id="id_username"  type="text" style="background-color: silver" class="text-center" name="" value= "User: {{ user.userinfo }}" disabled></center>#}
+    <center><input type="hidden" name="username" maxlength="35" class="textinput textInput form-control form-control-danger" required="" id="id_username" value= "{{ user.userinfo }}"></center>
+</div>
+
+
+<div class="fieldWrapper" style="padding-bottom: 3%">
+    {{ form.country.errors }}
+{#<small><label for="your_name">Username: </label></small><br/>#}
+{#<center><input id="id_username"  type="text" style="background-color: silver" class="text-center" name="" value= "User: {{ user.userinfo }}" disabled></center>#}
+    <center><input type="hidden" name="country" maxlength="120" class="textinput textInput form-control form-control-danger" required="" id="id_country" value= "{{ user.userinfo.country }}"></center>
+</div>
+
+
+<div class="fieldWrapper" >
+    {{ form.Receive_acc.errors }}
+{#<small><label for="your_name">Username: </label></small><br/>#}
+{#<center><input id="id_username"  type="text" style="background-color: silver" class="text-center" name="" value= "User: {{ user.userinfo }}" disabled></center>#}
+    <center><input type="hidden" name="Receive_acc" maxlength="120" class="textinput textInput form-control " required="" id="id_Receive_acc" value= "{{ user.investment.account_no }}"></center>
+</div>
+
+
+{{ form.non_field_errors }}
+<div class="fieldWrapper" style="padding-bottom: 3%">
+    {{ form.category.errors }}
+    <label style="color: #777; font-weight: 300" for="{{ form.category.id_for_label }}">Category:</label>
+    {{ form.category }}
+</div>
+
+
+<div class="fieldWrapper" style="padding-bottom: 3%">
+    {{ form.title.errors }}
+{#    <label for="{{ form.products.id_for_label }}">Card holder:</label>#}
+    {{ form.title }}
+</div>
+
+<div class="container-fluid">
+<div class=" col-sm-6 col-sm-offset-1.5">
+<div class="fieldWrapper" style="padding-bottom: 3%">
+    {{ form.currency.errors }}
+    <label style="color: #777; font-weight: 300;" for="{{ form.currency.id_for_label }}">Currency</label>
+    {{ form.currency }}
+</div>
+
+</div>
+<div class="col-sm-6 col-sm-offset-1.5">
+<div class="fieldWrapper" style="padding-bottom: 3%;">
+    {{ form.color.errors }}
+    <label style="color: #777; font-weight: 300;" for="{{ form.currency.id_for_label }}">Color</label>
+{#    <label for="{{ form.Card_number.id_for_label }}">Acc no:</label>#}
+    {{ form.color }}
+</div>
+</div>
+</div>
+
+
+<div class="fieldWrapper" style="padding-bottom: 3%">
+    {{ form.Price.errors }}
+{#    <label for="{{ form.Passport_id.id_for_label }}">id:</label>#}
+    {{ form.Price }}
+</div>
+
+    <div class="fieldWrapper" style="padding-bottom: 3%">
+    {{ form.stock_products.errors }}
+{#    <label for="{{ form.Card_number.id_for_label }}">Acc no:</label>#}
+    {{ form.stock_products }}
+    </div>
+
+<div class="fieldWrapper" style="padding-bottom: 3%">
+    {{ form.condition.errors }}
+{#    <label for="{{ form.Expirity_month.id_for_label }}">exp-Month</label>#}
+    {{ form.condition }}
+</div>
+<label style="color: #777; font-weight: 300;" for="{{ form.currency.id_for_label }}">Images of the product: </label>
+<small>
+
+<div class="container-fluid">
+
+<div class=" col-sm-6 col-sm-offset-1.5">
+    <div class="fieldWrapper"style="padding-bottom: 3%">
+    {{ form.image.errors }}
+    {{ form.image }}
+    </div>
+</div>
+
+<div class=" col-sm-6 col-sm-offset-1.5">
+    <div class="fieldWrapper"style="padding-bottom: 3%">
+    {{ form.image1.errors }}
+    {{ form.image1 }}
+    </div>
+</div>
+
+
+<div class=" col-sm-6 col-sm-offset-1.5">
+    <div class="fieldWrapper"style="padding-bottom: 3%">
+    {{ form.image2.errors }}
+    {{ form.image2 }}
+    </div>
+</div>
+
+<div class=" col-sm-6 col-sm-offset-1.5">
+    <div class="fieldWrapper"style="padding-bottom: 3%">
+    {{ form.image3.errors }}
+{#    <label for="{{ form.Expirity_year.id_for_label }}">exp-Year</label>#}
+    {{ form.image3 }}
+    </div>
+</div>
+
+<div class=" col-sm-6 col-sm-offset-1.5">
+<div class="fieldWrapper" style="padding-bottom: 3%">
+    {{ form.image5.errors }}
+{#    <label for="{{ form.Expirity_year.id_for_label }}">exp-Year</label>#}
+    {{ form.image5 }}
+</div>
+</div>
+<div class="col-sm-6 col-sm-offset-1.5">
+<div class="fieldWrapper" style="padding-bottom: 3%">
+    {{ form.image4.errors }}
+{#    <label for="{{ form.Expirity_year.id_for_label }}">exp-Year</label>#}
+    {{ form.image4 }}
+</div>
+</div>
+    </div>
+</small>
+</div>
+
+
+
+
+<div class="table-responsive col-sm-6 col-sm-offset-1.5">
+<div class="fieldWrapper" style="padding-bottom: 3%; padding-top: 3%;">
+    {{ form.description.errors }}
+    <label style="font-weight: 300; color: #777;" for="{{ form.description.id_for_label }}">Description: </label>
+    {{ form.description }}
+</div>
+    </div>
+

@@ -1,0 +1,42 @@
+﻿{% extends 'authorisedcarier.html'%}
+{% load crispy_forms_filters %}
+{% block Balancetransaction %}
+<div style="background-image:url(../static/image/city.jpg)">
+    <div class="text-center" style="background-color:#777; font-weight: 300; border-top-left-radius:5px; border-top-right-radius:5px;  color: white;; padding: 0.5%; font-size: 19px; font-family: 'Open Sans', sans-serif;">
+
+            TRANSFER BALANCE
+
+    </div>
+    <center>
+        <h5 style="color: red">
+        {% if messages %}
+        {% for message in messages %}
+        <p class="alert alert-danger alert-dismissable" role="alert">{{ message }} <button type="button" class="close" data-dismiss="alert" aria-label="Close"  ><span aria-hidden="true">&times;</span></button></p>
+        {% endfor %}
+        {% endif %}</h5>
+    </center>
+</div>
+    <div style="content: 'center';"  >
+
+
+
+
+                    <a href="{% url 'app:hist' %}" class="pull-left" style="padding-right: 10%" > Sending History</a>
+
+
+
+
+                        <a style="padding-right: 0%"  href="{% url 'app:history_fro' %}" class="pull-right"> Receiving History</a>
+
+
+
+
+            </div>
+
+    <form class="form-horizontal" action="" target="_top" method="post" >{% csrf_token %}
+{#        {{ form|crispy }}#}
+    {% include "balancetransactiontemplate.html" %}
+
+    </form>
+
+{% endblock %}

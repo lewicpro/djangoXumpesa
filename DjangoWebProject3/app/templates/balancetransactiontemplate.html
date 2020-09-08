@@ -1,0 +1,52 @@
+﻿<div class="table-responsive col-sm-5 col-sm-offset-3">
+{{ form.package.errors }}
+{{ form.non_field_errors }}
+<div class="fieldWrapper">
+    {{ form.user.errors }}
+    <center><input type="hidden" name="user" maxlength="125" class="textinput textInput form-control " required="" id="id_user" value="{{ user }}" ></center>
+</div>
+
+<div class="fieldWrapper">
+    {{ form.account_no.errors }}
+    <center><input type="hidden" name="from_account_no" maxlength="125" class="textinput textInput form-control " required="" id="id_from_account_no" value="{{ user.investment.account_no}}" ></center>
+</div>
+
+<div class="fieldWrapper " style="padding-bottom: 3%; padding-top: 3%;">
+    <table class="text-center">
+       <tbody>
+            <tr>
+                <td style="">
+                    <label class="" for="id_currency_transfered_0" style="font-weight: 300; color: #777;"><input name="currency_transfered" value="Usd" style="width: 100%" required="" id="id_currency_transfered_0" type="radio">Usd</label>
+                </td>
+                <td>
+                    <label for="id_currency_transfered_1" style="font-weight: 300; color: #777"><input name="currency_transfered" value="Bitcoin" style="width: 100%; margin: 4px 18px 0" required=""  id="id_currency_transfered_1" type="radio">Bitcoin</label>
+                </td>
+            </tr>
+       </tbody>
+   </table>
+</div>
+<div class="fieldWrapper" style="padding-bottom: 3%; padding-top: 3%;">
+    {{ form.username.errors }}
+    {{ form.username_receiver }}
+</div>
+
+
+
+<div class="fieldWrapper" style="padding-bottom: 3%; ">
+    {{ form.amount_transfered.errors }}
+    {{ form.amount_transfered }}
+</div>
+
+<div class="fieldWrapper" style="padding-bottom: 3%; ">
+    {{ form.security_code.errors }}
+    {{ form.security_code }}
+</div>
+
+{#    <input type="number" name="amount_transfered" min="0" class="numberinput form-control" required="" id="id_amount_transfered">#}
+
+<div class="fieldWrapper" style="padding-bottom: 3%; ">
+    <input style="width:50%; margin-left:25%" type="submit" value="process">
+
+
+</div>
+</div>

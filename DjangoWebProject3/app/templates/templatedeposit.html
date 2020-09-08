@@ -1,0 +1,193 @@
+
+<div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">CHOOSE PACKAGES </a>
+                            </h4>
+                        </div>
+    <div id="collapseOne" class="panel-collapse collapse">
+        <div class="panel-body">
+
+            <div class="col-sm-4" >
+                    <div class="panel panel-default text-center text-center" style="background:rgba(255,255,255,0.5);">
+                            <div class="panel-heading">
+                                <h3 class="panel-title"><strong>SILVER</strong></h3>
+                            </div>
+                                <table class="table table-bordered table-striped">
+
+                                    <tbody>
+                                        <tr>
+                                            <td>Amount to be deposited</td>
+                                            <td><small>10000<small>tsh</small> - 100000<small>tsh</small></small></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Percentage gained</td>
+                                            <td>0.75% Daily</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Principle back after</td>
+                                            <td>2 months</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Total income</td>
+                                            <td>Principal + 0.75%</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="success">stage bonus</td>
+                                            <td class="success">5% Referral comm</td>
+                                        </tr>
+                                    </tbody>
+
+                               </table>
+                            <div id="div_id_package" class="form-group">
+                                    <div class="controls ">
+                                            <div class="radio">
+                                                    <div class="radio">
+                                                            <label class=""> <input type="radio" name="package" id="id_package_1" value="Silver" style="width: 100%" required="">Silver</label>
+                                                    </div>
+                                            </div>
+                                    </div>
+                            </div>
+
+                    </div>
+
+            </div>
+
+
+
+
+                <div class="col-sm-4">
+                        <div class="panel panel-default text-center text-center" style="background:rgba(255,255,255,0.5);">
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title"><strong>GOLD</strong></h3>
+                                    </div>
+                                        <table class="table table-bordered table-striped">
+
+                                                <tbody>
+                                                    <tr>
+                                                        <td>Amount to be deposited</td>
+                                                        <td><small>100000<small>tsh</small> - 500000<small>tsh</small></small></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Percentage gained</td>
+                                                        <td>1% Daily</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Principle back after</td>
+                                                        <td>25 days</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Total income</td>
+                                                        <td>Principal + 1%</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="success">stage bonus</td>
+                                                        <td class="success">1% Referral comm</td>
+                                                    </tr>
+                                                </tbody>
+
+                                        </table>
+                                 <div id="div_id_package" class="form-group">
+                                        <div class="controls ">
+                                                <div class="radio">
+                                                        <label class=""> <input type="radio" name="package" id="id_package_2" value="Gold" style="width: 100%" required="">Gold</label>
+                                                </div>
+                                        </div>
+                                 </div>
+                        </div>
+
+                </div>
+
+
+
+            <div class="col-sm-4">
+                    <div class="panel panel-default text-center text-center" style="background:rgba(255,255,255,0.5);">
+                                <div class="panel-heading">
+                                    <h3 class="panel-title"><strong>PLATINUM</strong></h3>
+                                </div>
+                            <table class="table table-bordered table-striped">
+
+                                <tbody>
+                                    <tr>
+                                        <td>mount to be deposited</td>
+                                        <td><small>500000<small>tsh</small> - 1000000<small>tsh</small></small></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Percentage gained</td>
+                                        <td>1.1% Daily</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Principle back after</td>
+                                        <td>3 months</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Total income</td>
+                                        <td>Principal + 1.1%</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="warning">BONUS</td>
+                                        <td class="warning">4% Referral comm </td>
+                                    </tr>
+                                </tbody>
+
+                           </table>
+                            <div id="div_id_package" class="form-group">
+                                        <div class="controls ">
+                                                    <div class="radio">
+                                                        <label class=""> <input type="radio" name="package" id="id_package_3" value="Platnum" style="width: 100%" required="True" >Platnum</label>
+                                                    </div>
+                                        </div>
+                            </div>
+
+                    </div>
+
+            </div>
+
+    </div>
+
+
+
+
+</div>
+</div>
+
+
+<div class="table-responsive col-sm-5 col-sm-offset-3" style="padding-bottom: 3px;">
+{{ form.non_field_errors }}
+<div class="fieldWrapper" style="padding-bottom: 3%">
+    {{ form.user.errors }}
+    <center><input type="hidden" name="user" maxlength="120" class="textinput textInput form-control " required="" id="id_user" value="{{ user }} "></center>
+</div>
+
+<div class="fieldWrapper" style="padding-bottom: 3%">
+    {{ form.name.error }}
+    {{ form.name }}
+</div>
+<div class="fieldWrapper" style="padding-bottom: 3%">
+    {{ form.account_number.error }}
+    {{ form.account_number }}
+</div>
+
+
+
+{{ form.non_field_errors }}
+<div class="fieldWrapper" >
+    {{ form.processor.errors }}
+    <center><input type="hidden" name="processor" maxlength="120" class="textinput textInput form-control " required="" id="id_processor" value="{{ mtandao }}"></center>
+</div>
+
+
+<div class="fieldWrapper" style="padding-bottom: 3%">
+    {{ form.depositing_amount.error }}
+    {{ form.depositing_amount }}
+</div>
+<div class="fieldWrapper" style="padding-bottom: 3%">
+    {{ form.kumbukumbu_no.error }}
+    {{ form.kumbukumbu_no }}
+</div>
+<div class="fieldWrapper" style="padding-bottom: 3%">
+    {{ form.verification_code.error }}
+    {{ form.verification_code }}
+</div>
+<input style="width:50%; margin-left:25%" type="submit" value="{{ button }}" />
+</div>

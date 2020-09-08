@@ -1,0 +1,89 @@
+{% extends 'home.html' %}
+{% load crispy_forms_filters %}
+
+{% block Orders %}
+<div class="container-fluid" style="overflow-x: scroll; overflow-y: scroll; height: 300px;" >
+<table class="table table-striped">
+<tr>
+    <th><small>Receiver</small></th>
+    <th><small>product</small></th>
+    <th><small>Quantity</small></th>
+    <th><small>Price</small></th>
+
+    <th><small>Phone/number</small></th>
+    <th><small>Region</small></th>
+    <th><small>Delivery/before</small></th>
+    <th><small>status</small></th>
+    <th><small>Progress</small></th>
+    <th><small>Actions</small></th>
+    <th><small></small></th>
+</tr>
+    <h5 style="color: green; font-size: 13px;">{% if object_list.count > 1 %}These {{ object_list.count }} customers  {% else %} This  customer  {% endif %} already paid for the following item(s), deliver the package(s) and cash will be forwarded to your account immediately</h5>
+<tr>
+    {% for m in object_list %}
+    <td style="font-size: 12px;">{{ m.user }}</td>
+    <td style="font-size: 12px;"><a href="{% url 'market:Prods' m.product_id%}"> {{ m.product_title }}</a></td>
+    <td style="font-size: 12px;">{{ m.quantity }}</td>
+    <td style="font-size: 12px;">{{ m.Price }}</td>
+
+    <td style="font-size: 12px;">{{ m.phone_no }}</td>
+    <td style="font-size: 12px;">{{ m.Region }}</td>
+    <td style="font-size: 12px;">{{ m.lastdate | date }}</td>
+    <td style="font-size: 12px; {% if m.status == "Received" %} color:lightgreen {% else %}{% endif %}">{{ m.status }}</td>
+    <td style="font-size: 12px; ">{{ m.sellers_status }}</td>
+    {% if m.status == 'Received' %}
+        <td style="font-size: 12px;">
+        <form method="post" action="{% url 'market:complete' m.id%}" >{% csrf_token %}
+            <input type="hidden" name="Purchase_id" value="{{ m.id }}">
+            <input type="hidden" name="complete" value="completed">
+            <input  type="submit" style="font-size: 9px" class="btn btn-default" value="Remove">
+        </form>
+            </td>
+    {% else %}
+    <td style="font-size: 12px;">
+
+        <form method="post" action="{% url 'market:orderreturn' m.id%}" >{% csrf_token %}
+            <input type="hidden" name="Purchase_id" value="{{ m.id }}">
+            {% include 'returnpurchasetemplate.html' %}
+            <input  type="submit" style="font-size: 9px" class="btn btn-danger" value="&#x2717; Dismiss">
+        </form>
+
+    </td>
+    {% endif %}
+        {% if m.sellers_status != "On the way" %}
+        <td style="font-size: 12px;">
+
+        <form method="post" action="{% url 'market:Away' m.id %}">{% csrf_token %}
+            <input type="hidden" name="Purchase_id" value="{{ m.id }}">
+            <input type="hidden" name="sellers_status" value="On the way">
+            <input  type="submit" style="font-size: 9px" class="btn btn-primary" value="Sent ">
+        </form>
+    </td>
+        {% else %}
+        {% endif %}
+</tr>
+    {% endfor %}
+<tr></tr>
+<tr></tr>
+</table>
+{#    <div class="text-center">#}
+{#            <div class="pagination" >#}
+{#                <span class="step-links text-center">#}
+{#                    {% if page_obj.has_previous %}#}
+{#                        <a href="?page={{ page_obj.previous_page_number }}">previous</a>#}
+{#                    {% endif %}#}
+{##}
+{#                    <span class="current">#}
+{#                        Page {{ page_obj.number }} of {{ page_obj.paginator.num_pages }}.#}
+{#                    </span>#}
+{##}
+{#                    {% if page_obj.has_next %}#}
+{#                        <a href="?page={{ page_obj.next_page_number }}">next</a>#}
+{#                    {% endif %}#}
+{#                </span>#}
+{#            </div>#}
+{#        </div>#}
+</div>
+
+
+{% endblock %}

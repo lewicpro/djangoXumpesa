@@ -1,0 +1,75 @@
+﻿{% extends 'authorisedcarier.html' %}
+{% load crispy_forms_tags %}
+
+{% block editaccount %}
+<div xmlns="http://www.w3.org/1999/html">
+    <div class="text-center" style="background-color:silver; font-size: 19px; padding: 0.5%; font-family: 'Open Sans', sans-serif;" >
+
+            MAKE DEPOSIT
+
+
+    </div>
+<div>
+    <h4 class="text-center">Welcome <strong>{{ title }}</strong> you need to finish your joining form
+
+<h4 class="text-center" style=" color:darksalmon; padding-right:5%">
+{% if messages %}
+        {% for message in messages%}
+        <p class="alert-error">{{ message }}</p>
+        {% endfor %}
+    {% endif %}
+</h4>
+</h4>
+</div>
+<div class="col-sm-6 col-sm-offset-1.5">
+
+
+<form class="form-horizontal" method="post" action="">{% csrf_token %}
+    {{ form|crispy }}
+
+    <input style="width:50%; margin-left:25%" type="submit" value="apply" />
+</form>
+    </div>
+
+
+
+
+
+
+    <div class="col-sm-6 col-sm-offset-1.5 ">
+    <div class="content-preview " style="padding-top: 7%">
+        <div class="panel panel-default" >
+            <div class="panel panel-heading text-center  " style=" max-height: 6% ">
+            <h4>Preview</h4>
+            </div>
+            <table class="table table-bordered table-striped">
+                        <tbody>
+
+                        <tr>
+                            <th>SENDER</th>
+                            <th>RECEIVER</th>
+                        </tr>
+
+                        <tr>
+
+                            <td><h5 id="preview-fullname"></h5></td>
+                            <td><h5 > XumpesA Limited</h5></td>
+                        </tr>
+
+                        <tr class="inline-group">
+                            <td><h5 id="preview-phonenumber"></h5></td>
+                            <td><h5 >0719060504</h5></td>
+                        </tr>
+                        <tr>
+                            <td><h5 >amount</h5></td>
+                            <td><h5 id="preview-amount"></h5></td>
+                        </tr>
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+    </div>
+</div>
+
+{% endblock %}

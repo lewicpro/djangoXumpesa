@@ -1,0 +1,52 @@
+.waoza{
+    color: red;
+}
+
+
+.womap{
+    box-shadow: 10px 10px 10px;
+
+
+
+}
+
+th{
+    font-family: 'Open Sans', sans-serif;
+    list-style: none;
+
+}
+
+
+.numberCircle {
+    border-radius: 50%;
+    behavior: url(PIE.htc); /* remove if you don't care about IE8 */
+    box-sizing: initial;
+
+    width: 8px;
+    height: 8px;
+    padding: 3px;
+
+    background: #fff;
+    border: 0.1em solid darkred;
+    color: #666;
+    text-align: center;
+
+    font: 10px Arial, sans-serif;
+}
+
+
+.alert{
+    padding: 8px;
+}
+
+.mo {
+    margin-left: 230px;
+}
+
+
+* {
+    list-style-type: none;
+}
+
+
+.buttonStyle:hover { background: red; }

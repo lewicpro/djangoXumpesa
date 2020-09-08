@@ -1,0 +1,35 @@
+{% extends 'authorisedcarier.html' %}
+{% block verified %}
+
+    <center>Number of transactions: {{ object_list.count }}</center>
+ <div class="container-fluid" style=" overflow-y: scroll; height: 400px;">
+    <table class="table " style="font-size: 13px; ">
+<tr style="background-color: silver">
+    <th>User</th>
+    <th>Wallet</th>
+    <th>Amount</th>
+    <th>start</th>
+    <th>end</th>
+    <th>Package</th>
+    <th>Sign</th>
+    <th>Transaction id</th>
+    {{ depositsverified.status }}
+</tr>
+    {% for m in object_list %}
+        <tr>
+    <td><small><a href="{% url 'app:Vdetails' m.id %}">{{ m.user | capfirst }}</a></small></td>
+    <td><small>{{ m.processor }}</small></td>
+    <td><small>{{ m.amount_deposited }}usd</small></td>
+    <td><small>{{ m.startdate|date }}</small></td>
+    <td><small>{{ m.enddate|date }}</small></td>
+    <td><small>{{ m.package }}</small></td>
+    <td><small>{{ m.sign }}</small></td>
+    <td><small>{{ m.hashid }}</small></td>
+
+        </tr>
+    {% endfor %}
+<tr></tr>
+<tr></tr>
+</table>
+</div>
+{% endblock %}

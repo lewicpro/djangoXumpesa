@@ -1,0 +1,51 @@
+{% extends 'home.html' %}
+{% load crispy_forms_filters %}
+
+{% block customerOrdersDetails %}
+
+<table class="table table-striped">
+<tr>
+    <th>name of the product</th>
+    <th>Quantity</th>
+    <th>Name of receiver</th>
+    <th>Region</th>
+    <th>Time of Delivery</th>
+    <th>Action</th>
+</tr>
+    {% for m in object_list %}
+<tr>
+    <td><a href="{% url 'market:customerorderdetails' m.id %}"> {{ m.product_title }}</a></td>
+    <td>{{ m.quantity }}</td>
+    <td>{{ m.user }}</td>
+    <td>{{ m.Region }}</td>
+    <td>{{ m.date_of_delivery }}</td>
+    <td>
+        <form method="post" action="{% url 'market:orderdelete' m.id %}" >{% csrf_token %}
+            <input type="hidden" name="Purchase_id" value="{{ m.id }}">
+            <input  type="submit" class="btn btn-danger" value="Dismiss">
+        </form>
+    </td>
+</tr>
+    {% endfor %}
+<tr></tr>
+<tr></tr>
+</table>
+    <div class="text-center">
+            <div class="pagination" >
+                <span class="step-links text-center">
+                    {% if page_obj.has_previous %}
+                        <a href="?page={{ page_obj.previous_page_number }}">previous</a>
+                    {% endif %}
+
+                    <span class="current">
+                        Page {{ page_obj.number }} of {{ page_obj.paginator.num_pages }}.
+                    </span>
+
+                    {% if page_obj.has_next %}
+                        <a href="?page={{ page_obj.next_page_number }}">next</a>
+                    {% endif %}
+                </span>
+            </div>
+        </div>
+
+{% endblock %}

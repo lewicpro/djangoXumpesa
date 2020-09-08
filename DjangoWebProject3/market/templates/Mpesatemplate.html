@@ -1,0 +1,60 @@
+{#<small><label for="your_name">UserID: </label></small><br/>#}
+{{ form.non_field_errors }}
+<div class="fieldWrapper" style="padding-bottom: 3%">
+{#<center><input id="yoa" style="background-color: silver" class="text-center" type="text" name="" value="User ID : {{ user.userinfo.id }} " ></center>#}
+    <center><input type="hidden" name="Account_balance" maxlength="12" class="textinput textInput form-control form-control-danger" required="" id="id_Account_balance" value="{{ user.investment.balance }} "></center>
+</div>
+{#<div class="fieldWrapper" style="padding-bottom: 3%">#}
+{##}
+{#    {{ form.user_id.errors }}#}
+{#    <center><input type="text" name="order_no" maxlength="120" class="textinput textInput form-control" required="" id="id_order_no" value="{{ mpesa.id }} "></center>#}
+{##}
+{#</div>#}
+<div class="fieldWrapper" style="padding-bottom: 3%">
+    {{ form.username.errors }}
+{#<small><label for="your_name">Username: </label></small><br/>#}
+{#    <center><input type="hidden" name="username" maxlength="35" class="textinput textInput form-control form-control-danger" required="" id="id_username" value= "{{ user.userinfo }}"></center>#}
+    <center><input type="hidden" name="username" maxlength="120" class="textinput textInput form-control form-control-danger" required="" id="id_username" value= "{{ user.userinfo }}"></center>
+</div>
+{{ form.non_field_errors }}
+<div class="fieldWrapper" style="padding-bottom: 3%">
+    {{ form.mpesa_Name.errors }}
+{#    <label for="{{ form.Card_holder_name.id_for_label }}">Card holder:</label>#}
+    {{ form.mpesa_Name }}
+</div>
+
+
+<div class="fieldWrapper" style="padding-bottom: 3%">
+    {{ form.phone_no.errors }}
+{#    <label for="{{ form.products.id_for_label }}">Card holder:</label>#}
+    {{ form.phone_no }}
+</div>
+<div class="fieldWrapper"style="padding-bottom: 3%">
+    {{ form.amount_sent.errors }}
+{#    <label for="{{ form.Card_number.id_for_label }}">Acc no:</label>#}
+    {{ form.amount_sent }}
+</div>
+<div class="fieldWrapper"style="padding-bottom: 3%">
+    {{ form.kumbukumbu_no.errors }}
+{#    <label for="{{ form.Passport_id.id_for_label }}">id:</label>#}
+    {{ form.kumbukumbu_no }}
+</div>
+<div class="fieldWrapper"style="padding-bottom: 3%">
+    {{ form.Expirity_month.errors }}
+{#    <label for="{{ form.Expirity_month.id_for_label }}">exp-Month</label>#}
+    {{ form.Expirity_month }}
+</div>
+
+<div class="fieldWrapper"style="padding-bottom: 3%">
+    {{ form.Expirity_year.errors }}
+{#    <label for="{{ form.Expirity_year.id_for_label }}">exp-Year</label>#}
+    {{ form.Expirity_year }}
+</div>
+
+<div class="fieldWrapper" style="padding-bottom: 3%">
+    {{ form.Security_code_CVV.errors }}
+{#    <label for="{{ form.Security_code_CVV.id_for_label }}">CVV</label>#}
+    {{ form.Security_code_CVV }}
+</div>
+
+

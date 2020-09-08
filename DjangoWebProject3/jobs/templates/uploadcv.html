@@ -1,0 +1,28 @@
+{% extends "jobs.html" %}
+{% load staticfiles %}
+
+
+{% block Cv %}
+<div class="container-fluid" >
+<div class=" col-sm-5 col-sm-offset-3" style="padding-top: 20px;">
+<div class="panel panel-default" >
+  <!-- Default panel contents -->
+  <div class="text-center panel-heading" style="background-color: #777; color: white;">Curriculum vitae details</div>
+
+  <div class="list-group" style="overflow-y: scroll; height: 250px;">
+  <a href="{% url "jobs:personal" %}" class="text-center list-group-item " style="font-size: 12px;">
+    Personal Details
+  </a>
+  <a href="{% url "jobs:contactdetails" %}" class="text-center list-group-item" style="font-size: 12px;">Contact Details</a>
+  <a href="{% url "jobs:academic" %}" class="text-center list-group-item" style="font-size: 12px;">Academic qualifications</a>
+  <a href="{% url "jobs:profession" %}" class="text-center list-group-item" style="font-size: 12px;">Proffession Qualifications</a>
+  <a href="{% url "jobs:language" %}" class="text-center list-group-item" style="font-size: 12px;">Language Proficiency</a>
+  <a href="{% url "jobs:Work" %}" class="text-center list-group-item" style="font-size: 12px;">Work Experiment</a>
+  <a href="{% url "jobs:Training" %}" class="text-center list-group-item" style="font-size: 12px;">Training & Workshops Attended</a>
+  <a href="{% url "jobs:Computer" %}" class="text-center list-group-item" style="font-size: 12px;">Computer Literacy</a>
+  <a href="{% url "jobs:Refree" %}" class="text-center list-group-item" style="font-size: 12px;">Referee details</a>
+</div>
+</div>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,52 @@
+﻿{% extends "authorisedcarier.html" %}
+{% load crispy_forms_tags %}
+
+{% block authorizedwithdraw %}
+    <div style="background-image: url(../static/image/boombox.gif)">
+<div style="background-image:url(../static/image/city.jpg)">
+    <div class="text-center" style="background-color:#777; font-weight: 300; border-top-left-radius:5px; border-top-right-radius:5px;  color: white;; padding: 0.5%; font-size: 19px; font-family: 'Open Sans', sans-serif;">
+
+            WITHDRAWAL REQUEST
+
+    </div>
+    <div class="text-center">
+    <h5 style="font-weight: 300; width:100%; font-size: 15px; color: darksalmon;">{{ title }}, But charges may apply.</h5>
+    </div>
+</div>
+<center>
+        <h5 style="color: red">
+        {% if messages %}
+        {% for message in messages %}
+        <p class="alert alert-success alert-dismissable" role="alert">{{ message }} <button type="button" class="close" data-dismiss="alert" aria-label="Close"  ><span aria-hidden="true">&times;</span></button></p>
+        {% endfor %}
+        {% endif %}</h5>
+    </center>
+ <div style="content: 'center';"  >
+
+
+                   <a href="{% url 'app:verified' %}" class="pull-left" style="padding-right: 10%" > Verified Withdrawal</a>
+
+
+
+
+                        <a style="padding-right: 0%"  href="{% url "app:unverified" %}" class="pull-right"> Unverified Withdrawal</a>
+
+
+
+            </div>
+<div class=" col-sm-5 col-sm-offset-3" style="padding-top: 30px; padding-bottom: 30px;">
+
+
+
+{#    <a class="btn btn-default" style="width:100%"  href="{% url 'app:tigopesawithdraw' %}">tIgo Pesa</a>#}
+{#    <a class="btn btn-default" style="width:100%"  href="{% url 'app:mpesawithdraw' %}">MPESA</a>#}
+{#    <a class="btn btn-default" style="width:100%"  href="{% url 'app:airtelmoneywithdraw' %}">Airtel Money</a>#}
+    <a  class="btn btn-default " style="font-weight: 300; width:100%; font-size: 15px;  color: #666;"  href="{% url "app:payeerwithdraw" %}">Payeer{% if user.processors.payeer > 0 %}{% if user.processors.payeer < 10 %}<span class="" style="padding-left: 10px; color: red; font-weight: 300; font-size: 10px;">{{ user.processors.payeer | floatformat:2 }}usd</span>{% else %}<span class="" style="padding-left: 10px; color: green; font-weight: 300; font-size: 10px;">{{ user.processors.payeer | floatformat:2 }}usd</span>{% endif %}{% else %}{% endif %}</a>
+    <a class="btn btn-default" style="font-weight: 300; width:100%; font-size: 15px;  color: #666;"  href="{% url "app:perfectwithdraw" %}">Perfect money{% if user.processors.perfectmoney > 0 %}{% if user.processors.perfectmoney < 2 %}{% elif user.processors.perfectmoney < 10 %}<span class="" style="padding-left: 10px; color: red; font-weight: 300; font-size: 10px;">{{ user.processors.perfectmoney | floatformat:2 }}usd</span>{% else %}<span class="" style="padding-left: 10px; color: green; font-weight: 300; font-size: 10px;">{{ user.processors.perfectmoney| floatformat:2}}usd</span>{% endif %}{% else %}{% endif %}</a>
+    <a class="btn btn-default" style="font-weight: 300; width:100%; font-size: 15px;  color: #666;"  href="{% url 'app:BitcoinWithdraw' %}">Bitcoin <span>{% if user.processors.bitcoin > 0.0002 %}    <span>{% if user.processors.bitcoin  < 0.006 %} <span style="font-size: 10px;color: red; font-weight: 300">{{ user.processors.bitcoin | floatformat:2 }}<i class="fa fa-btc" style="" aria-hidden="true"></i></span>{% else %}<span style="font-size: 10px;color: green; font-weight: 300">{{ user.processors.bitcoin | floatformat:2}}<i class="fa fa-btc" style="" aria-hidden="true"></i></span>{% endif %}</span>{% else %}{% endif %}</span></a>
+    <a class="btn btn-default" style="font-weight: 300; width:100%; font-size: 15px;  color: #666;"  href="{% url 'app:withdrawokpay' %}">OK-pay <span>{% if user.processors.okpay > 0.0002 %}    <span>{% if user.processors.okpay  < 10 %} <span style="font-size: 10px;color: red; font-weight: 300">{{ user.processors.okpay | floatformat:2 }}usd</span>{% else %}<span style="font-size: 10px;color: green; font-weight: 300">{{ user.processors.okpay | floatformat:2}}usd</span>{% endif %}</span>{% else %}{% endif %}</span></a>
+    <a class="btn btn-default" style="font-weight: 300; width:100%; font-size: 15px;  color: #666;"  href="{% url 'app:withdrawadvcash' %}">Advcash <span>{% if user.processors.adcash > 0.0002 %}    <span>{% if user.processors.adcash  < 10 %} <span style="font-size: 10px;color: red; font-weight: 300">{{ user.processors.adcash | floatformat:2 }}usd</span>{% else %}<span style="font-size: 10px;color: green; font-weight: 300">{{ user.processors.adcash | floatformat:2}}usd</span>{% endif %}</span>{% else %}{% endif %}</span></a>
+    </div>
+
+</div>
+{% endblock%}

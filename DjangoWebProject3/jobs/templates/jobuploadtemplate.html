@@ -1,0 +1,100 @@
+{{ form.non_field_errors }}
+<div class="fieldWrapper" >
+    {{ form.full_name.errors }}
+    <center><input type="hidden" name="full_name" maxlength="120" class="textinput textInput form-control form-control-danger" required="" id="id_full_name" value="{{ user.userinfo.full_name }} "></center>
+</div>
+<div class="fieldWrapper" >
+    {{ form.user.errors }}
+    <center><input type="hidden" name="user" maxlength="120" class="textinput textInput form-control form-control-danger" required="" id="id_user" value= "{{ user }}"></center>
+</div>
+<div class="table-responsive col-sm-6 col-sm-offset-1.5" >
+
+<div class="fieldWrapper" style="padding-bottom: 3%; padding-top: 3%;">
+    <label style="font-weight: 300; color: #777;" for="{{ form.Country_of_work.id_for_label }}">Country of work: </label>
+    {{ form.Country_of_work.errors }}
+    {{ form.Country_of_work }}
+</div>
+
+<div class="fieldWrapper" style="padding-bottom: 3%">
+    {{ form.country.errors }}
+    <center><input type="text" name="country" maxlength="120" class="textinput textInput form-control form-control-danger" required="" id="id_country" value= "{{ user.userinfo.country}}"></center>
+</div>
+
+<div class="fieldWrapper" style="padding-bottom: 3%">
+    {{ form.phone_number.errors }}
+    <label style="font-weight: 300; color: #777;" for="{{ form.Country_of_work.id_for_label }}">Your phone number: </label>
+    <center><input type="text" name="phone_number" maxlength="120" class="textinput textInput form-control form-control-danger" required="" id="id_phone_number" value= "{{ user.userinfo.Phone_no}}"></center>
+</div>
+
+
+{{ form.non_field_errors }}
+<div class="fieldWrapper" style="padding-bottom: 3%">
+    {{ form.position_type.errors }}
+    {{ form.position_type }}
+</div>
+
+<div class="fieldWrapper" style="padding-bottom: 3%">
+    {{ form.email.errors }}
+    {{ form.email }}
+</div>
+
+
+<div class="fieldWrapper" style="padding-bottom: 3%">
+    {{ form.specifications.errors }}
+    {{ form.specifications }}
+</div>
+
+
+</div>
+
+
+<div class="table-responsive col-sm-6 col-sm-offset-1.5" >
+<div class="fieldWrapper" style="padding-bottom: 3%; padding-top: 3%;">
+    {{ form.job_title.errors }}
+    {{ form.job_title }}
+</div>
+
+
+<div class="fieldWrapper" style="padding-bottom: 3%">
+    {{ form.location_address.errors }}
+    {{ form.location_address }}
+</div>
+
+<div class="fieldWrapper" style="padding-bottom: 3%">
+    {% if form.application_deadline.errors %}<div class="alert alert-dismissible alert-danger" role="alert">{{ form.application_deadline.errors }}</div>{% else %}{% endif %}
+    <input type="date" name="application_deadline" placeholder="application deadline" style="width: 100%" required="" id="id_application_deadline">
+</div>
+
+{##}
+{#<div class="fieldWrapper" style="padding-bottom: 3%">#}
+{#    {{ form.Card_holder_name.errors }}#}
+{#    {{ form.Card_holder_name }}#}
+{#</div>#}
+
+
+
+<div class="fieldWrapper" style="padding-bottom: 3%">
+    {{ form.employer_title.errors }}
+    {{ form.employer_title }}
+</div>
+<div class="fieldWrapper" style="padding-bottom: 3%">
+    {{ form.organization.errors }}
+    {{ form.organization }}
+</div>
+
+<div class="fieldWrapper" style="padding-bottom: 3%">
+    {{ form.city_name.errors }}
+    {{ form.city_name }}
+</div>
+</div>
+
+<div class="col-sm-6 col-sm-offset-1.5" >
+<div class="fieldWrapper" style="padding-bottom: 3%">
+    {{ form.job_descriptions.errors }}
+    {{ form.job_descriptions }}
+</div>
+</div>
+
+
+
+

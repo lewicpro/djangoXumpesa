@@ -1,0 +1,23 @@
+{% extends 'home.html' %}
+{% block buy %}
+        <div class="container-fluid table-bordered">
+            <div>
+                    <div class="text-center">
+                    <h5 style="color:darksalmon; padding-right:5%">Enter Your details</h5>
+                    </div>
+
+            </div>
+                <div class="text-center">
+                </div>
+                <div class="col-sm-6 col-sm-offset-1.5">
+                    <form class="form-horizontal" method="post" action="" enctype="multipart/form-data">{% csrf_token %}
+                            {% include 'form-template.html' %}
+                        <div style="padding-left: 23%">
+                        <input style="width:50%; " type="submit" value="Submit" />
+
+                        </div>
+                    </form>
+                </div>
+        </div>
+
+{% endblock %}

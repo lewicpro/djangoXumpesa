@@ -1,0 +1,70 @@
+﻿{% extends "layout2.html" %}
+{% block bob %}
+
+<div class="container" style= "background-image:url(../static/image/footer_lodyas.png)">
+    <div class="col-sm-4">
+  <form class="form" method="post" action="." >
+      
+      {% csrf_token %}
+        <h3 class="text-center" style="color:white"> Login </h3>
+        
+    
+        <input type="text" placeholder="Username" name="username">
+        <input type="password" placeholder="Password" name="password">
+        <button type="submit"  value="Login" class="login-button">Login</button>
+        <input type="hidden" name="next" value="/home" />
+
+      
+
+    </form>
+    </div>
+
+     <div class="col-sm-4">
+ <p style="margin-top: 200px;"><h2 class="text-center " style="color:white">OR</h2></p>
+    </div>
+
+       <div class="col-sm-4">
+ 					<form class="forma" method="POST" action=".">
+                         <h3 class="text-center" style="color:white">Register</h3>
+							<input name="formtype" id="formtype" type="hidden" maxlength="255" value="Add" required/>
+							<input type="text" placeholder="Name" name="name" value="" required/>
+							<input type="text" placeholder="Address" name="address" value="" required/>
+							<select class="select" name="region" required>
+							<option value="">Select Region</option>
+							<option value="Arusha">Arusha</option>
+							<option value="Dar es Salaam">Dar es Salaam</option>
+							<option value="Dodoma">Dodoma</option>
+							<option value="Geita">Geita</option>
+							<option value="Iringa">Iringa</option>
+							<option value="Kagela">Kagera</option>
+							<option value="Katavi">Katavi</option>
+							<option value="Kigoma">Kigoma</option>
+							<option value="Kilimanjaro">Kilimanjaro</option>
+							<option value="Lindi">Lindi</option>
+							<option value="Manyara">Manyara</option>
+							<option value="Mara">Mara</option>
+							<option value="Mbeya">Mbeya</option>
+							<option value="Morogoro">Morogoro</option>
+							<option value="Mtwara">Mtwara</option>
+							<option value="Mwanza">Mwanza</option>
+							<option value="Njombe">Njombe</option>
+							<option value="Pwani">Pwani</option>
+							<option value="Rukwa">Rukwa</option>
+							<option value="Ruvuma">Ruvuma</option>
+							<option value="Simiyu">Simiyu</option>
+							<option value="Singida">Singida</option>
+							<option value="Shinyanga">Shinyanga</option>
+							<option value="Tabora">Tabora</option>
+							<option value="Tanga">Tanga</option>
+							</select>
+							<input type="text" placeholder="Tanzania" name="country" value="Tanzania" readonly required/>
+							<input type="text" placeholder="Username" name="username" id="username" value="" required/>
+							<h5 id="status"></h5>
+							<input type="password" placeholder="Password" name="password" id="pass1" value="" required/>
+							<input type="password" placeholder="Confirm Password" name="password2" id="pass2" onkeyup="checkPass(); return false;" value="" required/>
+							<button type="submit" class="login-button" value="Register">Register</button>
+						</form>
+    </div>
+</div>
+
+{% endblock %}

@@ -1,0 +1,44 @@
+{% extends "Promodetails_layout.html" %}
+{% load crispy_forms_filters %}
+{% load staticfiles %}
+
+
+{% block Prods %}
+
+    <center>
+        <h5 style="color: red">
+        {% if success %}
+        {% for message in messages %}
+        <p class="alert alert-danger alert-dismissable" role="alert">{{ message }} <button type="button" class="close" data-dismiss="alert" aria-label="Close"  ><span aria-hidden="true">&times;</span></button></p>
+        {% endfor %}
+        {% endif %}</h5>
+    </h5>
+    </center>
+    <h4>{{ products.title }}</h4>
+    <h5>Price :{% if products.currency == 'BTC' %}{{ products.Price_sold | floatformat:6 }} {{ products.currency }}{% else %}{{ products.Price_sold}} {{ products.currency }}{% endif %}</h5>
+    <h5>Condition :<strong>{{ products.condition }}</strong></h5><h5>{{ products.stock_products }} items in stock,</h5>
+     <h5>Buyer protection :<a href="{% url 'market:Confirmation' %}"> Confirmation from the buyer</a></h5>
+     <h5>Return policy :<a href="{% url 'market:Conditions' %}">Conditions</a></h5>
+     <h5>Seller Guarantees :  On-time delivery</h5>
+     <h5>Payment Options: <img src="{% static "image/mastercard.png" %}" style="width: 10%"><img src="{% static "image/westernunion.png" %}" style="width: 15%"><img src="{% static "image/bitcoin.png" %}" style="width: 15%"><img src="{% static "image/payeer.png" %}" style="width: 15%"><img src="{% static "image/tigopesa.jpeg" %}" style="width: 15%"><img src="{% static "image/mpesa.png" %}" style="width: 15%"><img src="{% static "image/banktra.png" %}" style="width: 15%"><a href="{% url 'market:Processors' %}"><small>...View more</small></a></h5>
+{#            <button class="btn btn-success" style="width: 40%" href="{% url 'market:secured' %}" type="button">Buy</button>#}
+
+    <form class="form-horizontal" action="{% url 'market:cart' products.id %}" method="post">{% csrf_token %}
+
+            <a href="#collapseOne" type="button" data-toggle="collapse" data-parent="#accordion" style="width: 40%" class="btn btn-success" >Buy</a>
+            <input type="submit" style="width: 40%" class="btn btn-warning" value="Add cart">
+            {% include "Carttemplate.html" %}
+    </form>
+{#            <button class="btn btn-warning" style="width: 40%" href="#" type="button">Add cart</button>#}
+    <div id="collapseOne" class="collapse"  style="padding-top: 4px">
+            <form action="{% url "market:ProdsForm" %}" method="post">{% csrf_token %}
+                {% include "PurchaseTemplate.html" %}
+                <div class="col-sm-6 col-sm-offset-3"  style="padding-bottom: 2%" >
+                        <input style="width:50%; margin-left:25%" type="submit" value="Submit" />
+
+                        </div>
+
+            </form>
+    </div>
+
+{% endblock %}

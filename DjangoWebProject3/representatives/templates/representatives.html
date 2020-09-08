@@ -1,0 +1,48 @@
+{% extends "authorisedcarier.html" %}
+{% load crispy_forms_tags %}
+
+
+{% block authorizedrepresentatives%}
+<div xmlns="http://www.w3.org/1999/html">
+
+<div class="text-center" style="background-color:#777; font-weight: 300; border-top-left-radius:5px; border-top-right-radius:5px;  color: white;; padding: 0.5%; font-size: 19px; font-family: 'Open Sans', sans-serif;">
+
+            REPRESENTATIVE SECTION
+
+    </div>
+    <div class="text-center">
+    <center>
+
+
+        {% if messages %}
+<ul class="messages">
+    {% for message in messages %}
+    <li{% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li>
+    {% endfor %}
+</ul>
+{% endif %}
+    </center>
+    </div>
+
+    </div>
+    <div class="text-center">
+    </div>
+<div class="table-responsive col-sm-5 col-sm-offset-3">
+{% if user.representative.status == 'Accepted' %}
+    <h4 class="text-center" style="font-weight: 300; font-size: 12px; color: #666">Add this number to your whatsapp group(<strong>XampesA</strong>), To maximize sugestions ratio, to users</h4>
+    <h4 class="text-center" style="font-weight: 600; font-size: 12px; color: green;">+1(857)309-9917</h4>
+        <form method="post" action="">{% csrf_token %}
+        {% include 'sugestiontemplate.html' %}
+        <input style="width:50%; margin-left:25%" type="submit" value="{{ button }}" />
+    </form>
+        {% else %}
+    <center><h5 style="color:darksalmon; padding-right:5%">{{ title }}</h5></center>
+    <form method="post" action="">{% csrf_token %}
+        {{ form|crispy}}
+        <input style="width:50%; margin-left:25%" type="submit" value="{{ button }}" />
+    </form>
+{% endif %}
+
+
+    </div>
+{% endblock %}

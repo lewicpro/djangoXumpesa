@@ -1,0 +1,49 @@
+
+
+
+    {% if form.non_field_errors %}
+    <div style="font-size: 12px;" class="alert alert-danger alert-dismissible text-center" role="alert"><button type="button" class="close pull-right" data-dismiss="alert" aria-label="Close"  ><span aria-hidden="true">&times;</span></button>Sorry dear {{ user.first_name }},{{ form.non_field_errors }}</div>
+    {% else %}
+    {% endif %}
+    <div class="fieldWrapper" >
+        {{ form.user.errors }}
+        <center><input type="hidden" name="user" maxlength="125" class="textinput textInput form-control " required="" id="id_user" value="{{ user }} "></center>
+    </div>
+
+    <div class="fieldWrapper" >
+        {{ form.username.errors }}
+        <center><input type="hidden" name="username" maxlength="125" class="textinput textInput form-control " required="" id="id_username" value= "{{ user.userinfo }}"></center>
+    </div>
+
+
+    <div class="fieldWrapper" >
+        {{ form.processor.errors }}
+        <center><input type="hidden" name="processor" maxlength="125" class="textinput textInput form-control" required="" id="id_processor" value= "PerfectMoney"></center>
+    </div>
+
+
+
+
+
+
+
+
+
+    <div class="table-responsive col-sm-5 col-sm-offset-3">
+
+{##}
+{#    <input type="hidden" name="m_shop" value="270694381">#}
+{#    <input type="hidden" name="m_orderid" value="VKBOEUHM7ML700XQACYIKNQKXZ55F8MW">#}
+    {{form.p_amount.errors }}
+    <div class="fieldWrapper" style="padding-bottom: 3%; padding-top: 3% ">
+    {#<input type="text" name="amount" m class="textinput textInput form-control" required="" >#}
+    {{ form.p_amount }}
+    </div>
+    <div class="fieldWrapper" style="padding-bottom: 3%; ">
+    <input style="width:50%; margin-left:25%" type="submit" value="process">
+    </div>
+{#    <input type="hidden" name="m_curr" value="USD">#}
+{#    <input type="hidden" name="m_desc" value="RGVwb3NpdCB0byBIT1VSIFBBWSBMSU1JVEVEfEJlc3QgQml0Y29pbiBJbnZlc3RtZW50IFVzZXIgbGV3aWNwcm8=">#}
+{#    <input type="hidden" name="m_sign" value="01DEBA540793C0F90EC0A3A3082D472B6FFDCB19E321D595C2E8FFA68D286ACE">#}
+
+    </div>

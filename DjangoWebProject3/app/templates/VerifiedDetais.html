@@ -1,0 +1,27 @@
+{% extends 'authorisedcarier.html' %}
+{% block Vdetails %}
+    <center>Number of transactions: {{ depositsverified.count }}</center>
+    <table class="table table-striped text-center" >
+        <tr>
+            <td>Name: <small>{{ depositsverified.user | capfirst }}</small></td>
+            </tr>
+        <tr>
+            <td>Amount deposited: <small>{{ depositsverified.depositing_amount }}</small></td>
+            </tr>
+        <tr>
+            <td>Kumbukumbu Number: <small>{{ depositsverified.kumbukumbu_no }}</small></td>
+            </tr>
+        <tr>
+            <td>Account Number: <small>{{ depositsverified.account_number }}</small></td>
+            </tr>
+
+        <tr>
+            <td>Date: <small>{{ depositsverified.timestamp }}</small></td>
+            </tr>
+        <tr>
+            <td>Status: <small>{{ depositsverified.status }}</small></td>
+        </tr>
+<tr></tr>
+<tr></tr>
+</table>
+{% endblock %}

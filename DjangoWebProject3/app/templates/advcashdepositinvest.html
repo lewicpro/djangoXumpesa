@@ -1,0 +1,31 @@
+{% extends "authorisedcarier.html" %}
+{% load crispy_forms_filters %}
+{% block advcashdeposit %}
+    <div class="text-center" style="background-color:#777; color: white; padding: 0.5%; font-size: 19px; font-family: 'Open Sans', sans-serif;">
+
+            DEPOSIT BY ADVCASH
+
+    </div>
+
+    <script>
+    function validateFunct()
+    {
+        var x=document.forms["payee"]["package"];
+        var y=document.forms["payee"]["m_amount"];
+        if( x==null||x=="")
+        {
+            alert("Choose the package to continue");
+        }
+        else {
+            alert("yesa")
+        }
+    }
+    </script>
+    <form name="payee" class="form-horizontal" action="" target="_top" method="post" >{% csrf_token %}
+{#        {{ form|crispy }}#}
+    {% include "advcashdepositinvesttemplate.html" %}
+
+    </form>
+
+
+{% endblock %}

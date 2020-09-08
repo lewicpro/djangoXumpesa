@@ -1,0 +1,108 @@
+{% extends 'authorized.html' %}
+{% load staticfiles %}
+{% block marketing %}
+<style>
+
+      ul li {
+          list-style:none;
+
+      }
+      ul li img {
+          cursor: pointer;
+      }
+      .modal-body {
+          padding:5px !important;
+      }
+      .modal-content {
+          border-radius:0;
+      }
+      .modal-dialog img {
+          text-align:center;
+          margin:0 auto;
+      }
+    .controls{
+        width:50px;
+        display:block;
+        font-size:11px;
+        padding-top:8px;
+        font-weight:bold;
+    }
+    .next {
+        float:right;
+        text-align:right;
+    }
+      /*override modal for demo only*/
+      .modal-dialog {
+          max-width:500px;
+          padding-top: 90px;
+      }
+      @media screen and (min-width: 768px){
+          .modal-dialog {
+              width:500px;
+              padding-top: 90px;
+          }
+      }
+      @media screen and (max-width:1500px){
+          #ads {
+              display:none;
+          }
+      }
+  </style>
+{% if Priced.count > 0 %}
+    <div class="text-center" style="letter-spacing: 6px; font-weight: 300;">Premium</div>
+<div class="row" style="overflow: scroll; max-height: 450px; background-image: url({% static  'image/boombox.gif' %})">
+
+<ul class="modal-body">
+{% for ob in Priced %}
+{% if ob.image %}
+
+  <li class="col-lg-2 col-md-2 col-sm-4 col-xs-6" style="margin-bottom:10px; ">
+    <div class=" row" style="min-width: 150px; max-width: 220px; height: 105px; border-color: white;     overflow: hidden">
+    <a href="{% url 'market:pricedetails' ob.id %}"><div class="container-fluid" style=" max-width: 230px;  min-height: 50px; max-height: 80px;; overflow: hidden"><img  class="img-responsive" style="overflow: hidden; border-top-left-radius: 10px;"  src="{{ ob.image.url }}"></div></a><div class="container-fluid"><div class="container-fluid " style="background: rgba(221,221,110,0.2);  font-weight: 300;" ><span class="pull-left" style=" font-size: 12px;">{{ ob.title | capfirst }}</span><span class=" pull-right" style=" color: green; font-size: 12px;" >{{ ob.Price | floatformat:2 }}{{ ob.currency }}</span></div></div>
+
+     </div>
+
+  </li>
+
+{% endif %}
+{% endfor %}
+</ul>
+
+
+
+</div>
+    <div class="row">
+    <hr  width="100%" size="30" align="center">
+    </div>
+    {% else %}
+    {% endif %}
+<div class="row" style="min-height: 526px;overflow: scroll; max-height: 450px; background-image: url({% static  'image/boombox.gif' %})">
+
+<ul class="modal-body">
+{% for obj in object_list %}
+{% if obj.image %}
+
+  <li class="col-lg-2 col-md-2 col-sm-4 col-xs-6" style="margin-bottom:10px; ">
+    <div class=" row" style="min-width: 150px; max-width: 220px; height: 105px; border-color: white;     overflow: hidden">
+    <a href="{% url 'market:Prods' obj.id %}"><div class="container-fluid" style=" max-width: 230px;  min-height: 50px; max-height: 80px;; overflow: hidden"><img  class="img-responsive" style="overflow: hidden; border-top-left-radius: 10px;"  src="{{ obj.image.url }}"></div></a><div class="container-fluid"><div class="container-fluid " style="background: rgba(200,200,200,0.2);  font-weight: 300;" ><span class="pull-left" style=" font-size: 12px;">{{ obj.title | capfirst }}</span><span class=" pull-right" style=" color: green; font-size: 12px;" >{{ obj.Price_sold | floatformat:2 }}{{ obj.currency }}</span></div></div>
+
+     </div>
+
+  </li>
+
+{% endif %}
+{% endfor %}
+</ul>
+
+</div>
+
+
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"> <a href=" https://www.jqueryscript.net/tags.php?/Modal/ ">Modal</a>"
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-body"> </div>
+    </div>
+  </div>
+</div>
+
+{% endblock %}

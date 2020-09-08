@@ -1,0 +1,34 @@
+{% extends "paidlayout.html" %}
+{% load crispy_forms_filters %}
+{% load staticfiles %}
+
+
+{% block paiddetails %}
+    <center>
+        <h5 style="color: red">
+        {% if success %}
+        {% for message in messages %}
+        <p class="alert alert-danger alert-dismissable" role="alert">{{ message }} <button type="button" class="close" data-dismiss="alert" aria-label="Close"  ><span aria-hidden="true">&times;</span></button></p>
+        {% endfor %}
+        {% endif %}</h5>
+    </h5>
+    </center>
+    <h4>{{ paidproducts.title }}</h4>
+    <h5>Price :{{ paidproducts.Price }}{{ paidproducts.currency }}</h5>
+    <h5>Condition :<strong>{{ paidproducts.condition }}</strong></h5><h5>{{ paidproducts.stock_products }} items in stock,</h5>
+{#     <h5>Buyer protection :<a href="{% url 'market:Confirmation' %}"> Confirmation from the buyer</a></h5>#}
+     <h5>Seller Phone :<a href=""> {{ paidproducts.Phone_numbers }}</a></h5>
+     <h5>Seller Email :<a href=""> {{ paidproducts.Youremail }}</a></h5>
+{#     <h5>Return policy :<a href="{% url 'market:Conditions' %}">Conditions</a></h5>#}
+     <h5>Seller Guarantees :  On-time delivery</h5>
+     <h5>Payment Options: <img src="{% static "image/mastercard.png" %}" style="width: 10%"><img src="{% static "image/westernunion.png" %}" style="width: 15%"><img src="{% static "image/bitcoin.png" %}" style="width: 15%"><img src="{% static "image/payeer.png" %}" style="width: 15%"><img src="{% static "image/tigopesa.jpeg" %}" style="width: 15%"><img src="{% static "image/mpesa.png" %}" style="width: 15%"><img src="{% static "image/banktra.png" %}" style="width: 15%"><a href="{% url 'market:Processors' %}"><small>...View more</small></a></h5>
+
+    <form class="form-horizontal" action="" method="post">{% csrf_token %}
+
+
+            <a href="mailto:{{ paidproducts.Youremail }}" type="button"  style="width: 40%" class="btn btn-success" >Email</a>
+            <input type="submit" style="width: 40%" class="btn btn-warning" value="Add cart">
+            {% include "Carttemplate.html" %}
+    </form>
+
+{% endblock %}

@@ -1,0 +1,185 @@
+{% extends "jobs.html" %}
+{% load crispy_forms_tags %}
+
+
+{% block Applicationdetails %}
+   <div class="container-fluid">
+   <div class="panel panel-default">
+       <div class="panel-heading">
+           <h3 class="panel-title text-center">{{ application.job_title | upper }}</h3>
+       </div>
+       <div class="panel-body" style="font-family: 'Open Sans', sans-serif">
+           <div class="col-sm-6 col-sm-offset-1.5"  >
+          <div class="container-fluid" >
+                <table class="table ">
+                    <tbody>
+                    <h4 class="well well-sm text-center" style="width: 100%;"><b>Personal Details</b>:</h4>
+                <tr style="font-size: 12px;"><td><b>First name</b> :</td><td>{{ application.first_name_per |capfirst }}</td></tr>
+                <tr style="font-size: 12px;"><td><b>Middle name</b> :</td><td>{{ application.middle_name_per |capfirst }}</td></tr>
+                <tr style="font-size: 12px;"><td><b>Last Name</b> :</td><td>{{ application.last_name_per |capfirst }}</td></tr>
+                <tr style="font-size: 12px;"><td><b>Gender</b> :</td><td>{{ application.Gender_per |capfirst }}</td></tr>
+                <tr style="font-size: 12px;"><td><b>Place of Birth</b> :</td><td>{{ application.place_of_birth_per |capfirst }}</td></tr>
+                <tr style="font-size: 12px;"><td><b>Date of Birth</b> :</td><td>{{ application.date_of_birth_per |capfirst }}</td></tr>
+                <tr style="font-size: 12px;"><td><b>Marital status</b> :</td><td>{{ application.Marital_status_per |capfirst }}</td></tr>
+                <tr style="font-size: 12px;"><td><b>Criminal Record</b> :</td><td>{{ application.criminal_record_per |capfirst }}</td></tr>
+                <tr style="font-size: 12px;"><td><b>Years of work experience</b> :</td><td>{{ application.years_of_work_experience_per |capfirst }}</td></tr>
+                <tr style="font-size: 12px;"><td><b>Nationality</b> :</td><td>{{ application.nationality_per |capfirst }}</td></tr>
+                <tr style="font-size: 12px;"><td><b>Disability</b> :</td><td>{{ application.disability_per |capfirst }}</td></tr>
+
+
+
+
+                    </tbody>
+                </table>
+
+            </div>
+
+           <div class="container-fluid">
+               <table class="table ">
+                    <tbody>
+                    <h4 class="well well-sm text-center" style="font-family: 'Open Sans', sans-serif"><b>Proffession qualifications:</b></h4>
+                    <tr style="font-size: 12px;"><td><b>Country</b> :</td><td>{{ application.country_prof | capfirst }} </td></tr>
+                    <tr style="font-size: 12px;"><td><b>Institution name</b> :</td><td>{{ application.institution_name_prof |capfirst }}</td></tr>
+                    <tr style="font-size: 12px;"><td><b>Course name</b> :</td><td>{{ application.course_name_prof | capfirst}}</td></tr>
+                    <tr style="font-size: 12px;"><td><b>Start time</b> :</td><td>{{ application.start_time_prof | capfirst}}</td></tr>
+                    <tr style="font-size: 12px;"><td><b>End time</b> :</td><td>{{ application.end_time_prof | capfirst}}</td></tr>
+                    <tr style="font-size: 12px;"><td><b>Proffession Certificate</b> :</td><td><a href="/media/{{ application.attach_certificate_prof }}" download >Download</a><a href="/media/{{ application.attach_certificate_prof | capfirst }} " style="padding-left: 3px;"> View </a> </td></tr>
+
+
+            </tbody>
+           </table>
+            <table class="table ">
+                    <tbody>
+                    <h4 class="well well-sm text-center" style="font-family: 'Open Sans', sans-serif"><b>Language proficiency:</b></h4>
+                    <tr style="font-size: 12px;"><td><b>Language1 quality</b> :</td><td>{{ application.language1 | capfirst }} :{{ application.quality1 }}</td></tr>
+                    <tr style="font-size: 12px;"><td><b>Language2 quality</b> :</td><td>{{ application.language2 | capfirst }} :{{ application.quality2 }} </td></tr>
+                    <tr style="font-size: 12px;"><td><b>Language3 quality</b> :</td><td>{{ application.language3 | capfirst }} :{{ application.quality3 }}</td></tr>
+
+                    </tbody>
+           </table>
+
+
+
+
+
+
+
+
+
+           <table class="table ">
+                <tbody>
+                <h4 class="well well-sm text-center"  style="font-family: 'Open Sans', sans-serif"><b>Referee Details:</b></h4>
+                <tr style="font-size: 12px;"><td><b>Referee name</b> :</td><td>{{ application.title | capfirst }}. {{ application.referee_name | capfirst }}</td></tr>
+                <tr style="font-size: 12px;"><td><b>Referee Organisation</b> :</td><td>{{ application.organisation_of_a_referee | capfirst }}</td></tr>
+                <tr style="font-size: 12px;"><td><b>Referee Email</b> :</td><td>{{ application.referee_email | capfirst }}</td></tr>
+                <tr style="font-size: 12px;"><td><b>Referee address</b> :</td><td>{{ application.referee_address | capfirst }}</td></tr>
+                <tr style="font-size: 12px;"><td><b>Other Attachment</b> :</td><td><a href="/media/{{ application.other_attachment1 | capfirst }}" download> Download </a><a href="/media/{{ application.other_attachment1 | capfirst }} " style="padding-left: 3px;"> View </a></td></tr>
+                <tr style="font-size: 12px;"><td><b>Birth certificate</b> :</td><td><a href="/media/{{ application.birth_certificate | capfirst }}" download>Download</a><a href="/media/{{ application.birth_certificate | capfirst }} " style="padding-left: 3px;"> View </a></td></tr>
+                <tr style="font-size: 12px;"><td><b>Recommendation letter</b> :</td><td><a href="/media/{{ application.recomendation_letter | capfirst }}" download>Download</a><a href="/media/{{ application.recomendation_letter | capfirst }} " style="padding-left: 3px;"> View </a></td></tr>
+                <tr style="font-size: 12px;"><td><b>TCU certificate</b> :</td><td><a href="/media/{{ application.TCU_certificate | capfirst }}" download>Download</a><a href="/media/{{ application.TCU_certificate | capfirst }} " style="padding-left: 3px;"> View </a></td></tr>
+                <tr style="font-size: 12px;"><td><b>CV </b> :</td><td><a href="/media/{{ application.CV | capfirst }}" download>Download</a><a href="/media/{{ application.CV | capfirst }} " style="padding-left: 3px;"> View </a></td></tr>
+                <tr style="font-size: 12px;"><td><b>Other certificate</b> :</td><td><a href="/media/{{ application.other_certificates1 | capfirst }}" download>Download</a><a href="/media/{{ application.other_certificates1 | capfirst }} " style="padding-left: 3px;"> View </a></td></tr>
+                <tr style="font-size: 12px;"><td><b>Other certificate</b> :</td><td><a href="/media/{{ application.other_certificates2 | capfirst }}" download>Download</a><a href="/media/{{ application.other_certificates2 | capfirst }} " style="padding-left: 3px;"> View </a></td></tr>
+                <tr style="font-size: 12px;"><td><b>Other certificate</b> :</td><td><a href="/media/{{ application.other_certificates3 | capfirst }}" download>Download</a><a href="/media/{{ application.other_certificates3 | capfirst }} " style="padding-left: 3px;"> View </a></td></tr>
+                <tr style="font-size: 12px;"><td><b>Other certificate</b> :</td><td><a href="/media/{{ application.other_certificates4 | capfirst }}" download>Download</a><a href="/media/{{ application.other_certificates4 | capfirst }} " style="padding-left: 3px;"> View </a></td></tr>
+                </tbody>
+           </table>
+
+           </div>
+
+           </div>
+           <div class=" col-sm-6 col-sm-offset-1.5" >
+                   <div class="container-fluid">
+
+                       <table class="table ">
+                           <tbody>
+                           <h4 class="well well-sm text-center"  style="font-family: 'Open Sans', sans-serif"><b>Contact Details:</b></h4>
+                           <tr style="font-size: 12px;"><td><b>Present address</b> :</td><td>{{ application.present_address_con | capfirst }}</td></tr>
+                           <tr style="font-size: 12px;"><td><b>Permanent address</b> :</td><td>{{ application.permanent_address_con |capfirst }}</td></tr>
+                           <tr style="font-size: 12px;"><td><b>Telephone</b> :</td><td>{{ application.Telephone_con | capfirst}}</td></tr>
+                           <tr style="font-size: 12px;"><td><b>Work telephone</b> :</td><td>{{ application.work_telephone_con }}</td></tr>
+                           <tr style="font-size: 12px;"><td><b>Country of residence</b> :</td><td>{{ application.country_of_residence_con}}</td></tr>
+                           <tr style="font-size: 12px;"><td><b>Country code</b> :</td><td>{{ application.country_code_con}}</td></tr>
+                           <tr style="font-size: 12px;"><td><b>Mobile number</b> :</td><td>{{ application.mobile_no_con }}</td></tr>
+                           <tr style="font-size: 12px;"><td><b>Altelnative email</b> :</td><td>{{ application.altenative_email_con}}</td></tr>
+
+                           </tbody>
+                        </table>
+                        <h4 class="well well-sm text-center"  style="font-family: 'Open Sans', sans-serif"><b>Accademic qualifications:</b></h4>
+                        <table class="table ">
+                           <tbody>
+                           <tr style="font-size: 12px;"><td><b>Country </b> :</td><td>{{ application.country_aca | capfirst }} </td></tr>
+                           <tr style="font-size: 12px;"><td><b>Institution name</b> :</td><td>{{ application.institution_name_aca | capfirst }} </td></tr>
+                           <tr style="font-size: 12px;"><td><b>academic certificate</b> :</td><td><a href="/media/{{ application.attach_certificate_aca | capfirst }} " download> Download </a><a href="/media/{{ application.attach_certificate_aca | capfirst }} " style="padding-left: 3px;"> View </a> </td></tr>
+                           <tr style="font-size: 12px;"><td><b>Program name</b> :</td><td>{{ application.program_name_aca | capfirst }} </td></tr>
+                           <tr style="font-size: 12px;"><td><b>Start year</b> :</td><td>{{ application.start_time_aca | capfirst }}</td></tr>
+                           <tr style="font-size: 12px;"><td><b>End year</b> :</td><td>{{ application.end_time_aca | capfirst }}</td></tr>
+
+
+                            </tbody>
+                        </table>
+                   <table class="table ">
+                        <tbody>
+
+                           <h4 class="well well-sm text-center" style="font-family: 'Open Sans', sans-serif"><b>Computer Literacy:</b></h4>
+                           <tr style="font-size: 12px;"><td><b>Computer skills</b> :</td><td>{{ application.computer_skills | capfirst }} :{{ application.quality1 }} </td></tr>
+                           <tr style="font-size: 12px;"><td><b>Computer quality</b> :</td><td>{{ application.quality_computer | capfirst }} :{{ application.quality2 }}</td></tr>
+                           <tr style="font-size: 12px;"><td><b>Proffession Certificate</b> :</td><td><a href="/media/{{ application.attach_certificate_train }}" download >Download</a><a href="/media/{{ application.attach_certificate_train | capfirst }} " style="padding-left: 3px;"> View </a> </td></tr>
+
+                        </tbody>
+                    </table>
+
+                        <table class="table ">
+                           <tbody>
+                       <h4 class="well well-sm text-center"  style="font-family: 'Open Sans', sans-serif"><b>Work experience:</b></h4>
+                       <tr style="font-size: 12px;"><td><b>Organisation </b> :</td><td>{{ application.organization_wor | capfirst }}</td></tr>
+                       <tr style="font-size: 12px;"><td><b>Job title</b> :</td><td>{{ application.job_title_wor | capfirst }} </td></tr>
+                       <tr style="font-size: 12px;"><td><b>Supervisor name</b> :</td><td>{{ application.supervisor_name_wor | capfirst }}</td></tr>
+                       <tr style="font-size: 12px;"><td><b>Supervisor telephone number</b> :</td><td>{{ application.supervisor_telephone_number_wor | capfirst }}</td></tr>
+                       <tr style="font-size: 12px;"><td><b>Supervisor Address</b> :</td><td>{{ application.supervisor_address_wor | capfirst }}</td></tr>
+                       <tr style="font-size: 12px;"><td><b>Duties and responsibility</b> :</td><td>{{ application.Duties_and_responsibilities_wor | capfirst }}</td></tr>
+                       <tr style="font-size: 12px;"><td><b>Current job</b> :</td><td>{{ application.current_job_wor | capfirst }}</td></tr>
+                       <tr style="font-size: 12px;"><td><b>Start date</b> :</td><td>{{ application.start_date_wor | capfirst }}</td></tr>
+                       <tr style="font-size: 12px;"><td><b>End  date</b> :</td><td>{{ application.end_date_wor | capfirst }}</td></tr>
+
+
+
+                        </tbody>
+
+                        </table>
+
+
+                        <table class="table">
+                           <tbody>
+                       <h4 class="well well-sm text-center"  style="font-family: 'Open Sans', sans-serif"><b>Training & Workshops Attended:</b></h4>
+                       <tr style="font-size: 12px;"><td><b>Training name</b> :</td><td>{{ application.training_name | capfirst }}</td></tr>
+                       <tr style="font-size: 12px;"><td><b>Institution</b> : </td><td>{{ application.Institution | capfirst }}</td></tr>
+                       <tr style="font-size: 12px;"><td><b>Certificate</b> :</td><td><a href="/media/{{ application.Attact_your_certificate }}" download >Download</a><a href="/media/{{ application.Attact_your_certificate | capfirst }} " style="padding-left: 3px;"> View </a></td></tr>
+                       <tr style="font-size: 12px;"><td><b>Startig Date</b> :</td><td>{{ application.starting_date_teraining | capfirst }} </td></tr>
+                       <tr style="font-size: 12px;"><td><b>end date training</b> </td><td>{{ application.end_date_teraining | capfirst }} </td></tr>
+
+
+                        </tbody>
+                        </table>
+
+
+                   </div>
+               </div>
+       <hr width="100%" size="8" align="center">
+       <h3 class="well well-sm text-center">Descriptions</h3>
+       <hr width="100%" size="8" align="center">
+       {{ jobs.job_descriptions }}
+       <div class="container-fluid">
+           <div class="center-block">
+                <form class="form-horizontal" action="{% url 'jobs:Accept' %}" method="post">{% csrf_token %}
+                    {% include 'AcceptedApplications.html' %}
+                <input type="submit" style="width: 40%" class="center-block btn btn-success" value="Accept">
+                </form>
+           </div>
+           </div>
+        </div>
+       </div>
+   </div>
+
+
+{% endblock %}

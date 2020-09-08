@@ -1,0 +1,97 @@
+﻿{% extends 'authorisedcarier.html' %}
+
+{% block authorizedbody %}
+    <div style="background-image:url(../static/image/city.jpg); box-shadow: 0 4px 5px #999;" >
+    <div class="text-center" style="font-size: 25px; font-family: inherit; color: #555; font-weight: 300">Account Balance </div>
+    <div class="text-center" style="font-size: 20px;"><span style="font-size: 19px; font-weight: 500;">$ </span>{{user.investment.balance|floatformat:2}} <span>{% if user.investment.Bitcoin_balance > 0.0002 %}<span style="font-weight: 200">||</span> <span style="font-size: 20px; font-weight: 400;">{{ user.investment.Bitcoin_balance | floatformat:4  }}<i class="fa fa-btc" style="font-weight: 200; color: #444;" aria-hidden="true"></i></span>{% else %}{% endif %}</span></div>
+
+ <center>
+        <h5 style="color: red">
+        {% if messages %}
+        {% for message in messages %}
+        <p class="alert alert-success alert-dismissable" role="alert">{{ message }} <button type="button" class="close" data-dismiss="alert" aria-label="Close"  ><span aria-hidden="true">&times;</span></button></p>
+        {% endfor %}
+        {% endif %}</h5>
+    </center>
+     <div class="panel panel-default col-sm-6" style="background:rgba(255,255,255,0.5); box-shadow: -1px 6px 5px -1px #999;;">
+            <div class="panel-heading text-center" style="font-weight: 300;">
+                <h5 style="letter-spacing: 2px; color : #555">Account activity </h5>
+            </div>
+         <table class="table  table-striped" style="font-weight: 300; font-size: 15px; color: #666;">
+          <tbody>
+              <tr>
+                  <td>Stage:</td>
+                  <td>Silver</td>
+              </tr>
+              <tr>
+                  <td>Pending withdrawal:</td>
+                  <td>{{user.investment.pending_withdrawal}} <span style="font-weight: 300; font-size: 13px;">USD</span></td>
+              </tr>
+              <tr>
+                  <td>Withdrawal:</td>
+                  <td>0.0 <span style="font-weight: 300; font-size: 13px;">USD</span></td>
+              </tr>
+              <tr>
+                  <td>Active Deposit:</td>
+                  <td>{{user.userinfo.amount}} <span style="font-weight: 300; font-size: 13px;">USD</span><span>{% if user.userinfo.bitcoin_amount > 0.0002 %}  ||  <span>{{ user.userinfo.bitcoin_amount | floatformat:4  }}<i class="fa fa-btc" aria-hidden="true"></i></span>{% else %}{% endif %}</span></td>
+              </tr>
+            
+              <tr>
+                  <td>Last withdrawal:</td>
+                  <td>{{user.investment.last_withdrawal}} <span style="font-weight: 300; font-size: 13px;">USD</span></td>
+              </tr>
+
+              <tr>
+                  <td>Balance:</td>
+                  <td>{{ user.investment.balance | floatformat:2}} <span style="font-weight: 300; font-size: 13px;">USD</span><span>{% if user.investment.Bitcoin_balance > 0.0002 %}  ||  <span>{{ user.investment.Bitcoin_balance | floatformat:4  }}<i class="fa fa-btc" aria-hidden="true"></i></span>{% else %}{% endif %}</span></td>
+              </tr>
+              <tr>
+                  <td>Total deposited:</td>
+                  <td>{{ user.userinfo.total_deposit |floatformat:2}} <span style="font-weight: 300; font-size: 13px;">USD</span><span>{% if user.userinfo.total_bitcoin_deposit > 0.0002 %}  ||  <span>{{ user.userinfo.total_bitcoin_deposit | floatformat:4  }}<i class="fa fa-btc" aria-hidden="true"></i></span>{% else %}{% endif %}</span> <span style="font-weight: 300; font-size: 13px;"></span></td>
+              </tr>
+
+          </tbody>
+          </table>
+        </div>
+      <div class="panel panel-default col-sm-6" style="background:rgba(255,255,255,0.5); box-shadow: 3px 6px 5px -1px #999;">
+            <div class="panel-heading text-center" style="font-weight: 300;">
+                <h5 style="letter-spacing: 2px; color : #555"> Account information</h5>
+            </div>
+         <table class="table  table-striped" style="font-weight: 300; font-size: 15px; color: #666; padding-left: 2px;">
+          <tbody>
+              <tr>
+                  <td>Account No:</td>
+                  <td>{{ user.investment.account_no }}</td>
+              </tr>
+              <tr>
+                  <td>Name:</td>
+                  <td>{% if user.first_name %}{{ user.first_name|capfirst }} {{ user.last_name|capfirst }}{% else %}<a href="{% url 'app:regform2' %}">Edit profile</a>{% endif %}</td>
+              </tr>
+              <tr>
+                  <td>Username:</td>
+                  <td>{{user}}</td>
+              </tr>
+              <tr>
+                  <td>Phone no:</td>
+                  <td>{% if user.userinfo.Phone_no %}{{ user.userinfo.Phone_no }} {% else %}<a href="{% url 'app:regform2' %}">Edit profile {% endif %}</a></td>
+              </tr>
+              <tr>
+                  <td>Email:</td>
+                  <td>{% if user.email %}{{ user.email }} {% else %}<a href="{% url 'app:regform2' %}">Edit profile {% endif %}</a></td>
+              </tr>
+              <tr>
+                  <td>Registration Date:</td>
+                  <td style="font-size: 12px;">{{user.date_joined}}</td>
+              </tr>
+              <tr>
+                  <td>Last access</td>
+                  <td style="font-size: 12px;">{{user.last_login}}</td>
+              </tr>
+
+
+          </tbody>
+          </table>
+        </div>
+
+</div>
+{% endblock %}

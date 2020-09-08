@@ -1,0 +1,55 @@
+{% extends "home.html" %}
+{% load staticfiles %}
+
+
+{% block cartlist %}
+{% if object_list.count > 0 %}
+<div class="container-fluid" style="overflow-x: scroll; height: 300px; overflow-y: scroll">
+<table class="table table-striped">
+    <tbody>
+        <tr>
+            <th><small>Title</small></th>
+            <th><small>Color</small></th>
+            <th><small>Price</small></th>
+            <th><small>Condition</small></th>
+            <th><small>Color</small></th>
+            <th><small>Category</small></th>
+            <th><small>Seller acc</small></th>
+            <th><small>Actions </small></th>
+            <th><small></small></th>
+
+        </tr>
+            {% for m in object_list %}
+        <tr>
+            <td style="font-size: 12px;"><a href="#">{{ m.title }}</a></td>
+            <td style="font-size: 12px;">{{ m.color }}</td>
+            <td style="font-size: 12px;">{{ m.Price_sold }}{{ m.currency }}</td>
+            <td style="font-size: 12px;">{{ m.condition }}</td>
+            <td style="font-size: 12px;">{{ m.color }}</td>
+            <td style="font-size: 12px;">{{ m.category }}</td>
+            <td style="font-size: 12px;">{{ m.Receive_acc }}</td>
+            <td style="font-size: 12px;"><a  href="{% url 'market:Prods' m.prod_id %}" style="font-size: 9px;" class="btn btn-success">&#x2717; buy</a></td>
+            <td style="font-size: 12px;">
+                <form method="post" action="{% url 'market:caritdelete' m.id %}" >{% csrf_token %}
+                    <input type="hidden" name="Purchase_id" value="{{ m.id }}">
+                    <div style="display:inline-block; vertical-align: middle;">
+                    <input  type="submit" style="font-size: 9px; " class="btn btn-danger" value="&#x2717; Remove">
+
+                        </div>
+                </form>
+            </td>
+        </tr>
+            {% endfor %}
+<tr></tr>
+<tr></tr>
+    </tbody>
+</table>
+    </div>
+
+
+{% else %}
+<div style="padding-top: 8%"></div>
+    <div class="wat" style="padding-bottom: 10%;">  <img  class="center-block" src="{% static "image/empty.png" %}" width="120" height="120">     <h3 class="text-center">You have not Marked any item </h3></div>
+
+{% endif %}
+{% endblock %}

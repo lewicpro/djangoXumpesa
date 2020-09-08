@@ -1,0 +1,51 @@
+{% extends 'home.html' %}
+{% load staticfiles %}
+{% block myproducts%}
+<div class="container-fluid table-bordered" style="padding-top: 10px;">
+{% if Mavuno.count > 0 %}
+        <div class="alert alert-success text-center" style="font-family: 'Open Sans', sans-serif; padding: 5px; color: Red"><a style="font-family: 'Open Sans', sans-serif; color: red" href="{% url 'market:orders' %}"> {% if Mavuno %}  There {% if Mavuno.count > 1 %} are: {% if Mavuno.count < 10 %} 0{{ Mavuno.count }}{% else %}{{ Mavuno.count }} {% endif %} Orders from your product(s){% else %} is {% if Mavuno.count < 10 %}  0{{ Mavuno.count }}{% else %} {{ Mavuno.count }} {% endif %} Order from your product(s) you posted {% endif %}   {% else %}{% endif %}</a></div>
+        {% else %}
+    {% endif %}
+
+
+{% if object_list.count > 0 %}
+    <div style="min-height: 300px; max-height: 400px;">
+             {% for obj in object_list %}
+                    <div class=" col-xs-6 col-sm-2 cora">
+                            {% if obj.image %}
+                                <a href="{% url 'market:product-edit' obj.id %}"><img src="{{ obj.image.url }}" alt="" class="img-thumbnail " style="width:120px; height: 60px;"></a>
+                                <p style="padding-top: 1%"><small>{{ obj.title }} <strong>{{ obj.Price }} {{ obj.currency }}</strong></small></p>
+                            {% endif %}
+                    </div>
+             {% endfor %}
+
+    </div>
+
+{% else %}
+
+    <div style="padding-top: 8%"></div>
+    <div class="wat" style="padding-bottom: 10%;">  <img  class="center-block" src="{% static "image/empty.png" %}" width="120" height="120">     <h3 class="text-center">You have no any Product <a href="{% url 'market:category' %}">Uploaded</a></h3></div>
+
+{% endif %}
+
+
+
+{% if Priced.count > 0 %}
+<div class="text-center" style="letter-spacing: 6px; font-weight: 300;">Premium</div>
+<hr style="" width="100%" size="19" align="center">
+    <div style="min-height: 300px; max-height: 400px;">
+             {% for obj in Priced %}
+                    <div class=" col-xs-6 col-sm-2 cora">
+                            {% if obj.image %}
+                                <a href="{% url 'market:Myproductspaidedit' obj.id %}"><img src="{{ obj.image.url }}" alt="" class="img-thumbnail " style="width:120px; height: 60px;"></a>
+                                <p style="padding-top: 1%"><small>{{ obj.title }} <strong>{{ obj.Price }} {{ obj.currency }}</strong></small></p>
+                            {% endif %}
+                    </div>
+             {% endfor %}
+
+    </div>
+
+{% else %}
+{% endif %}
+</div>
+{% endblock %}

@@ -1,0 +1,161 @@
+{% extends 'authorized.html' %}
+{% block auth %}
+{% load staticfiles %}
+    <div class="row">
+            <div class="col-lg-12">
+
+                <ol class="breadcrumb">
+                    <li><a href="/">Home</a>
+                    </li>
+                    <li class="active">Balance</li>
+                    <li class="active">{{ user.investment.balance|floatformat:2 }}<small> USD</small></li>
+                    {% if user.userinfo.bitcoin_amount > 0.0002 %} <li class="active"><span><span>{{ user.investment.Bitcoin_balance | floatformat:4 }}<i class="fa fa-btc" style="" aria-hidden="true"></i></span></span></li>{% else %}{% endif %}
+                </ol>
+            </div>
+        </div>
+
+            <div class="col-md-9"  >
+                {% block authorizedbody%}
+                {% endblock %}
+
+                {% block authorizedwithdraw%}
+                {% endblock %}
+
+                {% block confirmpass%}
+                {% endblock %}
+
+                {% block competepass%}
+                {% endblock %}
+
+
+                {% block market %}
+                {% endblock %}
+
+                {% block authorizedrepresentatives %}
+                {% endblock %}
+
+                {% block faqbody%}
+                {% endblock %}
+
+                {% block authorizeddeposit%}
+                {% endblock %}
+
+                {% block already%}
+                {% endblock %}
+
+                {% block Tigotrans%}
+                {% endblock %}
+
+                {% block editaccount %}
+                {% endblock %}
+
+
+                {% block Vdetails %}
+                {% endblock %}
+
+                {% block wallet %}
+                {% endblock %}
+                {% block verified %}
+                {% endblock %}
+
+                {% block history-to %}
+                {% endblock %}
+
+                {% block history-from %}
+                {% endblock %}
+
+                {% block tigowithdraw %}
+                {% endblock %}
+
+                {% block payeerDeposit %}
+                {% endblock %}
+
+                {% block jobs %}
+                {% endblock %}
+
+                {% block Balancetransaction %}
+                {% endblock %}
+
+                {% block redeposit %}
+                {% endblock %}
+
+                {% block unverified %}
+                {% endblock %}
+
+                {% block selecttype %}
+                {% endblock %}
+
+                {% block payeerwithdraw %}
+                {% endblock %}
+
+                {% block perfectwithdraw %}
+                {% endblock %}
+
+                {% block BitcoinDeposit %}
+                {% endblock %}
+
+                {% block intermediatedeposit %}
+                {% endblock %}
+
+                {% block accountbalance %}
+                {% endblock %}
+
+                {% block payeerbalanceDeposit %}
+                {% endblock %}
+
+                {% block advancedcshbalancedeposit %}
+                {% endblock %}
+
+                {% block perfectmoneybalancedeposittemp %}
+                {% endblock %}
+
+                {% block okpaybalancedeposittemp %}
+                {% endblock %}
+
+                {% block Bitcoincshbalancedeposit %}
+                {% endblock %}
+
+                {% block okpaydepositDeposit %}
+                {% endblock %}
+
+                {% block advcashdeposit %}
+                {% endblock %}
+                {% block BitcoinredepositDeposit %}
+                {% endblock %}
+
+                {% block bitcoinwithdrawpro %}
+                {% endblock %}
+
+                {% block okpaywithdraw %}
+                {% endblock %}
+
+                {% block adcashwithdraw %}
+                {% endblock %}
+                {% block cryptoreseller %}
+                {% endblock %}
+<script>
+    function giveinfo() {
+        alert("uoudhsu" )
+
+
+    }
+</script>
+            </div>
+            <div class="col-md-3 " style="background: rgba(255,255,255,0.1); " >
+                        <div class="list-group" style="font-size: 12px; box-shadow: 0 4px 5px #999; box-sizing: border-box; animation-fill-mode: forwards; background: rgba(255,255,255,0.1);">
+                            <a title="Here you can view your dashboard" href="/account"  class="list-group-item" disabled>My account</a>
+                            <a title="Here you can deposit amount of cash you want to invest" href="{% url 'app:interDeposit' %}" class="list-group-item">Deposit</a>
+                            <a title="Here you can withdraw cash through different wallets and others will be added soon" href="/withdraw" class="list-group-item">Withdraw</a>
+                            <a title="Here you can transfer cash to another member in Xampesa" href="{% url 'app:Balance' %}" class="list-group-item">Transfer Balance</a>
+                            <a title="Here you can upload and purchase different products at your need" href="/market" class="list-group-item">Market</a>
+                            <a title="Here you can hire people to work for you or you can be hired, its a job portal" href="{% url 'jobs:all' %}" class="list-group-item">Jobs</a>
+                            <a title="Comming soon" href="/cryptoreseller/" style="color: #999" class="list-group-item">Cryptocurrency Resellers</a>
+                            <a title="Here you can edit your informations" href="/editaccount" class="list-group-item">Edit Account</a>
+                            <a title="here you can apply to become a representative with in your region or country" href="/representatives" class="list-group-item">Representatives</a>
+                            <a title="Here you can change your password" href="/Change-password" class="list-group-item">Change Password</a>
+                            <a title="Click to logout" href="/logout" class="list-group-item">Logout</a>
+{#                            <input type="submit" value="Cryptocurrency Resellers" onclick="giveinfo()">#}
+
+                        </div>
+            </div>
+{% endblock %}

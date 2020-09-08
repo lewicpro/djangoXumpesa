@@ -1,0 +1,26 @@
+{% extends "Promodetails_layout.html" %}
+{% load crispy_forms_tags %}
+{% load staticfiles %}
+
+
+{% block delete %}
+
+
+
+
+    <h4>{{ products.title }}</h4>
+    <h5>Price :{{ products.Price }}{{ products.currency }}</h5>
+    <h5>Condition :<strong>{{ products.condition }}</strong></h5>
+     <h5>Buyer protection :<a href="{% url 'market:Confirmation' %}"> Confirmation from the buyer</a></h5>
+     <h5>Return policy :<a href="{% url 'market:Conditions' %}">Conditions</a></h5>
+     <h5>Seller Guarantees :  On-time delivery</h5>
+     <h5>Payment Options: <img src="{% static "image/mastercard.png" %}" style="width: 10%"><img src="{% static "image/westernunion.png" %}" style="width: 15%"><img src="{% static "image/bitcoin.png" %}" style="width: 15%"><img src="{% static "image/payeer.png" %}" style="width: 15%"><img src="{% static "image/tigopesa.jpeg" %}" style="width: 15%"><img src="{% static "image/mpesa.png" %}" style="width: 15%"><img src="{% static "image/banktra.png" %}" style="width: 15%"><a href="{% url 'market:Processors' %}"><small>...View more</small></a></h5>
+{#            <button class="btn btn-success" style="width: 40%" href="{% url 'market:secured' %}" type="button">Buy</button>#}
+
+    <form method="post" action="{% url 'market:upload-delete' products.id %}" >{% csrf_token %}
+            <input type="hidden" name="Product_id" value="{{ products.id }}">
+            <input  type="submit" style="width: 40%" class="btn btn-danger" value="Delete">
+            <a href="{% url 'market:upload-update' products.id %}" type="button" style="width: 40%" class="btn btn-default" >Edit</a>
+{#            <button class="btn btn-warning" style="width: 40%" href="#" type="button">Add cart</button>#}
+    </form>
+{% endblock %}

@@ -1,0 +1,33 @@
+{% extends "home.html" %}
+{% load crispy_forms_filters %}
+{% block Creditdetails %}
+        <div class="container-fluid table-bordered">
+        <div>
+                <div class="text-center">
+                <h5 style="color:darksalmon; padding-right:5%">Upload your product</h5>
+                    {% if messages %}
+                    <ul class="messages">
+                        {% for message in messages %}
+                        <li{% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li>
+                        {% endfor %}
+                    </ul>
+                    {% endif %}
+                </div>
+
+        </div>
+                <div class="text-center">
+                </div>
+                <div class="table-responsive col-sm-5 col-sm-offset-3" style="padding-bottom: 20%">
+
+                    <a class="btn btn-default" style="width:100%"  href="{% url 'market:Crediting' %}">Credit Card</a>
+                    <a class="btn btn-default" style="width:100%"  href="{% url 'market:mpesa' %}">MPESA</a>
+                    <a class="btn btn-default" style="width:100%"  href="">Airtel Money</a>
+                    <a class="btn btn-default" style="width:100%"  href="">Bitcoin</a>
+
+
+
+                </div>
+    </div>
+
+
+{% endblock %}

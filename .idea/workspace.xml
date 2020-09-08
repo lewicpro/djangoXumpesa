@@ -1,0 +1,1081 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2943aa72-786a-4543-a7c7-4076daa3c198" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/.idea/DjangoWebProject3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/.idea/dictionaries/mac.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/DjangoWebProject3/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/DjangoWebProject3/celery.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/DjangoWebProject3/middleware.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/DjangoWebProject3/proj/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/DjangoWebProject3/proj/celery.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/DjangoWebProject3/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/DjangoWebProject3/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/DjangoWebProject3/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/Jobs/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/Jobs/templates/jobs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/Jobs/templates/jobsAll.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/Jobs/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/Backend.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/beat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/celery.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/conversion.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/management/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/management/commands/__int__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/css/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/css/bootstrap-select.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/css/fontello.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/css/icheck.min_all.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/css/ion.rangeSlider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/css/ion.rangeSlider.skinFlat.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/css/ion.rangeSlider.skinNice.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/css/jquery.slitslider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/css/lightslider.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/css/normalize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/css/owl.carousel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/css/owl.theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/css/owl.transitions.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/css/price-range.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/css/responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/css/slider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/css/styleNoJS.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/css/wizard.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/fonts/FontAwesome_1.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/fonts/fontawesome-webfont_1.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/fonts/fontawesome-webfont_1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/fonts/fontawesome-webfont_1.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/fonts/fontawesome-webfont_1.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/fonts/fontello/fontello.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/fonts/fontello/fontello.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/fonts/fontello/fontello.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/fonts/fontello/fontello.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/fonts/icon-7-stroke/css/helper.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/fonts/icon-7-stroke/css/pe-icon-7-stroke.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/fonts/icon-7-stroke/fonts/Pe-icon-7-stroke.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/fonts/icon-7-stroke/fonts/Pe-icon-7-stroke.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/fonts/icon-7-stroke/fonts/Pe-icon-7-stroke.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/fonts/icon-7-stroke/fonts/Pe-icon-7-stroke.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/img/ads.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/img/arrow-left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/img/arrow-right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/img/arrows-small.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/img/arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/img/bg-footer.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/img/blog1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/img/blog2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/img/chevron-down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/img/client-face1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/img/client-face2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/img/controls.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/img/default-property.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/img/demo/property-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/img/demo/property-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/img/demo/property-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/img/demo/property-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/img/demo/property-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/img/demo/property-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/img/demo/small-proerty-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/img/demo/small-property-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/img/demo/small-property-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/img/demo/small-property-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/img/dsdsds33 - Copy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/img/footer-logo-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/img/footer-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/img/icon-shearch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/img/icon/bed-orange.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/img/icon/bed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/img/icon/cars-orange.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/img/icon/cars.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/img/icon/os-orange.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/img/icon/os.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/img/icon/picine-orange.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/img/icon/picine.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/img/icon/rent-orange.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/img/icon/room-orange.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/img/icon/room.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/img/icon/sale-orange.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/img/icon/shawer-orange.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/img/icon/shawer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/img/page-header.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/img/preloader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/img/pro-ads.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/img/property-1/property1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/img/property-1/property2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/img/property-1/property3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/img/property-1/property4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/img/property-video.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/img/similar/property-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/img/similar/property-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/img/similar/property-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/img/skin/aero.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/img/skin/aero@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/img/skin/blue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/img/skin/blue@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/img/skin/green.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/img/skin/green@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/img/skin/grey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/img/skin/grey@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/img/skin/orange.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/img/skin/orange@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/img/skin/pink.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/img/skin/pink@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/img/skin/purple.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/img/skin/purple@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/img/skin/red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/img/skin/red@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/img/skin/square.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/img/skin/square@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/img/skin/yellow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/img/skin/yellow@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/img/skin/yellow_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/img/slide-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/img/slide1/slider-image-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/img/slide1/slider-image-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/img/slide1/slider-image-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/img/slide2/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/img/social_big/delicious_grey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/img/social_big/delicious_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/img/social_big/digg_grey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/img/social_big/digg_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/img/social_big/dribbble_grey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/img/social_big/dribbble_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/img/social_big/facebook_grey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/img/social_big/facebook_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/img/social_big/linkedin_grey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/img/social_big/linkedin_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/img/social_big/rss_grey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/img/social_big/rss_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/img/social_big/tumblr_grey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/img/social_big/tumblr_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/img/social_big/twitter_grey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/img/social_big/twitter_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/img/social_big/vimeo_grey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/img/social_big/vimeo_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/img/social_big/youtube_grey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/img/social_big/youtube_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/img/welcome-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/js/bootstrap-hover-dropdown.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/js/bootstrap-select.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/js/bootstrap-slider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/js/bootstrap-wizard.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/js/easypiechart.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/js/gmaps.init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/js/gmaps.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/js/icheck.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/js/jquery-1.10.2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/js/jquery.ba-cond.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/js/jquery.bootstrap.wizard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/js/jquery.easypiechart.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/js/jquery.slitslider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/js/jquery.validate.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/js/lightslider.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/js/modernizr-2.6.2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/js/modernizr.custom.79639.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/js/owl.carousel.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/js/plugins.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/js/price-range.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/js/wizard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/js/wow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/assets/js/wow.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/bootstrap/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/bootstrap/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/bootstrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/bootstrap/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/bootstrap/js/npm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/css/bootstrap-theme.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/css/bootstrap-toggle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/css/bootstrap-toggle.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/css/bootstrap.min2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/css/hover.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/css/xum.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/css/xumpesa.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/fonts/HELP-US-OUT.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/fonts/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/fonts/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/fonts/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/fonts/less/animated.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/fonts/less/bordered-pulled.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/fonts/less/core.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/fonts/less/fixed-width.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/fonts/less/font-awesome.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/fonts/less/icons.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/fonts/less/larger.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/fonts/less/list.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/fonts/less/mixins.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/fonts/less/path.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/fonts/less/rotated-flipped.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/fonts/less/screen-reader.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/fonts/less/stacked.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/fonts/less/variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/fonts/scss/_animated.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/fonts/scss/_bordered-pulled.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/fonts/scss/_core.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/fonts/scss/_fixed-width.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/fonts/scss/_icons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/fonts/scss/_larger.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/fonts/scss/_list.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/fonts/scss/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/fonts/scss/_path.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/fonts/scss/_rotated-flipped.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/fonts/scss/_screen-reader.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/fonts/scss/_stacked.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/fonts/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/fonts/scss/font-awesome.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/image/background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/image/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/image/busnes veri.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/image/city.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/image/comodo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/image/footer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/image/footer_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/image/footer_lodyas.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/image/header_bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/image/migiuu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/image/modified.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/image/next.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/image/norton.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/image/preview.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/image/security6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/image/spring_rose.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/image/spring_t2 flower.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/image/spring_t3 fly.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/image/trustwave.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/js/bootstrap-toggle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/js/bootstrap-toggle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/js/bootstrap-toggle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/js/jquery-1.8.3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/js/jquery-2.1.3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/js/jquery.cycle2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/js/jquery.elevatezoom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/static/js/npm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/tasks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/templates/About.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/templates/Changepassword.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/templates/Contact Us.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/templates/Faq.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/templates/Receivinghistory.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/templates/VerifiedDetais.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/templates/account.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/templates/account_type.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/templates/authorized.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/templates/balanceredeposit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/templates/balanceredeposittemplate.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/templates/balancetransaction.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/templates/balancetransactiontemplate.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/templates/balancewithdrawal.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/templates/deposit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/templates/depositingTemplate.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/templates/editaccount.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/templates/history_to.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/templates/intermediate.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/templates/layout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/templates/layout2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/templates/layout3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/templates/password_reset.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/templates/password_reset_confirm.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/templates/payeer-deposit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/templates/payeerdepositingTemplate.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/templates/regform2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/templates/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/templates/selecttype.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/templates/templatedeposit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/templates/terms.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/templates/tigowithdrawtemplate.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/templates/unverified.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/templates/verificationTemplate.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/templates/verification_code.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/templates/verified.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/templates/wallet-depositing.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/templates/withdraw.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/validators.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/app/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/bin/AzureSetup.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/bin/Microsoft.PythonTools.AzureSetup.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/bin/Microsoft.PythonTools.AzureSetup.exe.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/bin/Microsoft.PythonTools.WebRole.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/bin/wfastcgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/django_pesapal/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/django_pesapal/conf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/django_pesapal/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/django_pesapal/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/django_pesapal/templates/django_pesapal/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/django_pesapal/templates/django_pesapal/post_payment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/django_pesapal/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/django_pesapal/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/django_pesapal/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/jobs/mixins.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/jobs/templates/AcceptedApplications.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/jobs/templates/Applicationdetail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/jobs/templates/Appliedlist.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/jobs/templates/Details.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/jobs/templates/accademicqualifications.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/jobs/templates/acceptedlist.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/jobs/templates/applyjob.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/jobs/templates/computer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/jobs/templates/computertemplate.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/jobs/templates/contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/jobs/templates/contacttemplate.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/jobs/templates/jobsAlldetailview.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/jobs/templates/jobsapplied.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/jobs/templates/jobuploadtemplate.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/jobs/templates/language.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/jobs/templates/languageproficiencytemplate.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/jobs/templates/marked.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/jobs/templates/markedtemplate.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/jobs/templates/myposts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/jobs/templates/personalinfotemplate.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/jobs/templates/profession.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/jobs/templates/professionqualificationstemplate.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/jobs/templates/qualifications.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/jobs/templates/refree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/jobs/templates/refreetemplate.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/jobs/templates/taining.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/jobs/templates/trainingtemplate.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/jobs/templates/uploadcv.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/jobs/templates/uploadjobs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/jobs/templates/work.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/jobs/templates/workexperience.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/market/celery.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/market/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/market/mixins.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/market/serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/market/tasks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/market/templates/Carttemplate.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/market/templates/CreditCard.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/market/templates/Finishedpurchase.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/market/templates/Mpesa.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/market/templates/Mpesatemplate.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/market/templates/My_products.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/market/templates/Myproductedit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/market/templates/Newdeals.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/market/templates/Paidtemplate.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/market/templates/ProductsDetails.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/market/templates/Productstemplate.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/market/templates/PromoDetails.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/market/templates/Promodetails_layout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/market/templates/PurchaseTemplate.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/market/templates/Receiveupdate.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/market/templates/Searchlist.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/market/templates/buy.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/market/templates/cartlist.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/market/templates/category.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/market/templates/confirmation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/market/templates/credittemplate.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/market/templates/customerorder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/market/templates/customerorderDetails.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/market/templates/form-template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/market/templates/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/market/templates/home_layout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/market/templates/home_main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/market/templates/market-conditions.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/market/templates/orderdetails.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/market/templates/orderlist.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/market/templates/paidlayout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/market/templates/paidproducts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/market/templates/paidproductsdetails.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/market/templates/paymentmethod.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/market/templates/processors.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/market/templates/processors_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/market/templates/promo_products.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/market/templates/purchase.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/market/templates/receivetemplate.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/market/templates/register_products.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/market/templates/returnpurchasetemplate.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/market/templates/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/market/templates/upload_products.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/market/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/obj/Debug/DjangoWebProject3.pyproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/obj/Debug/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/obj/Debug/__main__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/obj/Debug/attach_server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/obj/Debug/visualstudio_py_debugger.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/obj/Debug/visualstudio_py_repl.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/obj/Debug/visualstudio_py_util.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/obj/Debug/web.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/obj/Debug/web.debug.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/representatives/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/representatives/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/representatives/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/representatives/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/representatives/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/representatives/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/representatives/tasks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/representatives/templates/Already.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/representatives/templates/accepted.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/representatives/templates/representatives.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/representatives/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/representatives/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/representatives/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/timedcontent/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DjangoWebProject3/timedcontent/tasks.py" afterDir="false" />
+    </list>
+    <ignored path="DjangoWebProject3.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="DjangoWebProject3" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DjangoWebProject3/app/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DjangoWebProject3/DjangoWebProject3/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="29" column="55" selection-start-line="29" selection-start-column="55" selection-end-line="29" selection-end-column="55" />
+              <folding>
+                <element signature="e#50#199#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cryptohome.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DjangoWebProject3/cryptoreseller/templates/cryptohome.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="600">
+              <caret line="40" column="54" selection-start-line="40" selection-start-column="54" selection-end-line="40" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="About.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/DjangoWebProject3/app/templates/About.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DjangoWebProject3/market/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="requirements.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DjangoWebProject3/requirements.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DjangoWebProject3/app/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
+              <folding>
+                <element signature="e#0#100#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DjangoWebProject3/DjangoWebProject3/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1605">
+              <caret line="110" column="1" selection-start-line="110" selection-start-column="1" selection-end-line="110" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/DjangoWebProject3" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/DjangoWebProject3/app/urls.py" />
+        <option value="$PROJECT_DIR$/DjangoWebProject3/DjangoWebProject3/settings.py" />
+        <option value="$PROJECT_DIR$/DjangoWebProject3/app/views.py" />
+        <option value="$PROJECT_DIR$/DjangoWebProject3/DjangoWebProject3/urls.py" />
+        <option value="$PROJECT_DIR$/DjangoWebProject3/cryptoreseller/templates/cryptohome.html" />
+        <option value="$PROJECT_DIR$/DjangoWebProject3/app/templates/About.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="DjangoWebProject3" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2943aa72-786a-4543-a7c7-4076daa3c198" name="Default" comment="" />
+      <created>1499151931372</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1499151931372</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Python Console" order="7" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.26794872" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28183118" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="CSS-X-Fire" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32952926" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/DjangoWebProject3/market/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DjangoWebProject3/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DjangoWebProject3/app/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#100#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DjangoWebProject3/DjangoWebProject3/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1605">
+          <caret line="110" column="1" selection-start-line="110" selection-start-column="1" selection-end-line="110" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DjangoWebProject3/app/templates/About.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DjangoWebProject3/app/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DjangoWebProject3/DjangoWebProject3/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="55" selection-start-line="29" selection-start-column="55" selection-end-line="29" selection-end-column="55" />
+          <folding>
+            <element signature="e#50#199#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DjangoWebProject3/cryptoreseller/templates/cryptohome.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="54" selection-start-line="36" selection-start-column="54" selection-end-line="36" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DjangoWebProject3/app/templates/About.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DjangoWebProject3/market/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DjangoWebProject3/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" selection-start-line="16" selection-end-line="16" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DjangoWebProject3/app/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#100#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DjangoWebProject3/DjangoWebProject3/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1605">
+          <caret line="110" column="1" selection-start-line="110" selection-start-column="1" selection-end-line="110" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DjangoWebProject3/app/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DjangoWebProject3/DjangoWebProject3/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#50#199#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DjangoWebProject3/market/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DjangoWebProject3/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" selection-start-line="16" selection-end-line="16" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DjangoWebProject3/app/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#100#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DjangoWebProject3/DjangoWebProject3/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1605">
+          <caret line="110" column="1" selection-start-line="110" selection-start-column="1" selection-end-line="110" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DjangoWebProject3/app/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DjangoWebProject3/DjangoWebProject3/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="33" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
+          <folding>
+            <element signature="e#50#199#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DjangoWebProject3/market/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DjangoWebProject3/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DjangoWebProject3/DjangoWebProject3/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1605">
+          <caret line="110" column="1" selection-start-line="110" selection-start-column="1" selection-end-line="110" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DjangoWebProject3/app/urls.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DjangoWebProject3/DjangoWebProject3/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="32" column="33" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
+          <folding>
+            <element signature="e#50#199#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DjangoWebProject3/app/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DjangoWebProject3/DjangoWebProject3/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="33" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
+          <folding>
+            <element signature="e#50#199#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DjangoWebProject3/market/views.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DjangoWebProject3/DjangoWebProject3/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1605">
+          <caret line="110" column="1" selection-start-line="110" selection-start-column="1" selection-end-line="110" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DjangoWebProject3/app/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DjangoWebProject3/DjangoWebProject3/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#50#199#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DjangoWebProject3/DjangoWebProject3/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1605">
+          <caret line="110" column="1" selection-start-line="110" selection-start-column="1" selection-end-line="110" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DjangoWebProject3/app/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DjangoWebProject3/DjangoWebProject3/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#50#199#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DjangoWebProject3/DjangoWebProject3/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1620">
+          <caret line="110" column="1" selection-start-line="110" selection-start-column="1" selection-end-line="110" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DjangoWebProject3/app/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DjangoWebProject3/DjangoWebProject3/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#50#199#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DjangoWebProject3/DjangoWebProject3/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1620">
+          <caret line="110" column="1" selection-start-line="110" selection-start-column="1" selection-end-line="110" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DjangoWebProject3/app/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DjangoWebProject3/DjangoWebProject3/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#50#199#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DjangoWebProject3/DjangoWebProject3/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1620">
+          <caret line="110" column="1" selection-start-line="110" selection-start-column="1" selection-end-line="110" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DjangoWebProject3/app/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DjangoWebProject3/market/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DjangoWebProject3/DjangoWebProject3/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1605">
+          <caret line="110" column="1" selection-start-line="110" selection-start-column="1" selection-end-line="110" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DjangoWebProject3/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DjangoWebProject3/app/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#100#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media_cdn/3-d-world-monuments-1920x1080-wallpaper-3922.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DjangoWebProject3/DjangoWebProject3/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="29" column="55" selection-start-line="29" selection-start-column="55" selection-end-line="29" selection-end-column="55" />
+          <folding>
+            <element signature="e#50#199#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DjangoWebProject3/cryptoreseller/templates/cryptohome.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="40" column="54" selection-start-line="40" selection-start-column="54" selection-end-line="40" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DjangoWebProject3/app/templates/About.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

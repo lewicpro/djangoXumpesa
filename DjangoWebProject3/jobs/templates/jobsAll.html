@@ -1,0 +1,49 @@
+{% extends "jobs.html" %}
+{% load crispy_forms_tags %}
+{% load staticfiles %}
+
+{% block all %}
+
+<div style="{% static 'image/boombox.gif' %}; padding-bottom: 10%; max-height: 350px; overflow-y: scroll;">
+
+    <div class="container-fluid" >
+      <center>
+
+        <h5 style="color: red; padding: 3px;">
+        {% if messages %}
+        {% for message in messages %}
+        <p class="alert alert-danger alert-dismissable" role="alert">{{ message }} <button type="button" class="close" data-dismiss="alert" aria-label="Close" style="" ><span aria-hidden="true">&times;</span></button></p>
+        {% endfor %}
+        {% endif %}</h5>
+    </center>
+        {% for m in object  %}
+            <div class="table-responsive col-sm-6 col-sm-offset-1.5" style="   background: rgba(255,255,255,8); border-radius: 10px;  border-style: solid; border-width: thin; border-color: lightgray; box-shadow: #878b8a 2px 2px 5px;" >
+
+                        <h4 class="text-center" style="padding: 1px; list-style-type: none;"><b>Job</b>: {{ m.job_title }}</h4>
+                        <table class="table table-striped">
+
+                            <tr><li style="padding: 1px; list-style-type: none;"><b>Location</b>: {{ m.city_name }},{{ m.Country_of_work }}</li></tr>
+{#                            <hr width="100%" size="8" align="center">#}
+                            <tr><li style="padding: 1px; list-style-type: none;"><b>Application deadline</b>: {{ m.application_deadline }}</li></tr>
+                            <tr><li style="padding: 1px; list-style-type: none;"><b>Organization</b>: {{ m.organization }}</li></tr>
+
+                            <form method="post"  action="{% url 'jobs:Mark' m.id %}" >{% csrf_token %}
+                                <div class=" container-fluid" style="margin-left: 25%">
+                                    {% include 'markedtemplate.html' %}
+
+                                <input  type="submit" style="font-size: 9px; width: 30%;" class=" btn btn-primary" value=" ✓  Mark ">
+                                <a  href="{% url 'jobs:alldetails' m.id %}" style="font-size: 9px; width: 30%;" class="  btn btn-default">Details</a>
+                                </div>
+
+                            </form>
+                        </table>
+
+
+
+            </div>
+
+        {% endfor %}
+    </div>
+</div>
+
+{% endblock %}

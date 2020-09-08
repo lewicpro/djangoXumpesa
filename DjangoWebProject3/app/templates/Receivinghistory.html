@@ -1,0 +1,25 @@
+{% extends 'authorisedcarier.html' %}
+{% block history-from %}
+    <center>Number of transactions: {{ receive.count }}</center>
+    <table class="table ">
+<tr style="background-color: silver">
+    <th style="font-size: 14px;">Name of the source acc</th>
+    <th style="font-size: 14px;">From account number</th>
+    <th style="font-size: 14px;">Receiver account</th>
+    <th style="font-size: 14px;">Amount received</th>
+    <th style="font-size: 14px;">Date of transaction</th>
+</tr>
+    {% for m in receive %}
+<tr>
+    <td style="font-size: 13px;"><small>{{ m.user | capfirst }}</small></td>
+    <td style="font-size: 13px;"><small>{{ m.from_account_no }}</small></td>
+    <td style="font-size: 13px;"><small>{{ m.username_receiver }}</small></td>
+    <td style="font-size: 13px;"><small>{{ m.amount_transfered }}</small></td>
+    <td style="font-size: 13px;"><small>{{ m.date_stamp }}</small></td>
+
+</tr>
+    {% endfor %}
+<tr></tr>
+<tr></tr>
+</table>
+{% endblock %}

@@ -1,0 +1,34 @@
+{% extends "home.html" %}
+{% load crispy_forms_filters %}
+
+
+{% block upload %}
+    <div class="container-fluid table-bordered">
+        <div>
+                <div class="text-center">
+                <h5 style="color:darksalmon; padding-right:5%">Upload your product</h5>
+                    {% if messages %}
+                    <ul class="messages">
+                        {% for message in messages %}
+                        <li{% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li>
+                        {% endfor %}
+                    </ul>
+                    {% endif %}
+                </div>
+
+        </div>
+                <div class="text-center">
+                </div>
+
+                    <form class="form-horizontal" method="post" action="" enctype="multipart/form-data">{% csrf_token %}
+{#                        {{ form|crispy}}#}
+                        {% include 'Productstemplate.html' %}
+                        <div class="col-sm-6 col-sm-offset-3" style="padding-bottom: 2%">
+                        <input  style="width:50%; margin-left:25%" type="submit" value="Submit" />
+
+                        </div>
+                    </form>
+
+    </div>
+
+{% endblock %}

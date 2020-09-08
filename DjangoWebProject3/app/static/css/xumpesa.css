@@ -1,0 +1,88 @@
+﻿ a {
+
+    text-decoration-color:white;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+.nav {
+
+}
+.home-thumb img:hover {
+    transform:scale(1.1);
+}
+.thunbnail img {
+    transition: all 0.3s ease 0s;
+    width: 100%;
+}
+.thumbnail {
+    overflow: hidden;
+}
+.bg-grey {
+    background-color: #f9f9f9;
+}
+.watre .container .jumbotron{
+    background:rgba(255,255,255,0.9);
+    border-radius:10px;
+}
+
+.container .col-sm-4 .form{
+    background-image:url(../image/footer_bg.png);
+    width: 350px;
+    border-radius:10px;
+    
+    margin-right:14px;
+    margin-top: 100px;
+    overflow:hidden;
+}
+.container .col-sm-4 .form input{
+    width:350px;
+    height:35px;
+    margin-bottom:20px;
+    border-radius:5px;
+    
+}
+
+.container .col-sm-4 .form .login-button {
+    width:350px;
+
+}
+.container .col-sm-4 .forma{
+    background-image:url(../image/footer_bg.png);
+    width: 350px;
+    border-radius:10px;
+    padding-right:initial;
+    margin-right:200px;
+    margin-top: 20px;
+    overflow:hidden;
+}
+.container .col-sm-4 .forma input{
+    width:350px;
+    height:25px;
+    margin-bottom:10px;
+    border-radius:5px;
+    font-size:11px;
+}
+ .container .col-sm-4 .forma .login-button {
+        width: 350px;
+        
+    }
+
+.container .col-sm-4 .forma .select{
+    width: 350px;
+    height: 25px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-size:11px;
+}
+h4, h5, h3 {
+    font-family: 'Open Sans', sans-serif;
+}
+.contra .container .container {
+    padding-top:50px;
+}
+
+.waoza {
+    color: #0f0f0f;
+}

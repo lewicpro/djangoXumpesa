@@ -1,0 +1,28 @@
+{% extends 'authorisedcarier.html' %}
+{% block unverified %}
+    <center>Number of transactions: {{ notverified.count }}</center>
+     <div class="container-fluid" style="overflow-y: scroll; height: 400px;">
+    <table class="table  ">
+<tr style="background-color: silver">
+    <th>Name of the account</th>
+    <th>depositing amount</th>
+    <th>Kumbukumbu number</th>
+    <th>account number</th>
+    <th>status</th>
+    {{ depositsverified.status }}
+</tr>
+    {% for m in notverified %}
+        <tr>
+    <td><small><a href="{% url 'app:verificationdetail' m.id%}">{{ m.user | capfirst }}</a></small></td>
+    <td><small>{{ m.depositing_amount }}</small></td>
+    <td><small>{{ m.kumbukumbu_no }}</small></td>
+    <td><small>{{ m.account_number }}</small></td>
+    <td><small>{{ m.status }}</small></td>
+
+        </tr>
+    {% endfor %}
+<tr></tr>
+<tr></tr>
+</table>
+     </div>
+{% endblock %}

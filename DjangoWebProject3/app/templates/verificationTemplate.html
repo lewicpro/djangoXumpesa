@@ -1,0 +1,36 @@
+
+{{ form.non_field_errors }}
+<div class="fieldWrapper" style="padding-bottom: 3%">
+    {{ form.user.errors }}
+    <center><input type="hidden" name="user" maxlength="120" class="textinput textInput form-control " required="" id="id_user" value="{{ user }} "></center>
+</div>
+
+<div class="fieldWrapper" style="padding-bottom: 3%">
+    {{ form.depositing_amount.errors }}
+    <center><input type="hidden" name="depositing_amount"  class="textinput textInput form-control " required="" id="id_depositing_amount" value= "{{ cout.depositing_amount }}"></center>
+</div>
+<div class="fieldWrapper" style="padding-bottom: 3%">
+    {{ form.depositing_amount.errors }}
+    <center><input type="hidden" name="depositing_id"  class="textinput textInput form-control " required="" id="id_depositing_id" value= "{{ cout.id }}"></center>
+</div>
+
+
+<div class="fieldWrapper" style="padding-bottom: 3%">
+    {{ form.name.errors }}
+    <center><input type="hidden" name="name" maxlength="120" class="textinput textInput form-control" required="" id="id_name" value= "{{ cout.name }}"></center>
+</div>
+
+
+<div class="fieldWrapper" style="padding-bottom: 3%">
+    {{ form.account_number.errors }}
+    <center><input type="hidden" name="account_number" maxlength="120" class="textinput textInput form-control" required="" id="id_account_number" value= "{{ cout.account_number }}"></center>
+</div>
+
+
+<div class="fieldWrapper" style="padding-bottom: 3%">
+    {{ form.processor.errors }}
+    <center><input type="hidden" name="kumbukumbu_no" maxlength="120" class="textinput textInput form-control" required="" id="id_kumbukumbu_no" value= "{{ cout.kumbukumbu_no }}"></center>
+</div>
+
+{{ form.verification_code.error }}
+{{ form.verification_code }}

@@ -1,0 +1,67 @@
+{% extends "cyptoreseller.html" %}
+{% block Cyptohome %}
+<div class="row1" style="overflow-y: scroll; height: 400px;">
+<table class="table">
+<tr style="background-color: silver;" class="nowrap">
+
+    <th  style="font-size: 12px; padding-right: 20px;">Username</th>
+    <th style="font-size: 14px; padding-right: 20px;">Give</th>
+    <th style="font-size: 14px; padding-right: 20px;">Get</th>
+    <th style="font-size: 14px; padding-right: 20px;">Reserve</th>
+    <th style="font-size: 14px; padding-right: 20px;">Payment-Method</th>
+    <th style="font-size: 14px; padding-right: 20px;">Review</th>
+</tr>
+{#    {% for m in object_list %}#}
+{#<tr>#}
+{#    <td style="font-size: 13px;"><small>{{ m.username | capfirst }}</small></td>#}
+{#    <td style="font-size: 13px;"><small>{{ m.Give }}</small></td>#}
+{#    <td style="font-size: 13px;"><small>{{ m.Get }}</small></td>#}
+{#    <td style="font-size: 13px;"><small>{{ m.Reserve }}{{ m.currency_transfered }}</small></td>#}
+{#    <td style="font-size: 13px;"><small>{{ m.Reviews }}</small></td>#}
+{#    <td style="font-size: 13px;"><small><small>{{ m.  }}</small></small></td>#}
+{##}
+{#</tr>#}
+{#    {% endfor %}#}
+<tbody id="table-data">
+
+</tbody>
+</table>
+
+<script>
+    $(document).ready(function() {
+        var $tb_data = $('#table-data');
+        var availableData;
+
+        function fillTable() {
+            axios.get("http://localhost:8000/api/cryptoreseller").then(function(response){
+                console.log(response);
+                availableData = response.data;
+                $.each( response.data, function( key, value ) {
+                    var username = $('<td style="font-size: 13px;" ></td>').text(value.username);
+                    var m_give = $('<td style="font-size: 13px;" ></td>').text(value.Give);
+                    var m_get = $('<td style="font-size: 13px;" ></td>').text(value.Get);
+                    var m_reserve = $('<td style="font-size: 13px;" ></td>').text(value.Reserve);
+                    var m_Payment_method = $('<td style="font-size: 13px;" ></td>').text(value.Payment_method);
+                    var m_reviews = $('<td style="font-size: 13px;" > </td>').text(value.Reviews);
+                    var $rowcontent = $('<tr></tr>');
+                    $rowcontent.append(username, m_give, m_get, m_reserve, m_Payment_method, m_reviews);
+                    $tb_data.append($rowcontent);
+                });
+
+            }).catch(function(error) { 
+                console.log(error);
+            });
+
+        }
+        fillTable();
+        setInterval(function() {
+            $('#table-data').empty()
+            fillTable();
+        }, 6000);
+
+
+
+    });
+</script>
+</div>
+{% endblock %}

@@ -1,0 +1,50 @@
+{% extends "authorisedcarier.html" %}
+{% load crispy_forms_tags %}
+
+{% block tigowithdraw %}
+<div style="background-image:url(../static/image/city.jpg)">
+    <div class="text-center" style="background-color:silver; padding: 0.5%; font-size: 19px; font-family: 'Open Sans', sans-serif;">
+
+            {{ processor }} WITHDRAWAL REQUEST
+    </div>
+    <div class="text-center">
+    <h5 style="color:darksalmon">{{ title }}</h5>
+    </div>
+</div>
+
+ <div style="content: 'center';"  >
+                <a href="{% url 'app:verified' %}" class="" style="padding-right: 10%" > Verified Withdrawal</a>
+
+
+
+
+                        <a href="" class="pull-right"> Unverified Withdrawal</a>
+
+
+
+            </div>
+    <div class="col-sm-5 col-sm-offset-3" >
+<center>
+        <h5 style="color: red" >
+        {% if messages %}
+        {% for message in messages %}
+        <p class="alert alert-danger" style="padding: 3px;">{{ message }}</p>
+        {% endfor %}
+        {% endif %}</h5>
+    </h5>
+    </center>
+    </div>
+
+
+<form class="form-horizontal" method="post" action="" enctype="multipart/form-data">{% csrf_token %}
+{#    {{ form|crispy}}#}
+    {% include 'tigowithdrawtemplate.html' %}
+
+</form>
+
+
+
+
+
+
+{% endblock%}

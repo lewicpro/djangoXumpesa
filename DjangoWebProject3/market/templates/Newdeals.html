@@ -1,0 +1,18 @@
+{% extends "home.html" %}
+{% load crispy_forms_tags %}
+{% block Newdeals %}
+    <div class="container-fluid table-bordered">
+<h3 style="background-color: #dddddd; padding-bottom: 1%; padding-top: 1%">New Deals</h3>
+<div style="padding-bottom: 3%">
+     {% for obj in object_list %}
+        <div class=" col-xs-6 col-sm-2 cora">
+        {% if obj.image %}
+        <a href="{% url 'market:details' obj.id %}"><img src="{{ obj.image.url }}" alt="" class="img-thumbnail " style="width:120px; height: 60px;"></a>
+        <p style="padding-top: 1%"><small>{{ obj.title }} <strong>{{ obj.Price }} {{ obj.currency }}</strong></small></p>
+        {% endif %}
+        </div>
+    {% endfor %}
+</div>
+</div>
+
+{% endblock %}

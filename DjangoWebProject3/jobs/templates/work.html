@@ -1,0 +1,19 @@
+{% extends "jobs.html" %}
+{% load crispy_forms_tags %}
+
+
+{% block work %}
+   <div  style="padding-bottom: 20px;"> </div>
+<div class="text-center well well-sm col-sm-6 col-sm-offset-3" style="font-size: 15px; border-radius: 5px;">{{ title }} </div>
+     <form class="form-horizontal" method="post" action="" enctype="multipart/form-data">{% csrf_token %}
+{#                        {{ form|crispy}}#}
+         <div class="container-fluid" style="padding-top: 10px;">
+                        {% include 'workexperience.html'%}
+
+                         <div class="col-sm-6 col-sm-offset-3" style="padding-bottom: 2%">
+                            <input style="width:50%; margin-left:25%" type="submit" value="Submit" />
+                        </div>
+
+         </div>
+                    </form>
+{% endblock %}

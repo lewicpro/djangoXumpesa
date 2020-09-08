@@ -1,0 +1,35 @@
+{% extends 'home.html' %}
+{% load crispy_forms_filters %}
+
+
+{% block receiveUpdate %}
+    <div class="table-bordered container-fluid" style="padding-bottom: 10px;">
+    <div class="container-fluid" style="background-color: red; border-radius: 2px;"><div class="container-fluid text-center" style="background-color: white;  border-bottom: solid; border-bottom-color: #a6aaa9; border-radius: 3px"><h5 style="padding-top: 3px">When you are confirming this make sure that the order is the one you purchased for immediately after you have confirmed the cash will be sent to <strong>{{ purchases.product_owner | capfirst }}</strong> (SELLER)</h5></div> </div>
+    <div class="container-fluid" style="background-color: blue"> </div>
+<div class="col-sm-6 col-sm-offset-1.5" style="padding-top: 10px; padding-bottom: 10px">
+    <h5><strong>Product name</strong>:{{ purchases.product_title | capfirst }}</h5>
+    <h5><strong>Product price</strong>:{{ purchases.Price_sold | capfirst }}{{ purchases.currency | capfirst }}</h5>
+    <h5><strong>Seller</strong>:{{ purchases.product_owner | capfirst }}</h5>
+</div>
+<div class="col-sm-6 col-sm-offset-1.5" style="padding-top: 10px; padding-bottom: 10px">
+    <div class="pull-right">
+    <h5><strong>Phone numbers</strong>:{{ purchases.phone_no | capfirst }}</h5>
+    <h5><strong>Quantity</strong>:{{ purchases.quantity }}</h5>
+    </div>
+</div>
+
+<div class="table-bordered col-sm-6 col-sm-offset-3" style="padding-top: 50px; padding-bottom: 3px; border-radius: 8px;">
+        <form class="" method="post" action="{% url 'market:Finnish' purchases.id %}" style="padding-bottom: 6px;" >{% csrf_token %}
+                <div style="padding-top: 1px">
+                    <h5 class="text-center">Are you sure that you got a right order</h5>
+                    <input type="submit"   style="margin-right:25%; width:40%" class="btn btn-default" value = "Confirm">
+                    <a href="{% url 'market:register' %}" type="button" style="width: 30%" class="btn btn-default"  >Cancel</a>
+                    {% include "receivetemplate.html" %}
+{#                                            {% include "PurchaseTemplate.html" %}#}
+
+                </div>
+
+            </form>
+</div>
+    </div>
+{% endblock %}

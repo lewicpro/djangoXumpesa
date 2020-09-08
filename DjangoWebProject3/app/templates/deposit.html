@@ -1,0 +1,36 @@
+﻿{% extends "authorisedcarier.html" %}
+{% load crispy_forms_filters %}
+{% load staticfiles %}
+
+{% block authorizeddeposit%}
+<div style="background-image: url(../static/image/city.jpg)">
+
+<div class="text-center" style="background-color:silver; padding: 0.5%; font-size: 19px; font-family: 'Open Sans', sans-serif;" >
+
+            MAKE DEPOSIT
+
+
+    </div>
+    <div class="text-center ">
+    <h5 style="color:darksalmon; padding-right:5%">{{ title }}
+{#    <h5 style="color: red">#}
+{#        {% if messages %}#}
+{#        {% for message in messages%}#}
+{#        <p class="alert-error">{{ message }}</p>#}
+{#        {% endfor %}#}
+{#    {% endif %}</h5>#}
+    </h5>
+    </div>
+
+
+<form class="form-horizontal" method="post" action="">{% csrf_token %}
+{#    {{ form|crispy}}#}
+    {% include 'templatedeposit.html' %}
+
+
+</form>
+    </div>
+    </div>
+
+
+{% endblock %}

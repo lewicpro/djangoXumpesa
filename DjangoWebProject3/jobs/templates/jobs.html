@@ -1,0 +1,176 @@
+{% extends "authorisedcarier.html" %}
+
+
+{% block jobs %}
+<div xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+{#    {% for a in Mavuno %}{{ a }} {% endfor %}#}
+{% if Mavuno.count > 0 %}
+<div class="alert alert-danger" style="font-family: 'Open Sans', sans-serif; padding: 5px; color: Red"><a style="font-family: 'Open Sans', sans-serif; color: red" href="{% url 'market:orders' %}"> {% if Mavuno %}  There {% if Mavuno.count > 1 %} are: {% if Mavuno.count < 10 %} <b class="numberCircle"> 0{{ Mavuno.count }}</b> {% else %}<b class="numberCircle"> {{ Mavuno.count }}</b> {% endif %} Orders from your product(s) you posted {% else %} is {% if Mavuno.count < 10 %} <b class="numberCircle"> 0{{ Mavuno.count }}</b> {% else %}<b class="numberCircle"> {{ Mavuno.count }}</b> {% endif %} Order from your product(s) you posted {% endif %}   {% else %}{% endif %}</a></div>
+{% else %}
+{% endif %}
+<div class="text-center" style="background-color:#777; font-weight: 300; border-top-left-radius:5px; border-top-right-radius:5px;  color: white;; padding: 1%; font-size: 19px; font-family: 'Open Sans', sans-serif;">
+            XVACANCY
+{% if Accep.count > 0 %}
+    <a href="{% url 'jobs:Acceptdetauils'%}" data-toggle="tooltip" data-placement="top" title="Notifications"><span class="pull-left"><b class="glyphicon glyphicon-envelope" style="color: white;"></b><p class="badge" style="{% if Accepte.count > 0 %}background-color:green; font-weight: 100; font-size: 8px; color: white; {% else %} background-color:lightgray; font-weight: 100; font-size: 8px; color: white {% endif %}">{{ Accepte.count }}</p> </span></a>
+{% else %}
+    {% if Accep.job_tittle %}<a href="{% url 'jobs:Acceptdetauils'%}" data-toggle="tooltip" data-placement="top" title="Notifications"><span class="pull-left"><b class="glyphicon glyphicon-envelope" style="color: white;"></b></span></a>{% else %}<a  data-toggle="tooltip" data-placement="top" title="Notifications"><span class="pull-left"><b class="glyphicon glyphicon-envelope" style="color: white;"></b></span></a>{% endif %}
+
+{% endif %}
+    </div>
+    <div class="text-center ">
+
+    </div>
+         <div class=""  style="background-color: #F0F0F0; box-shadow: 0px 3px 3px; position: relative;">
+
+            <div class="container-fluid " style="background-color: #dddddd;">
+
+
+                      <ul class="nav nav-pills navbar-left" style="font-size: 12px;">
+                          <li class=""><a href="{% url 'jobs:all' %}">Home</a></li>
+                          <li class=""><a href="{% url 'jobs:posts' %}">My Posts {% if proma.count > 0 %}{% if proma.count < 10 %}<b class="numberCircle">0{{ proma.count }} {% else %}<b class="numberCircle">{{ proma.count }} {% endif %} {% else %}{% endif %}</b></a></li>
+                          <li class=""><a href="{% url 'jobs:jobs' %}">Employ</a></li>
+
+
+                          <li class="dropdown">
+                              <a href="#" class="dropdown-toggle" data-toggle="dropdown">jobs <b class="caret">
+                                  </b>
+                              </a>
+                              <ul class="dropdown-menu" style="overflow-y: scroll; height: 200px;" >
+
+
+
+                                  <li><a href="#">Accounting & Bookkeeoing</a></li>
+                                  <li><a href="#">Education & Teaching's</a></li>
+                                  <li><a href="#">Engineering</a></li>
+                                  <li><a href="#">IT & Network administration</a></li>
+                                  <li><a href="#">Marketing & Advertising</a></li>
+                                  <li><a href="#">Medical & Dental</a></li>
+                                  <li><a href="#">Secretary & Office Admin</a></li>
+                                  <li><a href="#">Sales</a></li>
+                                  <li><a href="#">Graph Arts & Video</a></li>
+                                  <li><a href="#">Human Resources</a></li>
+                                  <li><a href="#">Insurance</a></li>
+                                  <li><a href="#">Hospitality & Tourism</a></li>
+                                  <li><a href="#">Domestic Staff</a></li>
+                                  <li><a href="#">Driver</a></li>
+                                  <li><a href="#">Education & Teaching</a></li>
+                                  <li><a href="#">Customer Service</a></li>
+                                  <li><a href="#">Communication & Journalism</a></li>
+                                  <li><a href="#">Building & Construction</a></li>
+                                  <li><a href="#">Beauty & Saloon</a></li>
+                                  <li><a href="#">Banking & Finance</a></li>
+                                  <li><a href="#">Procurement</a></li>
+                                  <li><a href="#">Real estate</a></li>
+                                  <li><a href="#">Security & Safety Jobs</a></li>
+                                  <li><a href="#">Social worker</a></li>
+                                  <li><a href="#">Software Development</a></li>
+                                  <li><a href="#">Sport & Fitness</a></li>
+                                  <li><a href="#">Telecomunications</a></li>
+                                  <li><a href="#">Transportation & Aviation</a></li>
+                                  <li><a href="#">Web Design & Administration</a></li>
+                                  <li><a href="#">Agriculture</a></li>
+                                  <li><a href="#">Science</a></li>
+                                  <li><a href="#">Research Monitoring</a></li>
+                                  <li><a href="#">Retail & FMCG</a></li>
+                                  <li><a href="#">Oil & Gas</a></li>
+                                  <li><a href="#">Mining</a></li>
+                                  <li><a href="#">Mantainance and Repair</a></li>
+                                  <li><a href="#">Logistic & Operations</a></li>
+                                  <li><a href="#">Legal</a></li>
+                                  <li><a href="#">Labour</a></li>
+                                  <li><a href="#">Building & Construction</a></li>
+                                  <li><a href="#">Food Service</a></li>
+                                  <li><a href="#">Others</a></li>
+
+
+
+                              </ul>
+                          </li>
+                          <li><a href="{% url 'jobs:Marked' %}" data-toggle="modal">Marked</a></li>
+                          <li><a href="{% url 'jobs:Upload' %}" data-toggle="modal">Upload CV</a></li>
+                          <li><a href="{% url 'jobs:Jobsapplied' %}">Jobs applied</a></li>
+                      </ul>
+                  </div>
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+        {% block all %}
+        {% endblock %}
+
+        {% block upload %}
+        {% endblock %}
+
+        {% block jobsdetails %}
+        {% endblock %}
+
+        {% block myposts %}
+        {% endblock %}
+
+        {% block marked %}
+        {% endblock %}
+
+        {% block Cv %}
+        {% endblock %}
+
+        {% block details %}
+        {% endblock %}
+
+        {% block proffession %}
+        {% endblock %}
+
+        {% block language %}
+        {% endblock %}
+
+        {% block work %}
+        {% endblock %}
+
+        {% block training %}
+        {% endblock %}
+
+        {% block refree %}
+        {% endblock %}
+
+
+        {% block contacts %}
+        {% endblock %}
+
+        {% block jobapply %}
+        {% endblock %}
+
+        {% block Applicationdetails %}
+        {% endblock %}
+
+        {% block Applied %}
+        {% endblock %}
+
+        {% block accep %}
+        {% endblock %}
+
+
+
+
+</div>
+    <div class="navbar" style="background-color: #dddddd ; padding-right: 50%; align-content: center">
+                      <ul class="nav nav-tabs navbar-left" style="font-size: 12px;">
+
+
+                          <li><a href="#contact" >Help</a></li>
+
+                          <li><a href="#contact" >News</a></li>
+
+                       </ul>
+
+</div>
+    <center><div>{{ time  }}</div></center>
+{% endblock %}
